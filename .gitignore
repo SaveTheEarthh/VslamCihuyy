@@ -1,0 +1,46 @@
+# Generated output: scripts write here, commit the script instead
+build/
+
+# ModelSim / Questa
+work/
+*.wlf
+transcript
+modelsim.ini.bak
+
+# Icarus Verilog executables
+sim_orient
+sim_patch
+
+# Vivado / xsim / Vitis HLS
+xsim.dir/
+.Xil/
+*.jou
+*.log
+*.pb
+*.wdb
+hls_prj/
+*.runs/
+*.cache/
+*.hw/
+*.ip_user_files/
+*.sim/
+
+# Waveforms
+*.vcd
+*.fst
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Datasets and archives (EuRoC etc.): fetch with a script, never commit
+*.zip
+*.bag
+data/euroc/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

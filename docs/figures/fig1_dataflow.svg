@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1320 730" role="img" aria-label="ORB front-end on the KV260: the PL extractor streams one frame into keypoint records in DDR, the ARM selects and packs them, the PL matcher matches them, and the ARM runs the rest of ORB-SLAM3 on the matches." class="diagram"><defs><marker id="f1-ink" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path class="mk-ink" d="M0,0 L8,4 L0,8 z" fill="#18212c"/></marker><marker id="f1-pl" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path class="mk-pl" d="M0,0 L8,4 L0,8 z" fill="#0b7a62"/></marker><marker id="f1-ps" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path class="mk-ps" d="M0,0 L8,4 L0,8 z" fill="#2d55c8"/></marker><marker id="f1-ddr" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path class="mk-ddr" d="M0,0 L8,4 L0,8 z" fill="#a3660c"/></marker><marker id="f1-ctl" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path class="mk-ctl" d="M0,0 L8,4 L0,8 z" fill="#5d6773"/></marker></defs><rect class="band-pl" x="0" y="8" width="1320" height="274" rx="0" fill="#eef5f2" stroke="none" stroke-width="1.2"/>
+<rect class="band-ddr" x="0" y="290" width="1320" height="114" rx="0" fill="#f8f2e8" stroke="none" stroke-width="1.2"/>
+<rect class="band-ps" x="0" y="412" width="1320" height="312" rx="0" fill="#eff2fb" stroke="none" stroke-width="1.2"/>
+<text class="tpl tb" x="1306" y="26" font-size="11.5" text-anchor="end" fill="#0b7a62" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif" font-weight="600">PL · PROGRAMMABLE LOGIC</text>
+<text class="tddr tb" x="1306" y="308" font-size="11.5" text-anchor="end" fill="#a3660c" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif" font-weight="600">DDR4 · SHARED MEMORY</text>
+<text class="tps tb" x="1306" y="430" font-size="11.5" text-anchor="end" fill="#2d55c8" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif" font-weight="600">PS · ARM CORTEX-A53 × 4 (LINUX)</text>
+<rect class="box-pl" x="16" y="36" width="560" height="236" rx="4" fill="#dcefe9" stroke="#0b7a62" stroke-width="1.2"/>
+<text class="t tb" x="32" y="58" font-size="13.5" text-anchor="start" fill="#18212c" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif" font-weight="600">ORB extractor · streaming, one pass per frame</text>
+<text class="tm" x="32" y="76" font-size="11" text-anchor="start" fill="#5d6773" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif">all 8 pyramid levels in parallel, 1 pixel per clock per level</text>
+<rect class="in-pl" x="32" y="96" width="92" height="50" rx="4" fill="#f7f8fa" stroke="#0b7a62" stroke-width="1.2"/>
+<text class="t tb" x="78" y="117" font-size="12" text-anchor="middle" fill="#18212c" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif" font-weight="600">Pyramid</text>
+<text class="tm" x="78" y="133" font-size="10.5" text-anchor="middle" fill="#5d6773" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif">8 levels, ÷1.2</text>
+<rect class="in-pl" x="140" y="96" width="92" height="50" rx="4" fill="#f7f8fa" stroke="#0b7a62" stroke-width="1.2"/>
+<text class="t tb" x="186" y="117" font-size="12" text-anchor="middle" fill="#18212c" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif" font-weight="600">FAST-9</text>
+<text class="tm" x="186" y="133" font-size="10.5" text-anchor="middle" fill="#5d6773" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif">+ NMS</text>
+<rect class="in-pl" x="248" y="96" width="92" height="50" rx="4" fill="#f7f8fa" stroke="#0b7a62" stroke-width="1.2"/>
+<text class="t tb" x="294" y="117" font-size="12" text-anchor="middle" fill="#18212c" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif" font-weight="600">Orientation</text>
+<text class="tm" x="294" y="133" font-size="10.5" text-anchor="middle" fill="#5d6773" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif">IC, r = 15</text>
+<rect class="in-pl" x="356" y="96" width="92" height="50" rx="4" fill="#f7f8fa" stroke="#0b7a62" stroke-width="1.2"/>
+<text class="t tb" x="402" y="117" font-size="12" text-anchor="middle" fill="#18212c" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif" font-weight="600">rBRIEF</text>
+<text class="tm" x="402" y="133" font-size="10.5" text-anchor="middle" fill="#5d6773" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif">256 tests</text>
+<rect class="in-pl" x="464" y="96" width="92" height="50" rx="4" fill="#f7f8fa" stroke="#0b7a62" stroke-width="1.2"/>
+<text class="t tb" x="510" y="117" font-size="12" text-anchor="middle" fill="#18212c" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif" font-weight="600">Record</text>
+<text class="tm" x="510" y="133" font-size="10.5" text-anchor="middle" fill="#5d6773" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif">writer</text>
+<path class="ln-pl" d="M124,121 L140,121" fill="none" stroke="#0b7a62" stroke-width="1.4" marker-end="url(#f1-pl)"/>
+<path class="ln-pl" d="M232,121 L248,121" fill="none" stroke="#0b7a62" stroke-width="1.4" marker-end="url(#f1-pl)"/>
+<path class="ln-pl" d="M340,121 L356,121" fill="none" stroke="#0b7a62" stroke-width="1.4" marker-end="url(#f1-pl)"/>
+<path class="ln-pl" d="M448,121 L464,121" fill="none" stroke="#0b7a62" stroke-width="1.4" marker-end="url(#f1-pl)"/>
+<rect class="in-pl" x="248" y="166" width="92" height="40" rx="4" fill="#f7f8fa" stroke="#0b7a62" stroke-width="1.2"/>
+<text class="t tb" x="294" y="183" font-size="12" text-anchor="middle" fill="#18212c" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif" font-weight="600">Blur</text>
+<text class="tm" x="294" y="198" font-size="10.5" text-anchor="middle" fill="#5d6773" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif">7×7, σ = 2</text>
+<path class="ln-pl" d="M110,146 L110,186 L246,186" fill="none" stroke="#0b7a62" stroke-width="1.4" marker-end="url(#f1-pl)"/>
+<path class="ln-pl" d="M340,186 L402,186 L402,148" fill="none" stroke="#0b7a62" stroke-width="1.4" marker-end="url(#f1-pl)"/>
+<text class="tm" x="176" y="181" font-size="10" text-anchor="middle" fill="#5d6773" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif">same pixels</text>
+<rect class="mem" x="100" y="220" width="300" height="42" rx="3" fill="#c9e7de" stroke="#0b7a62" stroke-width="1.2"/>
+<rect class="mem-edge" x="103" y="223" width="294" height="36" rx="2" fill="none" stroke="#0b7a62" stroke-width="0.8"/>
+<text class="t tb" x="250" y="237" font-size="11.5" text-anchor="middle" fill="#18212c" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif" font-weight="600">BRAM · line buffers per level</text>
+<text class="tm" x="250" y="253" font-size="10.5" text-anchor="middle" fill="#5d6773" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif">1 row pyramid · 6 rows FAST · ~36 rows 37×37</text>
+<rect class="mem" x="410" y="220" width="110" height="42" rx="3" fill="#c9e7de" stroke="#0b7a62" stroke-width="1.2"/>
+<rect class="mem-edge" x="413" y="223" width="104" height="36" rx="2" fill="none" stroke="#0b7a62" stroke-width="0.8"/>
+<text class="t tb" x="465" y="237" font-size="11.5" text-anchor="middle" fill="#18212c" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif" font-weight="600">FF · windows</text>
+<text class="tm" x="465" y="253" font-size="10.5" text-anchor="middle" fill="#5d6773" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif">7×7 and 37×37</text>
+<rect class="box-pl" x="600" y="36" width="390" height="236" rx="4" fill="#dcefe9" stroke="#0b7a62" stroke-width="1.2"/>
+<text class="t tb" x="614" y="58" font-size="13.5" text-anchor="start" fill="#18212c" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif" font-weight="600">ORB matcher · Code/matcher</text>
+<text class="tm" x="614" y="76" font-size="11" text-anchor="start" fill="#5d6773" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif">ORB-SLAM3 SearchForInitialization rules, bit-exact</text>
+<rect class="mem" x="614" y="92" width="172" height="46" rx="3" fill="#c9e7de" stroke="#0b7a62" stroke-width="1.2"/>
+<rect class="mem-edge" x="617" y="95" width="166" height="40" rx="2" fill="none" stroke="#0b7a62" stroke-width="0.8"/>
+<text class="t tb" x="700" y="111" font-size="11.5" text-anchor="middle" fill="#18212c" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif" font-weight="600">URAM · 40 of 64</text>
+<text class="tm" x="700" y="127" font-size="10.5" text-anchor="middle" fill="#5d6773" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif">train desc + meta, 8 lanes</text>
+<rect class="in-pl" x="800" y="92" width="176" height="46" rx="4" fill="#f7f8fa" stroke="#0b7a62" stroke-width="1.2"/>
+<text class="t tb" x="888" y="111" font-size="11.5" text-anchor="middle" fill="#18212c" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif" font-weight="600">8 lanes per clock</text>
+<text class="tm" x="888" y="127" font-size="10.5" text-anchor="middle" fill="#5d6773" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif">XOR · popcount · best/2nd</text>
+<rect class="mem" x="614" y="146" width="172" height="46" rx="3" fill="#c9e7de" stroke="#0b7a62" stroke-width="1.2"/>
+<rect class="mem-edge" x="617" y="149" width="166" height="40" rx="2" fill="none" stroke="#0b7a62" stroke-width="0.8"/>
+<text class="t tb" x="700" y="165" font-size="11.5" text-anchor="middle" fill="#18212c" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif" font-weight="600">BRAM</text>
+<text class="tm" x="700" y="181" font-size="10.5" text-anchor="middle" fill="#5d6773" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif">m12, m21, dist, bin, lim</text>
+<rect class="in-pl" x="800" y="146" width="176" height="46" rx="4" fill="#f7f8fa" stroke="#0b7a62" stroke-width="1.2"/>
+<text class="t tb" x="888" y="165" font-size="11.5" text-anchor="middle" fill="#18212c" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif" font-weight="600">FSM</text>
+<text class="tm" x="888" y="181" font-size="10.5" text-anchor="middle" fill="#5d6773" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif">merge · steal · histogram</text>
+<path class="ln-pl" d="M786,115 L798,115" fill="none" stroke="#0b7a62" stroke-width="1.4" marker-end="url(#f1-pl)"/>
+<rect class="in-pl" x="614" y="204" width="172" height="56" rx="4" fill="#f7f8fa" stroke="#0b7a62" stroke-width="1.2" stroke-dasharray="4 3"/>
+<text class="t tb" x="700" y="222" font-size="11.5" text-anchor="middle" fill="#18212c" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif" font-weight="600">HLS · own AXI master</text>
+<text class="tm" x="700" y="238" font-size="10.5" text-anchor="middle" fill="#5d6773" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif">m_axi → HP port</text>
+<text class="tm" x="700" y="252" font-size="10.5" text-anchor="middle" fill="#5d6773" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif">reads B, writes C</text>
+<rect class="in-pl" x="800" y="204" width="176" height="56" rx="4" fill="#f7f8fa" stroke="#0b7a62" stroke-width="1.2" stroke-dasharray="4 3"/>
+<text class="t tb" x="888" y="222" font-size="11.5" text-anchor="middle" fill="#18212c" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif" font-weight="600">SV · behind AXI DMA</text>
+<text class="tm" x="888" y="238" font-size="10.5" text-anchor="middle" fill="#5d6773" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif">MM2S → s_axis (64 b)</text>
+<text class="tm" x="888" y="252" font-size="10.5" text-anchor="middle" fill="#5d6773" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif">m_axis (32 b) → S2MM</text>
+<text class="t tb" x="1012" y="58" font-size="12.5" text-anchor="start" fill="#18212c" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif" font-weight="600">Legend</text>
+<rect class="box-pl" x="1012" y="70" width="22" height="14" rx="2" fill="#dcefe9" stroke="#0b7a62" stroke-width="1.2"/>
+<text class="t" x="1042" y="81" font-size="11" text-anchor="start" fill="#18212c" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif">runs on PL (FPGA fabric)</text>
+<rect class="box-ps" x="1012" y="92" width="22" height="14" rx="2" fill="#e2e9f9" stroke="#2d55c8" stroke-width="1.2"/>
+<text class="t" x="1042" y="103" font-size="11" text-anchor="start" fill="#18212c" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif">runs on ARM</text>
+<rect class="box-ddr" x="1012" y="114" width="22" height="14" rx="2" fill="#f4e6cf" stroke="#a3660c" stroke-width="1.2"/>
+<text class="t" x="1042" y="125" font-size="11" text-anchor="start" fill="#18212c" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif">buffer in DDR</text>
+<rect class="mem" x="1012" y="136" width="22" height="14" rx="3" fill="#c9e7de" stroke="#0b7a62" stroke-width="1.2"/>
+<rect class="mem-edge" x="1015" y="139" width="16" height="8" rx="2" fill="none" stroke="#0b7a62" stroke-width="0.8"/>
+<text class="t" x="1042" y="147" font-size="11" text-anchor="start" fill="#18212c" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif">on-chip memory (BRAM, URAM, FF)</text>
+<path class="ln" d="M1012,166 L1034,166" fill="none" stroke="#18212c" stroke-width="1.4" marker-end="url(#f1-ink)"/>
+<text class="t" x="1042" y="170" font-size="11" text-anchor="start" fill="#18212c" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif">data</text>
+<path class="ln-ctl" d="M1012,188 L1034,188" fill="none" stroke="#5d6773" stroke-width="1.4" stroke-dasharray="5 4" marker-end="url(#f1-ctl)"/>
+<text class="t" x="1042" y="192" font-size="11" text-anchor="start" fill="#18212c" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif">control: AXI-Lite (HPM0), start/done</text>
+<rect class="fld-tbd" x="1012" y="202" width="22" height="14" rx="2" fill="#f9e1ee" stroke="#c2257a" stroke-width="1.2" stroke-dasharray="4 3"/>
+<text class="t" x="1042" y="213" font-size="11" text-anchor="start" fill="#18212c" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif">team still has to decide</text>
+<rect class="box-ddr" x="16" y="314" width="150" height="80" rx="4" fill="#f4e6cf" stroke="#a3660c" stroke-width="1.2"/>
+<text class="t" x="28" y="334" font-size="11.5" text-anchor="start" fill="#18212c" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif">Image frame</text>
+<text class="tm" x="28" y="350" font-size="11.5" text-anchor="start" fill="#5d6773" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif">752 × 480 × u8</text>
+<text class="tm" x="28" y="366" font-size="11.5" text-anchor="start" fill="#5d6773" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif">361 KB, read once</text>
+<rect class="box-ddr" x="450" y="314" width="140" height="80" rx="4" fill="#f4e6cf" stroke="#a3660c" stroke-width="1.2"/>
+<text class="t" x="462" y="334" font-size="11" text-anchor="start" fill="#18212c" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif">A · keypoints</text>
+<text class="tm" x="462" y="349" font-size="11" text-anchor="start" fill="#5d6773" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif">64 B header</text>
+<text class="tm" x="462" y="364" font-size="11" text-anchor="start" fill="#5d6773" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif">+ N × 40 B records</text>
+<text class="ttbd" x="462" y="379" font-size="11" text-anchor="start" fill="#c2257a" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif">fields TBD → fig. 2</text>
+<rect class="box-ddr" x="640" y="314" width="200" height="80" rx="4" fill="#f4e6cf" stroke="#a3660c" stroke-width="1.2"/>
+<text class="t" x="652" y="334" font-size="11" text-anchor="start" fill="#18212c" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif">B · matcher input</text>
+<text class="tm" x="652" y="349" font-size="11" text-anchor="start" fill="#5d6773" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif">40 B per train keypoint</text>
+<text class="tm" x="652" y="364" font-size="11" text-anchor="start" fill="#5d6773" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif">48 B per query</text>
+<text class="tm" x="652" y="379" font-size="11" text-anchor="start" fill="#5d6773" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif">+ ratio_lim[257]</text>
+<rect class="box-ddr" x="870" y="314" width="140" height="80" rx="4" fill="#f4e6cf" stroke="#a3660c" stroke-width="1.2"/>
+<text class="t" x="882" y="334" font-size="11" text-anchor="start" fill="#18212c" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif">C · matches</text>
+<text class="tm" x="882" y="349" font-size="11" text-anchor="start" fill="#5d6773" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif">8 B / query (HLS)</text>
+<text class="tm" x="882" y="364" font-size="11" text-anchor="start" fill="#5d6773" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif">4 B / query (SV)</text>
+<text class="tm" x="882" y="379" font-size="11" text-anchor="start" fill="#5d6773" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif">train idx is sorted</text>
+<rect class="box-ddr" x="1040" y="314" width="264" height="80" rx="4" fill="#f4e6cf" stroke="#a3660c" stroke-width="1.2"/>
+<text class="t" x="1052" y="334" font-size="11" text-anchor="start" fill="#18212c" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif">Map (Atlas) · ARM only</text>
+<text class="tm" x="1052" y="350" font-size="11" text-anchor="start" fill="#5d6773" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif">keyframes, map points, BoW vectors</text>
+<text class="tm" x="1052" y="366" font-size="11" text-anchor="start" fill="#5d6773" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif">ordinary cached memory</text>
+<path class="ln" d="M56,314 L56,148" fill="none" stroke="#18212c" stroke-width="1.4" marker-end="url(#f1-ink)"/>
+<text class="tm" x="62" y="306" font-size="10" text-anchor="start" fill="#5d6773" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif">AXI read</text>
+<path class="ln" d="M540,146 L540,312" fill="none" stroke="#18212c" stroke-width="1.4" marker-end="url(#f1-ink)"/>
+<text class="tm" x="546" y="306" font-size="10" text-anchor="start" fill="#5d6773" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif">S2MM / m_axi</text>
+<path class="ln" d="M680,314 L680,262" fill="none" stroke="#18212c" stroke-width="1.4" marker-end="url(#f1-ink)"/>
+<path class="ln" d="M830,314 L830,262" fill="none" stroke="#18212c" stroke-width="1.4" marker-end="url(#f1-ink)"/>
+<path class="ln" d="M760,260 L760,282 L826,282 A4,4 0 0 1 834,282 L900,282 L900,312" fill="none" stroke="#18212c" stroke-width="1.4" marker-end="url(#f1-ink)"/>
+<path class="ln" d="M960,260 L960,312" fill="none" stroke="#18212c" stroke-width="1.4" marker-end="url(#f1-ink)"/>
+<rect class="box-ps" x="300" y="438" width="400" height="272" rx="4" fill="#e2e9f9" stroke="#2d55c8" stroke-width="1.2"/>
+<text class="t tb" x="316" y="460" font-size="13.5" text-anchor="start" fill="#18212c" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif" font-weight="600">ARM prep · orb_host.c + ORB-SLAM3 code</text>
+<text class="tps mono tb" x="330" y="486" font-size="11.5" text-anchor="end" fill="#2d55c8" font-family="IBM Plex Mono, Menlo, Consolas, monospace" font-weight="600">1</text>
+<text class="t" x="340" y="486" font-size="11.5" text-anchor="start" fill="#18212c" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif">top-N per level (quadtree, DistributeOctTree)</text>
+<text class="tps mono tb" x="330" y="508" font-size="11.5" text-anchor="end" fill="#2d55c8" font-family="IBM Plex Mono, Menlo, Consolas, monospace" font-weight="600">2</text>
+<text class="t" x="340" y="508" font-size="11.5" text-anchor="start" fill="#18212c" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif">scale to level 0 (× 1.2^level)</text>
+<text class="tps mono tb" x="330" y="530" font-size="11.5" text-anchor="end" fill="#2d55c8" font-family="IBM Plex Mono, Menlo, Consolas, monospace" font-weight="600">3</text>
+<text class="t" x="340" y="530" font-size="11.5" text-anchor="start" fill="#18212c" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif">undistort (K, k1 k2 p1 p2)</text>
+<text class="tps mono tb" x="330" y="552" font-size="11.5" text-anchor="end" fill="#2d55c8" font-family="IBM Plex Mono, Menlo, Consolas, monospace" font-weight="600">4</text>
+<text class="t" x="340" y="552" font-size="11.5" text-anchor="start" fill="#18212c" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif">grid cell (64 × 48)</text>
+<text class="tps mono tb" x="330" y="574" font-size="11.5" text-anchor="end" fill="#2d55c8" font-family="IBM Plex Mono, Menlo, Consolas, monospace" font-weight="600">5</text>
+<text class="t" x="340" y="574" font-size="11.5" text-anchor="start" fill="#18212c" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif">sort train by (cell_x, cell_y, index)</text>
+<text class="tps mono tb" x="330" y="596" font-size="11.5" text-anchor="end" fill="#2d55c8" font-family="IBM Plex Mono, Menlo, Consolas, monospace" font-weight="600">6</text>
+<text class="t" x="340" y="596" font-size="11.5" text-anchor="start" fill="#18212c" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif">per query: search window → [lo, hi)</text>
+<text class="tps mono tb" x="330" y="618" font-size="11.5" text-anchor="end" fill="#2d55c8" font-family="IBM Plex Mono, Menlo, Consolas, monospace" font-weight="600">7</text>
+<text class="t" x="340" y="618" font-size="11.5" text-anchor="start" fill="#18212c" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif">pack: x, y in Q11.8 · 16-bit angle</text>
+<text class="tps mono tb" x="330" y="640" font-size="11.5" text-anchor="end" fill="#2d55c8" font-family="IBM Plex Mono, Menlo, Consolas, monospace" font-weight="600">8</text>
+<text class="t" x="340" y="640" font-size="11.5" text-anchor="start" fill="#18212c" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif">ratio_lim[257] from the float ratio</text>
+<text class="tm" x="316" y="678" font-size="10.5" text-anchor="start" fill="#5d6773" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif">Today: init mode (queries = frame-1 keypoints).</text>
+<text class="tm" x="316" y="694" font-size="10.5" text-anchor="start" fill="#5d6773" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif">Tracking mode: queries = projected map points.</text>
+<rect class="box-ps" x="720" y="438" width="584" height="272" rx="4" fill="#e2e9f9" stroke="#2d55c8" stroke-width="1.2"/>
+<text class="t tb" x="736" y="460" font-size="13.5" text-anchor="start" fill="#18212c" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif" font-weight="600">ORB-SLAM3 on ARM · rest of the system</text>
+<rect class="in-ps" x="736" y="480" width="160" height="140" rx="4" fill="#f7f8fa" stroke="#2d55c8" stroke-width="1.2"/>
+<text class="t tb" x="748" y="502" font-size="12" text-anchor="start" fill="#18212c" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif" font-weight="600">Tracking</text>
+<text class="tm" x="748" y="522" font-size="11" text-anchor="start" fill="#5d6773" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif">every frame</text>
+<text class="tm" x="748" y="538" font-size="11" text-anchor="start" fill="#5d6773" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif">init: H / F → R, t,</text>
+<text class="tm" x="748" y="554" font-size="11" text-anchor="start" fill="#5d6773" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif">triangulate;</text>
+<text class="tm" x="748" y="570" font-size="11" text-anchor="start" fill="#5d6773" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif">then motion-only BA</text>
+<rect class="in-ps" x="940" y="480" width="160" height="140" rx="4" fill="#f7f8fa" stroke="#2d55c8" stroke-width="1.2"/>
+<text class="t tb" x="952" y="502" font-size="12" text-anchor="start" fill="#18212c" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif" font-weight="600">Local mapping</text>
+<text class="tm" x="952" y="522" font-size="11" text-anchor="start" fill="#5d6773" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif">new keyframes</text>
+<text class="tm" x="952" y="538" font-size="11" text-anchor="start" fill="#5d6773" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif">new map points</text>
+<text class="tm" x="952" y="554" font-size="11" text-anchor="start" fill="#5d6773" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif">local BA</text>
+<rect class="in-ps" x="1144" y="480" width="152" height="140" rx="4" fill="#f7f8fa" stroke="#2d55c8" stroke-width="1.2"/>
+<text class="t tb" x="1156" y="502" font-size="12" text-anchor="start" fill="#18212c" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif" font-weight="600">Loop closing</text>
+<text class="tm" x="1156" y="522" font-size="11" text-anchor="start" fill="#5d6773" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif">DBoW2 place recog.</text>
+<text class="tm" x="1156" y="538" font-size="11" text-anchor="start" fill="#5d6773" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif">Sim3, pose graph</text>
+<text class="tm" x="1156" y="554" font-size="11" text-anchor="start" fill="#5d6773" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif">full BA</text>
+<path class="ln-ps" d="M896,550 L938,550" fill="none" stroke="#2d55c8" stroke-width="1.4" marker-end="url(#f1-ps)"/>
+<text class="tm" x="917" y="544" font-size="10" text-anchor="middle" fill="#5d6773" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif">new KF</text>
+<path class="ln-ps" d="M1100,550 L1142,550" fill="none" stroke="#2d55c8" stroke-width="1.4" marker-end="url(#f1-ps)"/>
+<text class="tm" x="1121" y="544" font-size="10" text-anchor="middle" fill="#5d6773" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif">KF</text>
+<path class="ln-ps" d="M940,636 L940,642 L1296,642 L1296,636" fill="none" stroke="#2d55c8" stroke-width="1.4"/>
+<text class="tm" x="1118" y="660" font-size="10.5" text-anchor="middle" fill="#5d6773" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif">back-end · separate threads, not on the per-frame path</text>
+<path class="ln" d="M520,394 L520,436" fill="none" stroke="#18212c" stroke-width="1.4" marker-end="url(#f1-ink)"/>
+<text class="tm" x="526" y="422" font-size="10" text-anchor="start" fill="#5d6773" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif">ARM reads</text>
+<path class="ln" d="M690,436 L690,396" fill="none" stroke="#18212c" stroke-width="1.4" marker-end="url(#f1-ink)"/>
+<text class="tm" x="696" y="422" font-size="10" text-anchor="start" fill="#5d6773" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif">ARM writes</text>
+<path class="ln" d="M880,394 L880,478" fill="none" stroke="#18212c" stroke-width="1.4" marker-end="url(#f1-ink)"/>
+<text class="tm" x="886" y="422" font-size="10" text-anchor="start" fill="#5d6773" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif">matches</text>
+<path class="ln" d="M1070,396 L1070,478" fill="none" stroke="#18212c" stroke-width="1.4" marker-end="url(#f1-ink)" marker-start="url(#f1-ink)"/>
+<path class="ln" d="M1220,396 L1220,478" fill="none" stroke="#18212c" stroke-width="1.4" marker-end="url(#f1-ink)" marker-start="url(#f1-ink)"/>
+<text class="tm" x="1076" y="422" font-size="10" text-anchor="start" fill="#5d6773" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif">read / write</text>
+<path class="ln-ctl" d="M320,436 L320,274" fill="none" stroke="#5d6773" stroke-width="1.4" stroke-dasharray="5 4" marker-end="url(#f1-ctl)"/>
+<text class="tm" x="326" y="306" font-size="10" text-anchor="start" fill="#5d6773" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif">AXI-Lite: start / done</text>
+<path class="ln-ctl" d="M615,436 L615,274" fill="none" stroke="#5d6773" stroke-width="1.4" stroke-dasharray="5 4" marker-end="url(#f1-ctl)"/></svg>
