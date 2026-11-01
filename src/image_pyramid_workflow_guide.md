@@ -8,7 +8,7 @@ Skrip Python digunakan untuk memproses gambar asli dan menghasilkan file `.hex` 
 1. Buka terminal dan masuk ke direktori Python:
    `cd "pyCodes/"`
 2. Hasilkan *golden data* untuk Image Pyramid:
-   `python3 orb_pyramid_golden.py`
+   `python3 orb_pyramid_golden.py --input test.png --outdir imageTest`
 3. Hasilkan *golden data* untuk FAST, Gaussian, dan NMS:
    `python3 orb_frontend_golden.py`
 4. Pastikan file referensi telah berhasil dibuat di folder `pyCodes/imageTest/` (seperti `level0_pixels.hex`, `level0_gauss.hex`, `level0_kp.hex`, dll).
