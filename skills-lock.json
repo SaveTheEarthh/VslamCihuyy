@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "skills": {
+    "fpga": {
+      "source": "Mindrally/skills",
+      "sourceType": "github",
+      "skillPath": "fpga/SKILL.md",
+      "computedHash": "4c22afd87d182126315a861eb784912a4984139aba951234f14e090f67d159aa"
+    }
+  }
+}
