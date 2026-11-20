@@ -1,0 +1,1 @@
+{"nodes": [{"id": "$graphify-root$_hw_orientation_rtl_orient_quantizer_sv", "label": "orient_quantizer.sv", "file_type": "code", "source_file": "hw/orientation/rtl/orient_quantizer.sv", "source_location": "L1", "confidence_score": 1.0}], "edges": []}

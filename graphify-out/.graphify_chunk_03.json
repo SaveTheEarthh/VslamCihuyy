@@ -1,0 +1,1252 @@
+{
+  "nodes": [
+    {
+      "id": "docs_figures_fig1_dataflow_diagram",
+      "label": "ORB Front-End Dataflow Diagram (Fig. 1)",
+      "file_type": "image",
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L2",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_figures_fig1_dataflow_kv260",
+      "label": "Kria KV260",
+      "file_type": "image",
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L2",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_figures_fig1_dataflow_pl_domain",
+      "label": "PL (Programmable Logic)",
+      "file_type": "image",
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L2,L5",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_figures_fig1_dataflow_ddr4_domain",
+      "label": "DDR4 Shared Memory",
+      "file_type": "image",
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L3,L6",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_figures_fig1_dataflow_ps_domain",
+      "label": "PS (ARM Cortex-A53 x4, Linux)",
+      "file_type": "image",
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L4,L7",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_figures_fig1_dataflow_orb_extractor",
+      "label": "ORB Extractor (streaming, one pass per frame, 8 pyramid levels in parallel, 1 px/clk/level)",
+      "file_type": "image",
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L8-L10",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_figures_fig1_dataflow_pyramid",
+      "label": "Pyramid (8 levels, div 1.2)",
+      "file_type": "image",
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L11-L13",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_figures_fig1_dataflow_fast9_nms",
+      "label": "FAST-9 + NMS",
+      "file_type": "image",
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L14-L16",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_figures_fig1_dataflow_orientation",
+      "label": "Orientation (IC, r = 15)",
+      "file_type": "image",
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L17-L19",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_figures_fig1_dataflow_rbrief",
+      "label": "rBRIEF (256 tests)",
+      "file_type": "image",
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L20-L22",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_figures_fig1_dataflow_record_writer",
+      "label": "Record Writer",
+      "file_type": "image",
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L23-L25",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_figures_fig1_dataflow_blur",
+      "label": "Blur (7x7, sigma = 2)",
+      "file_type": "image",
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L30-L32",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_figures_fig1_dataflow_extractor_bram_line_buffers",
+      "label": "BRAM Line Buffers per Level (1 row pyramid, 6 rows FAST, ~36 rows 37x37)",
+      "file_type": "image",
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L36-L39",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_figures_fig1_dataflow_extractor_ff_windows",
+      "label": "FF Windows (7x7 and 37x37)",
+      "file_type": "image",
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L40-L43",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_figures_fig1_dataflow_orb_matcher",
+      "label": "ORB Matcher (Code/matcher, ORB-SLAM3 SearchForInitialization bit-exact)",
+      "file_type": "image",
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L44-L46",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_figures_fig1_dataflow_code_matcher",
+      "label": "Code/matcher",
+      "file_type": "image",
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L45",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_figures_fig1_dataflow_search_for_initialization",
+      "label": "ORB-SLAM3 SearchForInitialization",
+      "file_type": "image",
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L46",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_figures_fig1_dataflow_matcher_uram",
+      "label": "URAM (40 of 64, train desc + meta, 8 lanes)",
+      "file_type": "image",
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L47-L50",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_figures_fig1_dataflow_matcher_8_lanes",
+      "label": "8 Lanes per Clock (XOR, popcount, best/2nd)",
+      "file_type": "image",
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L51-L53",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_figures_fig1_dataflow_matcher_bram",
+      "label": "Matcher BRAM (m12, m21, dist, bin, lim)",
+      "file_type": "image",
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L54-L57",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_figures_fig1_dataflow_matcher_fsm",
+      "label": "Matcher FSM (merge, steal, histogram)",
+      "file_type": "image",
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L58-L60",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_figures_fig1_dataflow_matcher_hls_axi_master",
+      "label": "HLS Own AXI Master (m_axi -> HP port, reads B, writes C)",
+      "file_type": "image",
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L62-L65",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_figures_fig1_dataflow_matcher_sv_axi_dma",
+      "label": "SV Behind AXI DMA (MM2S -> s_axis 64 b, m_axis 32 b -> S2MM)",
+      "file_type": "image",
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L66-L69",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_figures_fig1_dataflow_ddr_image_frame",
+      "label": "DDR Image Frame (752 x 480 x u8, 361 KB, read once)",
+      "file_type": "image",
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L86-L89",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_figures_fig1_dataflow_ddr_a_keypoints",
+      "label": "DDR Buffer A: Keypoints (64 B header + N x 40 B records, fields TBD -> fig. 2)",
+      "file_type": "image",
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L90-L94",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_figures_fig1_dataflow_fig2",
+      "label": "Fig. 2 (Keypoint Record Fields)",
+      "file_type": "image",
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L94",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_figures_fig1_dataflow_ddr_b_matcher_input",
+      "label": "DDR Buffer B: Matcher Input (40 B/train kp, 48 B/query, + ratio_lim[257])",
+      "file_type": "image",
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L95-L99",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_figures_fig1_dataflow_ddr_c_matches",
+      "label": "DDR Buffer C: Matches (8 B/query HLS, 4 B/query SV, train idx is sorted)",
+      "file_type": "image",
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L100-L104",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_figures_fig1_dataflow_ddr_map_atlas",
+      "label": "DDR Map (Atlas, ARM only, keyframes, map points, BoW vectors, ordinary cached memory)",
+      "file_type": "image",
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L105-L108",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_figures_fig1_dataflow_arm_prep",
+      "label": "ARM Prep (orb_host.c + ORB-SLAM3: DistributeOctTree top-N, scale 1.2^level, undistort, 64x48 grid, sort, search window, Q11.8/16-bit angle pack, ratio_lim[257]; init & tracking modes)",
+      "file_type": "image",
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L117-L136",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_figures_fig1_dataflow_orb_host_c",
+      "label": "orb_host.c",
+      "file_type": "image",
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L118",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_figures_fig1_dataflow_orbslam3_arm",
+      "label": "ORB-SLAM3 on ARM (rest of the system)",
+      "file_type": "image",
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L137-L138",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_figures_fig1_dataflow_tracking",
+      "label": "Tracking (every frame, init H/F -> R,t, triangulate; then motion-only BA)",
+      "file_type": "image",
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L139-L144",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_figures_fig1_dataflow_local_mapping",
+      "label": "Local Mapping (new keyframes, new map points, local BA)",
+      "file_type": "image",
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L145-L149",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_figures_fig1_dataflow_loop_closing",
+      "label": "Loop Closing (DBoW2 place recog., Sim3, pose graph, full BA)",
+      "file_type": "image",
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L150-L154",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "docs_figures_fig1_dataflow_axi_lite_hpm0",
+      "label": "AXI-Lite Control Interface (HPM0, start/done)",
+      "file_type": "image",
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L82-L83,L170-L172",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "docs_figures_fig1_dataflow_diagram",
+      "target": "docs_figures_fig1_dataflow_kv260",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_figures_fig1_dataflow_diagram",
+      "target": "docs_figures_fig1_dataflow_pl_domain",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L2,L5",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_figures_fig1_dataflow_diagram",
+      "target": "docs_figures_fig1_dataflow_ddr4_domain",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L3,L6",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_figures_fig1_dataflow_diagram",
+      "target": "docs_figures_fig1_dataflow_ps_domain",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L4,L7",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_figures_fig1_dataflow_pl_domain",
+      "target": "docs_figures_fig1_dataflow_orb_extractor",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L2,L8",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_figures_fig1_dataflow_pl_domain",
+      "target": "docs_figures_fig1_dataflow_orb_matcher",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L2,L44",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_figures_fig1_dataflow_orb_extractor",
+      "target": "docs_figures_fig1_dataflow_pyramid",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L8,L11",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_figures_fig1_dataflow_orb_extractor",
+      "target": "docs_figures_fig1_dataflow_fast9_nms",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L8,L14",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_figures_fig1_dataflow_orb_extractor",
+      "target": "docs_figures_fig1_dataflow_orientation",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L8,L17",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_figures_fig1_dataflow_orb_extractor",
+      "target": "docs_figures_fig1_dataflow_rbrief",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L8,L20",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_figures_fig1_dataflow_orb_extractor",
+      "target": "docs_figures_fig1_dataflow_record_writer",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L8,L23",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_figures_fig1_dataflow_orb_extractor",
+      "target": "docs_figures_fig1_dataflow_blur",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L8,L30",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_figures_fig1_dataflow_orb_extractor",
+      "target": "docs_figures_fig1_dataflow_extractor_bram_line_buffers",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L8,L36",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_figures_fig1_dataflow_orb_extractor",
+      "target": "docs_figures_fig1_dataflow_extractor_ff_windows",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L8,L40",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_figures_fig1_dataflow_ddr_image_frame",
+      "target": "docs_figures_fig1_dataflow_pyramid",
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L109-L110",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_figures_fig1_dataflow_pyramid",
+      "target": "docs_figures_fig1_dataflow_fast9_nms",
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_figures_fig1_dataflow_fast9_nms",
+      "target": "docs_figures_fig1_dataflow_orientation",
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_figures_fig1_dataflow_orientation",
+      "target": "docs_figures_fig1_dataflow_rbrief",
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_figures_fig1_dataflow_rbrief",
+      "target": "docs_figures_fig1_dataflow_record_writer",
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L29",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_figures_fig1_dataflow_pyramid",
+      "target": "docs_figures_fig1_dataflow_blur",
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L33,L35",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_figures_fig1_dataflow_blur",
+      "target": "docs_figures_fig1_dataflow_rbrief",
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L34",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_figures_fig1_dataflow_record_writer",
+      "target": "docs_figures_fig1_dataflow_ddr_a_keypoints",
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L111-L112",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_figures_fig1_dataflow_extractor_bram_line_buffers",
+      "target": "docs_figures_fig1_dataflow_pyramid",
+      "relation": "shares_data_with",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L39",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_figures_fig1_dataflow_extractor_bram_line_buffers",
+      "target": "docs_figures_fig1_dataflow_fast9_nms",
+      "relation": "shares_data_with",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L39",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_figures_fig1_dataflow_extractor_bram_line_buffers",
+      "target": "docs_figures_fig1_dataflow_orientation",
+      "relation": "shares_data_with",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L39",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_figures_fig1_dataflow_extractor_bram_line_buffers",
+      "target": "docs_figures_fig1_dataflow_rbrief",
+      "relation": "shares_data_with",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L39",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_figures_fig1_dataflow_extractor_ff_windows",
+      "target": "docs_figures_fig1_dataflow_blur",
+      "relation": "shares_data_with",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L32,L43",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_figures_fig1_dataflow_extractor_ff_windows",
+      "target": "docs_figures_fig1_dataflow_rbrief",
+      "relation": "shares_data_with",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L20,L43",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_figures_fig1_dataflow_extractor_ff_windows",
+      "target": "docs_figures_fig1_dataflow_orientation",
+      "relation": "shares_data_with",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L19,L43",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_figures_fig1_dataflow_orb_matcher",
+      "target": "docs_figures_fig1_dataflow_code_matcher",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L45",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_figures_fig1_dataflow_orb_matcher",
+      "target": "docs_figures_fig1_dataflow_search_for_initialization",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L46",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_figures_fig1_dataflow_orb_matcher",
+      "target": "docs_figures_fig1_dataflow_matcher_uram",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L44,L47",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_figures_fig1_dataflow_orb_matcher",
+      "target": "docs_figures_fig1_dataflow_matcher_8_lanes",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L44,L51",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_figures_fig1_dataflow_orb_matcher",
+      "target": "docs_figures_fig1_dataflow_matcher_bram",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L44,L54",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_figures_fig1_dataflow_orb_matcher",
+      "target": "docs_figures_fig1_dataflow_matcher_fsm",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L44,L58",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_figures_fig1_dataflow_orb_matcher",
+      "target": "docs_figures_fig1_dataflow_matcher_hls_axi_master",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L44,L62",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_figures_fig1_dataflow_orb_matcher",
+      "target": "docs_figures_fig1_dataflow_matcher_sv_axi_dma",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L44,L66",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_figures_fig1_dataflow_matcher_uram",
+      "target": "docs_figures_fig1_dataflow_matcher_8_lanes",
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L61",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_figures_fig1_dataflow_matcher_8_lanes",
+      "target": "docs_figures_fig1_dataflow_matcher_bram",
+      "relation": "shares_data_with",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L51-L57",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_figures_fig1_dataflow_matcher_bram",
+      "target": "docs_figures_fig1_dataflow_matcher_fsm",
+      "relation": "shares_data_with",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L54-L60",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_figures_fig1_dataflow_matcher_8_lanes",
+      "target": "docs_figures_fig1_dataflow_matcher_fsm",
+      "relation": "shares_data_with",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L51-L60",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_figures_fig1_dataflow_matcher_hls_axi_master",
+      "target": "docs_figures_fig1_dataflow_matcher_sv_axi_dma",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L62-L69,L102-L103",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_figures_fig1_dataflow_matcher_hls_axi_master",
+      "target": "docs_figures_fig1_dataflow_matcher_uram",
+      "relation": "shares_data_with",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L47-L50,L62-L65",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_figures_fig1_dataflow_matcher_fsm",
+      "target": "docs_figures_fig1_dataflow_matcher_hls_axi_master",
+      "relation": "shares_data_with",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L58-L65",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_figures_fig1_dataflow_matcher_sv_axi_dma",
+      "target": "docs_figures_fig1_dataflow_matcher_uram",
+      "relation": "shares_data_with",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L47-L50,L66-L69",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_figures_fig1_dataflow_matcher_fsm",
+      "target": "docs_figures_fig1_dataflow_matcher_sv_axi_dma",
+      "relation": "shares_data_with",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L58-L60,L66-L69",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_figures_fig1_dataflow_ddr4_domain",
+      "target": "docs_figures_fig1_dataflow_ddr_image_frame",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L3,L86",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_figures_fig1_dataflow_ddr4_domain",
+      "target": "docs_figures_fig1_dataflow_ddr_a_keypoints",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L3,L90",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_figures_fig1_dataflow_ddr4_domain",
+      "target": "docs_figures_fig1_dataflow_ddr_b_matcher_input",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L3,L95",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_figures_fig1_dataflow_ddr4_domain",
+      "target": "docs_figures_fig1_dataflow_ddr_c_matches",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L3,L100",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_figures_fig1_dataflow_ddr4_domain",
+      "target": "docs_figures_fig1_dataflow_ddr_map_atlas",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L3,L105",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_figures_fig1_dataflow_ddr_a_keypoints",
+      "target": "docs_figures_fig1_dataflow_fig2",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L94",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_figures_fig1_dataflow_ddr_a_keypoints",
+      "target": "docs_figures_fig1_dataflow_arm_prep",
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L161-L162",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_figures_fig1_dataflow_arm_prep",
+      "target": "docs_figures_fig1_dataflow_ddr_b_matcher_input",
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L163-L164",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_figures_fig1_dataflow_ddr_b_matcher_input",
+      "target": "docs_figures_fig1_dataflow_matcher_hls_axi_master",
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L113,L65",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_figures_fig1_dataflow_ddr_b_matcher_input",
+      "target": "docs_figures_fig1_dataflow_matcher_sv_axi_dma",
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L114,L68",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_figures_fig1_dataflow_matcher_hls_axi_master",
+      "target": "docs_figures_fig1_dataflow_ddr_c_matches",
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L115,L65",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_figures_fig1_dataflow_matcher_sv_axi_dma",
+      "target": "docs_figures_fig1_dataflow_ddr_c_matches",
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L116,L69",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_figures_fig1_dataflow_ddr_c_matches",
+      "target": "docs_figures_fig1_dataflow_tracking",
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L165-L166",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_figures_fig1_dataflow_ps_domain",
+      "target": "docs_figures_fig1_dataflow_arm_prep",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L4,L117",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_figures_fig1_dataflow_ps_domain",
+      "target": "docs_figures_fig1_dataflow_orbslam3_arm",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L4,L137",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_figures_fig1_dataflow_arm_prep",
+      "target": "docs_figures_fig1_dataflow_orb_host_c",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L118",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_figures_fig1_dataflow_arm_prep",
+      "target": "docs_figures_fig1_dataflow_orbslam3_arm",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L118,L137",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_figures_fig1_dataflow_orbslam3_arm",
+      "target": "docs_figures_fig1_dataflow_tracking",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L137,L139",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_figures_fig1_dataflow_orbslam3_arm",
+      "target": "docs_figures_fig1_dataflow_local_mapping",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L137,L145",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_figures_fig1_dataflow_orbslam3_arm",
+      "target": "docs_figures_fig1_dataflow_loop_closing",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L137,L150",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_figures_fig1_dataflow_tracking",
+      "target": "docs_figures_fig1_dataflow_local_mapping",
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L155-L156",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_figures_fig1_dataflow_local_mapping",
+      "target": "docs_figures_fig1_dataflow_loop_closing",
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L157-L158",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_figures_fig1_dataflow_local_mapping",
+      "target": "docs_figures_fig1_dataflow_ddr_map_atlas",
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L167,L169",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_figures_fig1_dataflow_loop_closing",
+      "target": "docs_figures_fig1_dataflow_ddr_map_atlas",
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L168-L169",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_figures_fig1_dataflow_ddr_map_atlas",
+      "target": "docs_figures_fig1_dataflow_arm_prep",
+      "relation": "shares_data_with",
+      "confidence": "AMBIGUOUS",
+      "confidence_score": 0.3,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L105-L108,L136",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_figures_fig1_dataflow_arm_prep",
+      "target": "docs_figures_fig1_dataflow_orb_extractor",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L170-L171",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_figures_fig1_dataflow_arm_prep",
+      "target": "docs_figures_fig1_dataflow_orb_matcher",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L172",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_figures_fig1_dataflow_arm_prep",
+      "target": "docs_figures_fig1_dataflow_axi_lite_hpm0",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L82-L83,L170-L172",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_figures_fig1_dataflow_axi_lite_hpm0",
+      "target": "docs_figures_fig1_dataflow_orb_extractor",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L82-L83,L170-L171",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_figures_fig1_dataflow_axi_lite_hpm0",
+      "target": "docs_figures_fig1_dataflow_orb_matcher",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg",
+      "source_location": "L82-L83,L172",
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "docs_figures_fig1_dataflow_orb_extractor_pipeline",
+      "label": "ORB Extractor Streaming Pipeline and On-Chip Memory",
+      "nodes": [
+        "docs_figures_fig1_dataflow_orb_extractor",
+        "docs_figures_fig1_dataflow_pyramid",
+        "docs_figures_fig1_dataflow_fast9_nms",
+        "docs_figures_fig1_dataflow_orientation",
+        "docs_figures_fig1_dataflow_rbrief",
+        "docs_figures_fig1_dataflow_blur",
+        "docs_figures_fig1_dataflow_record_writer",
+        "docs_figures_fig1_dataflow_extractor_bram_line_buffers",
+        "docs_figures_fig1_dataflow_extractor_ff_windows"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg"
+    },
+    {
+      "id": "docs_figures_fig1_dataflow_orb_matcher_subsystem",
+      "label": "ORB Matcher Subsystem",
+      "nodes": [
+        "docs_figures_fig1_dataflow_orb_matcher",
+        "docs_figures_fig1_dataflow_matcher_uram",
+        "docs_figures_fig1_dataflow_matcher_8_lanes",
+        "docs_figures_fig1_dataflow_matcher_bram",
+        "docs_figures_fig1_dataflow_matcher_fsm",
+        "docs_figures_fig1_dataflow_matcher_hls_axi_master",
+        "docs_figures_fig1_dataflow_matcher_sv_axi_dma"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg"
+    },
+    {
+      "id": "docs_figures_fig1_dataflow_ddr4_buffers",
+      "label": "DDR4 Shared Memory Buffers",
+      "nodes": [
+        "docs_figures_fig1_dataflow_ddr4_domain",
+        "docs_figures_fig1_dataflow_ddr_image_frame",
+        "docs_figures_fig1_dataflow_ddr_a_keypoints",
+        "docs_figures_fig1_dataflow_ddr_b_matcher_input",
+        "docs_figures_fig1_dataflow_ddr_c_matches",
+        "docs_figures_fig1_dataflow_ddr_map_atlas"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg"
+    },
+    {
+      "id": "docs_figures_fig1_dataflow_orbslam3_backend",
+      "label": "ORB-SLAM3 Back-End (separate threads, not on per-frame path)",
+      "nodes": [
+        "docs_figures_fig1_dataflow_local_mapping",
+        "docs_figures_fig1_dataflow_loop_closing"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg"
+    },
+    {
+      "id": "docs_figures_fig1_dataflow_kv260_orb_frontend_pipeline",
+      "label": "KV260 PL-DDR-PS ORB Front-End Dataflow",
+      "nodes": [
+        "docs_figures_fig1_dataflow_pl_domain",
+        "docs_figures_fig1_dataflow_orb_extractor",
+        "docs_figures_fig1_dataflow_ddr_image_frame",
+        "docs_figures_fig1_dataflow_ddr_a_keypoints",
+        "docs_figures_fig1_dataflow_arm_prep",
+        "docs_figures_fig1_dataflow_ddr_b_matcher_input",
+        "docs_figures_fig1_dataflow_orb_matcher",
+        "docs_figures_fig1_dataflow_ddr_c_matches",
+        "docs_figures_fig1_dataflow_tracking"
+      ],
+      "relation": "implement",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "coverage": {
+    "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\docs\\figures\\fig1_dataflow.svg": 172
+  }
+}

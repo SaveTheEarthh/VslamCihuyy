@@ -1,0 +1,4183 @@
+{
+  "input": "input_custom.jpg",
+  "width": 144,
+  "height": 108,
+  "fast_thr": 20,
+  "levels": [
+    {
+      "level": 0,
+      "width": 144,
+      "height": 108,
+      "gauss_width": 138,
+      "gauss_height": 102,
+      "nms_keypoints": 297,
+      "valid_features": 217,
+      "features": [
+        {
+          "x": 74,
+          "y": 22,
+          "score": 546,
+          "quad": 1,
+          "sector": 10,
+          "angle_deg": 59.06,
+          "desc": "536d9c0c8683c91e7897021c0b2cbfac2a63aca76ed98cb0468464d8d8121490"
+        },
+        {
+          "x": 53,
+          "y": 23,
+          "score": 453,
+          "quad": 1,
+          "sector": 6,
+          "angle_deg": 36.56,
+          "desc": "138fdc11d79fc802cf7a8b1189e3c19cefe59cf5ea3ed4f046c404f9580e94b5"
+        },
+        {
+          "x": 77,
+          "y": 23,
+          "score": 784,
+          "quad": 1,
+          "sector": 10,
+          "angle_deg": 59.06,
+          "desc": "534dde068683e91a7317069c012cbfac2863a8a7ead98cb446844498c8521480"
+        },
+        {
+          "x": 81,
+          "y": 24,
+          "score": 462,
+          "quad": 1,
+          "sector": 11,
+          "angle_deg": 64.69,
+          "desc": "5b45dc068e83f91e67550a9d0964afaf2b63a4a7ebd844a0468c44d9cc561491"
+        },
+        {
+          "x": 70,
+          "y": 25,
+          "score": 1014,
+          "quad": 1,
+          "sector": 8,
+          "angle_deg": 47.81,
+          "desc": "7bacdcf7b5878c1e91b3022709e1fe9cb465b0b76afa8cf807a065791c5a34b0"
+        },
+        {
+          "x": 29,
+          "y": 26,
+          "score": 583,
+          "quad": 0,
+          "sector": 4,
+          "angle_deg": 154.69,
+          "desc": "530f5c14849bc9046f3519590862c53c18e7a884eacc94a8418404f9b88e45a5"
+        },
+        {
+          "x": 78,
+          "y": 26,
+          "score": 788,
+          "quad": 1,
+          "sector": 10,
+          "angle_deg": 59.06,
+          "desc": "5bccdc148597891ef7370ab789e1abbc2c65b0b7eafc8cb047844459485a14a0"
+        },
+        {
+          "x": 82,
+          "y": 26,
+          "score": 644,
+          "quad": 1,
+          "sector": 12,
+          "angle_deg": 70.31,
+          "desc": "1305dc048c93e90e6f750a918960a3aeab63aca7ebd8c4a046c444d9d8561591"
+        },
+        {
+          "x": 92,
+          "y": 28,
+          "score": 600,
+          "quad": 0,
+          "sector": 6,
+          "angle_deg": 143.44,
+          "desc": "0d8f5d93d198a842c370e95188c3c9bcece53dbcd22abdca2da41639758e86d7"
+        },
+        {
+          "x": 108,
+          "y": 28,
+          "score": 565,
+          "quad": 1,
+          "sector": 3,
+          "angle_deg": 19.69,
+          "desc": "8b67dc004c13798b6b744bc88208857dea77ecf78f9d54a066ec4299e8141499"
+        },
+        {
+          "x": 30,
+          "y": 30,
+          "score": 697,
+          "quad": 0,
+          "sector": 4,
+          "angle_deg": 154.69,
+          "desc": "534fdc14868b49046f150b590a628dba1847a0e7eacc84a0408404d9a89e05b5"
+        },
+        {
+          "x": 98,
+          "y": 30,
+          "score": 563,
+          "quad": 1,
+          "sector": 9,
+          "angle_deg": 53.44,
+          "desc": "7b68e27980c095fe9081870a9b3c3ef4602ead0326c1a9340012efc8c97c785d"
+        },
+        {
+          "x": 111,
+          "y": 30,
+          "score": 537,
+          "quad": 1,
+          "sector": 4,
+          "angle_deg": 25.31,
+          "desc": "9367dc004c1b690b6ebc0b889800813be357eef4afbc54a0466e06d9e824d591"
+        },
+        {
+          "x": 43,
+          "y": 31,
+          "score": 417,
+          "quad": 0,
+          "sector": 8,
+          "angle_deg": 132.19,
+          "desc": "13175e204c91692e6e2c89c89b08a1fb8a5ecdcf878552a0704a4ad1a195dd5d"
+        },
+        {
+          "x": 108,
+          "y": 31,
+          "score": 636,
+          "quad": 1,
+          "sector": 5,
+          "angle_deg": 30.94,
+          "desc": "8b47dd004c9bf90b6f740f988801ad3deb77ecb4cbbc5ca07eee16d9e8169491"
+        },
+        {
+          "x": 94,
+          "y": 32,
+          "score": 614,
+          "quad": 0,
+          "sector": 13,
+          "angle_deg": 104.06,
+          "desc": "56859431bd176c06ae9d0e8846f271b237e390a76f7a84d2462044fdea6ab790"
+        },
+        {
+          "x": 29,
+          "y": 33,
+          "score": 1274,
+          "quad": 0,
+          "sector": 4,
+          "angle_deg": 154.69,
+          "desc": "534cdc14848bc81e6f350b5908628dbc1867a087eacc8ca0408406d9b89e55b5"
+        },
+        {
+          "x": 90,
+          "y": 33,
+          "score": 844,
+          "quad": 0,
+          "sector": 9,
+          "angle_deg": 126.56,
+          "desc": "5706dc155f1fc8044f3c881984e3c13afbc5cadcfb2c94d845a00475f00385f6"
+        },
+        {
+          "x": 108,
+          "y": 33,
+          "score": 751,
+          "quad": 1,
+          "sector": 6,
+          "angle_deg": 36.56,
+          "desc": "9b0fdd024499f90bef7409d98903873deb75ecbccbbc5ca07eec16d9e1160591"
+        },
+        {
+          "x": 119,
+          "y": 33,
+          "score": 699,
+          "quad": 1,
+          "sector": 10,
+          "angle_deg": 59.06,
+          "desc": "12679c102e1b49046f9d1a9c9a74252b1b43eae0afdc04a0464c06dda8360d91"
+        },
+        {
+          "x": 98,
+          "y": 34,
+          "score": 1039,
+          "quad": 1,
+          "sector": 12,
+          "angle_deg": 70.31,
+          "desc": "7be876b980c485e6b0850782da7c3d74a42eb8b00ee1882500126f8a6f7efc9d"
+        },
+        {
+          "x": 110,
+          "y": 34,
+          "score": 1058,
+          "quad": 1,
+          "sector": 6,
+          "angle_deg": 36.56,
+          "desc": "9307dc004c1b6903ef7c0b988003c53d6b57ecf4cbfc54a046ec14f9e8160591"
+        },
+        {
+          "x": 53,
+          "y": 35,
+          "score": 671,
+          "quad": 0,
+          "sector": 15,
+          "angle_deg": 92.81,
+          "desc": "9265924e2fbb788d3f9e56be503c766b2353e7632b9d50b5764f25f88a222b20"
+        },
+        {
+          "x": 55,
+          "y": 35,
+          "score": 680,
+          "quad": 0,
+          "sector": 15,
+          "angle_deg": 92.81,
+          "desc": "b275820e2f3b78ad328e56ba701c766b0353e363398d5035f44f21ba8a226b20"
+        },
+        {
+          "x": 91,
+          "y": 35,
+          "score": 998,
+          "quad": 0,
+          "sector": 10,
+          "angle_deg": 120.94,
+          "desc": "772edc119f9f4e044ebd0a8c24e3c13430c580d4fa5c8498418404e7280a01b2"
+        },
+        {
+          "x": 54,
+          "y": 37,
+          "score": 857,
+          "quad": 0,
+          "sector": 14,
+          "angle_deg": 98.44,
+          "desc": "9265924e2f23f89d379456be442c3e6b0353c663ab5940b5564f64d88e123ba2"
+        },
+        {
+          "x": 51,
+          "y": 38,
+          "score": 444,
+          "quad": 0,
+          "sector": 15,
+          "angle_deg": 92.81,
+          "desc": "926694472f87f80d3f97169e4ca43eeb0b53c463ab594cb0564f64d88e123fa2"
+        },
+        {
+          "x": 93,
+          "y": 38,
+          "score": 757,
+          "quad": 0,
+          "sector": 11,
+          "angle_deg": 115.31,
+          "desc": "770edc10b49bcd061f950a8e0e6267b4946798847e5a84a8c785046f0c4ea593"
+        },
+        {
+          "x": 110,
+          "y": 38,
+          "score": 1427,
+          "quad": 1,
+          "sector": 7,
+          "angle_deg": 42.19,
+          "desc": "d387dc005f1b48076f7c09198803c13cead5acfceabc54a066ec04f9f0868584"
+        },
+        {
+          "x": 96,
+          "y": 39,
+          "score": 1065,
+          "quad": 0,
+          "sector": 15,
+          "angle_deg": 92.81,
+          "desc": "6b6df89894ed89d6b09507ba5f787d3cb46710b428ea8c4d4504277c0c6cf19b"
+        },
+        {
+          "x": 120,
+          "y": 39,
+          "score": 735,
+          "quad": 1,
+          "sector": 15,
+          "angle_deg": 87.19,
+          "desc": "03069c952f1308064f3f28950c63c3af1bc1d2e7eb5c14da66cd44f9388215b0"
+        },
+        {
+          "x": 71,
+          "y": 40,
+          "score": 999,
+          "quad": 1,
+          "sector": 3,
+          "angle_deg": 19.69,
+          "desc": "d305de000c117a0d6f3c1bd88d02c13bcbd78cecdb1c048276ec46dda8468583"
+        },
+        {
+          "x": 34,
+          "y": 41,
+          "score": 454,
+          "quad": 0,
+          "sector": 5,
+          "angle_deg": 149.06,
+          "desc": "d365920c4e9379093a7c57dcc10cb56a0a53ac632a9dc4a55e0f22998a143699"
+        },
+        {
+          "x": 56,
+          "y": 41,
+          "score": 596,
+          "quad": 0,
+          "sector": 13,
+          "angle_deg": 104.06,
+          "desc": "1b64d202ac04fbbdb39556920cbc3f4b037394273b594802566d66986e7a3f88"
+        },
+        {
+          "x": 48,
+          "y": 42,
+          "score": 608,
+          "quad": 0,
+          "sector": 10,
+          "angle_deg": 120.94,
+          "desc": "17875c31cc14ea06cf35c9518ce3c19baee59a8c7b7a94ca41c046f335cd95c7"
+        },
+        {
+          "x": 51,
+          "y": 42,
+          "score": 651,
+          "quad": 0,
+          "sector": 11,
+          "angle_deg": 115.31,
+          "desc": "1786dc11ad06e806cf1748150ce9c19b8e739084fb7a1cda46c444f91cce95a1"
+        },
+        {
+          "x": 78,
+          "y": 42,
+          "score": 363,
+          "quad": 1,
+          "sector": 8,
+          "angle_deg": 47.81,
+          "desc": "d6a59c005c1b68052f9c5b9c8806c1aa98d7aae0db9e14a0668e06fda804a58b"
+        },
+        {
+          "x": 84,
+          "y": 42,
+          "score": 1619,
+          "quad": 0,
+          "sector": 11,
+          "angle_deg": 115.31,
+          "desc": "c50a5df1c40910154f39b9759c83c09c98855accd20e0c8ba7801e6135cd85cf"
+        },
+        {
+          "x": 94,
+          "y": 42,
+          "score": 1597,
+          "quad": 0,
+          "sector": 11,
+          "angle_deg": 115.31,
+          "desc": "43cddc12948d8956b795029709603fbcbe673cb0ca7a8ce94687267d4c5e9491"
+        },
+        {
+          "x": 109,
+          "y": 42,
+          "score": 1143,
+          "quad": 1,
+          "sector": 7,
+          "angle_deg": 42.19,
+          "desc": "d78fdc10541948064f3c995980c3c1bcfac5e8fcc39e94a066ec06f9f18785d5"
+        },
+        {
+          "x": 69,
+          "y": 43,
+          "score": 496,
+          "quad": 1,
+          "sector": 2,
+          "angle_deg": 14.06,
+          "desc": "f345dc000c115b0d6f3c1bd88b26893b6b57a8edca8d4ca666ec0699e9360581"
+        },
+        {
+          "x": 89,
+          "y": 43,
+          "score": 1464,
+          "quad": 0,
+          "sector": 9,
+          "angle_deg": 126.56,
+          "desc": "5f0c5cb1d5878a16c73588710ce3c19c9de51aadea2e84c80f84427d34cd84f5"
+        },
+        {
+          "x": 25,
+          "y": 44,
+          "score": 778,
+          "quad": 0,
+          "sector": 2,
+          "angle_deg": 165.94,
+          "desc": "530e5c10c4994906ef3d891096e2c1ba99c588ccca0e84c246800af1b14d95d9"
+        },
+        {
+          "x": 37,
+          "y": 44,
+          "score": 519,
+          "quad": 0,
+          "sector": 6,
+          "angle_deg": 143.44,
+          "desc": "f257960c4e38792d6e2c5bf8f316256b91db6b4a4d8d5125740f0256a9346909"
+        },
+        {
+          "x": 50,
+          "y": 44,
+          "score": 552,
+          "quad": 0,
+          "sector": 10,
+          "angle_deg": 120.94,
+          "desc": "57865c11dd06aa06cf37c8158ce3c1bb9ce5928c7b7a94c84784447114cf85e1"
+        },
+        {
+          "x": 94,
+          "y": 45,
+          "score": 990,
+          "quad": 0,
+          "sector": 10,
+          "angle_deg": 120.94,
+          "desc": "09cdbc90b48bcb5eb755089f89743fac0f673ca00afa8ce8478506d9581a1490"
+        },
+        {
+          "x": 75,
+          "y": 46,
+          "score": 790,
+          "quad": 1,
+          "sector": 2,
+          "angle_deg": 14.06,
+          "desc": "d3afdc218c9b49065ebd13189042d1bc91c7a8a0ea9cc4a847ca26d8382f8491"
+        },
+        {
+          "x": 91,
+          "y": 46,
+          "score": 1252,
+          "quad": 0,
+          "sector": 7,
+          "angle_deg": 137.81,
+          "desc": "598c5c10d49d8b46c7358951996311bc9de53cbdeacc84e847050271719f94f5"
+        },
+        {
+          "x": 109,
+          "y": 46,
+          "score": 907,
+          "quad": 1,
+          "sector": 6,
+          "angle_deg": 36.56,
+          "desc": "530fdc01549949044f3c995d8a43c1bcf8c5e9fcc29c84a063840a55f18785d5"
+        },
+        {
+          "x": 37,
+          "y": 47,
+          "score": 786,
+          "quad": 0,
+          "sector": 5,
+          "angle_deg": 149.06,
+          "desc": "a257120c6e28795d2e2c52fc731c316b039b6f4b0f8d5325f64f03daab347909"
+        },
+        {
+          "x": 84,
+          "y": 47,
+          "score": 1383,
+          "quad": 0,
+          "sector": 9,
+          "angle_deg": 126.56,
+          "desc": "4d9e9db172190241cf2ce98da2c3c2b11cc07188d23eb6ca27a29a6513898557"
+        },
+        {
+          "x": 47,
+          "y": 48,
+          "score": 611,
+          "quad": 0,
+          "sector": 5,
+          "angle_deg": 149.06,
+          "desc": "c09e3cb150b902044f3ca94df0c3c0b4b9847bdcd08c96a8a1820a6331a5855f"
+        },
+        {
+          "x": 74,
+          "y": 48,
+          "score": 861,
+          "quad": 1,
+          "sector": 2,
+          "angle_deg": 14.06,
+          "desc": "13af9c21d49b49066fbc0a809242b1bc89c6a8b0ee9ec4a847c306f9b80f9591"
+        },
+        {
+          "x": 102,
+          "y": 48,
+          "score": 524,
+          "quad": 1,
+          "sector": 6,
+          "angle_deg": 36.56,
+          "desc": "4f8d5790d0d4e982e361c1539843c9bcfce4b8accaaabdca09a4bf39718cd48f"
+        },
+        {
+          "x": 106,
+          "y": 48,
+          "score": 381,
+          "quad": 1,
+          "sector": 5,
+          "angle_deg": 30.94,
+          "desc": "570f5d1050996b02ef7199598843c9bcfce4abbcd3ac8d8061a49a31718d85cf"
+        },
+        {
+          "x": 85,
+          "y": 49,
+          "score": 600,
+          "quad": 0,
+          "sector": 8,
+          "angle_deg": 132.19,
+          "desc": "c71e9db1321b02471f3ca989a0c3c2bc5cc491c0d23eb6c8a7809877108ba516"
+        },
+        {
+          "x": 44,
+          "y": 50,
+          "score": 540,
+          "quad": 0,
+          "sector": 4,
+          "angle_deg": 154.69,
+          "desc": "c01a3cf942f916450f28b84df013449419805b58548cb229b19b886731a72947"
+        },
+        {
+          "x": 68,
+          "y": 50,
+          "score": 2182,
+          "quad": 1,
+          "sector": 2,
+          "angle_deg": 14.06,
+          "desc": "57c4dc109c1d4904ef3d0bd18b62853cbe67babd4afc44e546e406f9e906959d"
+        },
+        {
+          "x": 107,
+          "y": 50,
+          "score": 421,
+          "quad": 1,
+          "sector": 3,
+          "angle_deg": 19.69,
+          "desc": "570e5c1054994904ef3d89598a43c1bcfcc4badcd2aca4a843a48a71718c85df"
+        },
+        {
+          "x": 41,
+          "y": 51,
+          "score": 548,
+          "quad": 0,
+          "sector": 4,
+          "angle_deg": 154.69,
+          "desc": "e05229cf6a7916612d0ef8efe317142111986b485485332db91f9846a3a0696f"
+        },
+        {
+          "x": 51,
+          "y": 51,
+          "score": 883,
+          "quad": 0,
+          "sector": 6,
+          "angle_deg": 143.44,
+          "desc": "130e7cb5d59b8a46cf3d891980e1c13caf658c95aaec94a840c004f1308fd5b7"
+        },
+        {
+          "x": 54,
+          "y": 51,
+          "score": 1357,
+          "quad": 0,
+          "sector": 6,
+          "angle_deg": 143.44,
+          "desc": "530edc058f938a26cfb5080908e1a1fc6d73a0a7eafc44b246c404f9f89a15a0"
+        },
+        {
+          "x": 75,
+          "y": 51,
+          "score": 678,
+          "quad": 1,
+          "sector": 2,
+          "angle_deg": 14.06,
+          "desc": "5b8f1c31a68b450446bd08048b62c1b41fe6b884eed6c6e8438004e11c0f85b3"
+        },
+        {
+          "x": 93,
+          "y": 51,
+          "score": 1134,
+          "quad": 0,
+          "sector": 6,
+          "angle_deg": 143.44,
+          "desc": "0b2fdc05c5d3c9024eb503189073117cab77ac87aadcd4a0460c66d9e87edc95"
+        },
+        {
+          "x": 99,
+          "y": 52,
+          "score": 513,
+          "quad": 1,
+          "sector": 4,
+          "angle_deg": 25.31,
+          "desc": "4d8cd398d904a0d2d510e9531cc9c99ccc2514bcda2aad4a29b47e3875ced4a4"
+        },
+        {
+          "x": 39,
+          "y": 53,
+          "score": 1458,
+          "quad": 0,
+          "sector": 4,
+          "angle_deg": 154.69,
+          "desc": "e05223ce6e607469286ff49e76163763019b434b510d3335fd5fd94687f06b6a"
+        },
+        {
+          "x": 44,
+          "y": 53,
+          "score": 755,
+          "quad": 0,
+          "sector": 6,
+          "angle_deg": 143.44,
+          "desc": "e41a2df142f902410faab90dfcd340941d845bd8d01cb60bb199986733ada14f"
+        },
+        {
+          "x": 66,
+          "y": 53,
+          "score": 1058,
+          "quad": 1,
+          "sector": 4,
+          "angle_deg": 25.31,
+          "desc": "1787dc11551dc982cff8c91188c2c1bcfee79e946b2e54c040ec0a7b6884855d"
+        },
+        {
+          "x": 25,
+          "y": 54,
+          "score": 1074,
+          "quad": 0,
+          "sector": 1,
+          "angle_deg": 171.56,
+          "desc": "77b65c30cc196f06cc3d89c0b243c132b1f4988c573c86c240a20ae365e5d5cf"
+        },
+        {
+          "x": 35,
+          "y": 54,
+          "score": 568,
+          "quad": 0,
+          "sector": 3,
+          "angle_deg": 160.31,
+          "desc": "8367920c6f04788933de56b2650ca7eb4a53466b2b0b55177eef719a8e5038a8"
+        },
+        {
+          "x": 53,
+          "y": 54,
+          "score": 1352,
+          "quad": 0,
+          "sector": 9,
+          "angle_deg": 126.56,
+          "desc": "336f9c35979fc8069fb50a8908e87fb4356b9097eae4c4b006c004e9d83a35b0"
+        },
+        {
+          "x": 83,
+          "y": 54,
+          "score": 694,
+          "quad": 0,
+          "sector": 11,
+          "angle_deg": 115.31,
+          "desc": "c4039db3123b12011f95bcaf5ea740adb9864b50d25c148ba7839c6d218fa3c7"
+        },
+        {
+          "x": 87,
+          "y": 54,
+          "score": 1388,
+          "quad": 0,
+          "sector": 6,
+          "angle_deg": 143.44,
+          "desc": "538e9d33149b08869fb92a0fc8c1ca9cbe069af040fe94abc7838ce9180aa79a"
+        },
+        {
+          "x": 92,
+          "y": 54,
+          "score": 1662,
+          "quad": 0,
+          "sector": 5,
+          "angle_deg": 149.06,
+          "desc": "332fdc19c493c8064fb5030cb469517b9267a8052a5c54a246c843eba87cdd99"
+        },
+        {
+          "x": 95,
+          "y": 55,
+          "score": 1085,
+          "quad": 0,
+          "sector": 4,
+          "angle_deg": 154.69,
+          "desc": "33265c014c83782f4ebd0b80bc28817b83578cc52f584082446846d9ac74dd91"
+        },
+        {
+          "x": 102,
+          "y": 55,
+          "score": 547,
+          "quad": 2,
+          "sector": 1,
+          "angle_deg": 351.56,
+          "desc": "1787df103906e880efd74b130ea1c1bbee7192b77b687cd248ec543d6c4ad5a6"
+        },
+        {
+          "x": 40,
+          "y": 56,
+          "score": 605,
+          "quad": 0,
+          "sector": 4,
+          "angle_deg": 154.69,
+          "desc": "e41223ce6368367939cff4a7761736231199434851493b3db91ff90687e26b66"
+        },
+        {
+          "x": 56,
+          "y": 56,
+          "score": 1977,
+          "quad": 0,
+          "sector": 12,
+          "angle_deg": 109.69,
+          "desc": "7b6cb09984db8d9eb0a51682d07c3f64346ea8320efd88a9440baf88ea306d98"
+        },
+        {
+          "x": 67,
+          "y": 56,
+          "score": 2037,
+          "quad": 1,
+          "sector": 5,
+          "angle_deg": 30.94,
+          "desc": "d727dc01541d68816f3cc9d98a42c1b8fec7ead45bee14e845e40e796184c5df"
+        },
+        {
+          "x": 112,
+          "y": 56,
+          "score": 1038,
+          "quad": 2,
+          "sector": 4,
+          "angle_deg": 334.69,
+          "desc": "570edcb1441b0804cf3d994184e3c1bcbde59ae4fa3e04a847880e7d30cf8587"
+        },
+        {
+          "x": 47,
+          "y": 57,
+          "score": 566,
+          "quad": 0,
+          "sector": 7,
+          "angle_deg": 137.81,
+          "desc": "619e6dbbd0fd86108f3bac4574f3509495a51aac787e978b8191106633ede5f7"
+        },
+        {
+          "x": 61,
+          "y": 57,
+          "score": 327,
+          "quad": 1,
+          "sector": 10,
+          "angle_deg": 59.06,
+          "desc": "4d8d1d90d1c989d0f160e551b3d299bc7da431b846aeaf6db9b41b11778f444e"
+        },
+        {
+          "x": 74,
+          "y": 57,
+          "score": 1449,
+          "quad": 1,
+          "sector": 4,
+          "angle_deg": 25.31,
+          "desc": "52377c3144fb42044ebc9941b013411c91c4b8e4f29c96a84100867530e5c5c7"
+        },
+        {
+          "x": 86,
+          "y": 57,
+          "score": 1956,
+          "quad": 0,
+          "sector": 6,
+          "angle_deg": 143.44,
+          "desc": "50cc9cb9348b03960f992ea708655c941d041ad0d27e8ca9a7838e6d3e0f27b3"
+        },
+        {
+          "x": 41,
+          "y": 58,
+          "score": 655,
+          "quad": 0,
+          "sector": 4,
+          "angle_deg": 154.69,
+          "desc": "e47a21df7368145139caf4a774375620118053485119b33dbb1fb92607e02b66"
+        },
+        {
+          "x": 53,
+          "y": 58,
+          "score": 1082,
+          "quad": 0,
+          "sector": 9,
+          "angle_deg": 126.56,
+          "desc": "61ecfcb985878b5e9f9503260ae82db43d6f38876ef28ca0404066c9fc7e1595"
+        },
+        {
+          "x": 114,
+          "y": 58,
+          "score": 1490,
+          "quad": 2,
+          "sector": 9,
+          "angle_deg": 306.56,
+          "desc": "5707dc354e1b48044f3d182d8463c09e99c59ac4fb5c94a84780047db8a705a7"
+        },
+        {
+          "x": 35,
+          "y": 59,
+          "score": 479,
+          "quad": 0,
+          "sector": 2,
+          "angle_deg": 165.94,
+          "desc": "8d47930c2f04f8d9b35772ba45aca7eb4e33562b1b4b7d5ffdef719a2e5870a8"
+        },
+        {
+          "x": 101,
+          "y": 59,
+          "score": 511,
+          "quad": 2,
+          "sector": 6,
+          "angle_deg": 323.44,
+          "desc": "5367d244bf06f80d6f975a940e26b7ab9b53e463ab5a44f4562c44d9cc521fb0"
+        },
+        {
+          "x": 33,
+          "y": 60,
+          "score": 537,
+          "quad": 0,
+          "sector": 1,
+          "angle_deg": 171.56,
+          "desc": "8f47d604bf04fa9bb3554a720dac8dbb6e7356b77b6b5ddf58ec74996c5674aa"
+        },
+        {
+          "x": 40,
+          "y": 60,
+          "score": 1182,
+          "quad": 0,
+          "sector": 3,
+          "angle_deg": 160.31,
+          "desc": "ecfa21cf336c94c138c2f4a776b736205181534b50533b7dbb3ff90607f02a6e"
+        },
+        {
+          "x": 50,
+          "y": 60,
+          "score": 1355,
+          "quad": 0,
+          "sector": 8,
+          "angle_deg": 132.19,
+          "desc": "218e7dbb90c58756cdb10b071df143949f241c840e72d44a05914e647defd591"
+        },
+        {
+          "x": 67,
+          "y": 60,
+          "score": 2246,
+          "quad": 1,
+          "sector": 4,
+          "angle_deg": 25.31,
+          "desc": "d78edc3054996a846f3c1b598942c5baf8d7e8ec6fee94c046a006f9f904858f"
+        },
+        {
+          "x": 74,
+          "y": 60,
+          "score": 1240,
+          "quad": 1,
+          "sector": 3,
+          "angle_deg": 19.69,
+          "desc": "703e5cb144db05044dacb901b113513c9184b9c0f28c86aa41828e7033a7cd45"
+        },
+        {
+          "x": 30,
+          "y": 61,
+          "score": 472,
+          "quad": 0,
+          "sector": 1,
+          "angle_deg": 171.56,
+          "desc": "9fc5de21dd05fa19e75549630c8089bbef7796b5eb2a5cc349ec46197dd6d485"
+        },
+        {
+          "x": 100,
+          "y": 61,
+          "score": 460,
+          "quad": 2,
+          "sector": 9,
+          "angle_deg": 306.56,
+          "desc": "9e6582162e03792d7686569c0814bf6b6353e462bbd9089656eee6d9cc720e90"
+        },
+        {
+          "x": 106,
+          "y": 61,
+          "score": 587,
+          "quad": 2,
+          "sector": 8,
+          "angle_deg": 312.19,
+          "desc": "1306dc008d174802efbf0a9c88e8a13dee6798b76ffc54f246cd44f9680297a0"
+        },
+        {
+          "x": 52,
+          "y": 63,
+          "score": 935,
+          "quad": 0,
+          "sector": 4,
+          "angle_deg": 154.69,
+          "desc": "738c7c318ccb0d6ec425090581583574176cad9006d6c4e046420ec1f4378599"
+        },
+        {
+          "x": 66,
+          "y": 63,
+          "score": 1881,
+          "quad": 1,
+          "sector": 2,
+          "angle_deg": 14.06,
+          "desc": "570edd3195998a86cb300b498863c5bd7cf7a8b47aec958662e006fdf80c058d"
+        },
+        {
+          "x": 86,
+          "y": 63,
+          "score": 1704,
+          "quad": 3,
+          "sector": 0,
+          "angle_deg": 182.81,
+          "desc": "4b4cbcb1a6cb1e5d343c1a290d16849c09c3b8e0fc9c84ae51800659380724b3"
+        },
+        {
+          "x": 121,
+          "y": 63,
+          "score": 1128,
+          "quad": 3,
+          "sector": 10,
+          "angle_deg": 239.06,
+          "desc": "13aedc10541b48064fbd0a848063c13c9bc5dad4faded4e847cd04f9280695b3"
+        },
+        {
+          "x": 31,
+          "y": 64,
+          "score": 458,
+          "quad": 0,
+          "sector": 1,
+          "angle_deg": 171.56,
+          "desc": "9fc7de05dd05fa9ae3544b630da489bbee77d6a5eb6b5cc159ec461d7c565495"
+        },
+        {
+          "x": 36,
+          "y": 64,
+          "score": 475,
+          "quad": 0,
+          "sector": 0,
+          "angle_deg": 177.19,
+          "desc": "2de4d39cbf06b8dab3c760b36eecaffb7c3b5513526b2d5fb9a4791e66487024"
+        },
+        {
+          "x": 41,
+          "y": 64,
+          "score": 564,
+          "quad": 0,
+          "sector": 0,
+          "angle_deg": 177.19,
+          "desc": "28f829ffa3ef96f110c3a626653d3ec4072815033475eb3b9e53f98606793a7a"
+        },
+        {
+          "x": 74,
+          "y": 64,
+          "score": 1399,
+          "quad": 1,
+          "sector": 0,
+          "angle_deg": 2.81,
+          "desc": "611b7cd0c4c90945ce2db991b2735034bde4191cd24cb32031149e6627ffc545"
+        },
+        {
+          "x": 94,
+          "y": 64,
+          "score": 818,
+          "quad": 3,
+          "sector": 4,
+          "angle_deg": 205.31,
+          "desc": "8fbf110857bb69837bee5398a007c33cf0c5e8f4cebc97d869a63132480ae00a"
+        },
+        {
+          "x": 104,
+          "y": 64,
+          "score": 540,
+          "quad": 2,
+          "sector": 9,
+          "angle_deg": 306.56,
+          "desc": "13e7de060d17c91aef771e9482e8a76beb7b60b7efdd5cb2464c5499ec121fa0"
+        },
+        {
+          "x": 113,
+          "y": 64,
+          "score": 1804,
+          "quad": 2,
+          "sector": 11,
+          "angle_deg": 295.31,
+          "desc": "d707dc114d1b48054fbc0b1d8ce3c19bbad58ae4fb3c148a47ec047d30068592"
+        },
+        {
+          "x": 26,
+          "y": 65,
+          "score": 1329,
+          "quad": 0,
+          "sector": 1,
+          "angle_deg": 171.56,
+          "desc": "77a65c315c196f07cf3d890190c3c1baf7f4989c433c04ca40a20ef175e5d5dd"
+        },
+        {
+          "x": 97,
+          "y": 65,
+          "score": 1029,
+          "quad": 3,
+          "sector": 11,
+          "angle_deg": 244.69,
+          "desc": "fad81c344298144d612899c9a302b2a474d0a5f8e685a72439308203f385405b"
+        },
+        {
+          "x": 120,
+          "y": 65,
+          "score": 1104,
+          "quad": 3,
+          "sector": 10,
+          "angle_deg": 239.06,
+          "desc": "13a6dc100c9b49064fbd0a8c8063413c9347fed4aadc54aa46c404f928069593"
+        },
+        {
+          "x": 45,
+          "y": 66,
+          "score": 855,
+          "quad": 3,
+          "sector": 6,
+          "angle_deg": 216.56,
+          "desc": "7623a2342e226e072e9d0a8446646503135b8a433d5a4083c64f44e9ac763db3"
+        },
+        {
+          "x": 80,
+          "y": 66,
+          "score": 975,
+          "quad": 2,
+          "sector": 10,
+          "angle_deg": 300.94,
+          "desc": "6a1a5d36c3fd9c01c2728148a48bc21aa4f1987d7e2c373638f071b790c9d063"
+        },
+        {
+          "x": 83,
+          "y": 66,
+          "score": 1130,
+          "quad": 3,
+          "sector": 9,
+          "angle_deg": 233.44,
+          "desc": "58071c00ee01596e6e2f18f0035251698d6814bee71a488a5ecd4450265f94e1"
+        },
+        {
+          "x": 117,
+          "y": 66,
+          "score": 1863,
+          "quad": 3,
+          "sector": 14,
+          "angle_deg": 261.56,
+          "desc": "1326dc148c1309064fbd0b9c80e3817aab45e8c4ebde84a046c406dda8160591"
+        },
+        {
+          "x": 49,
+          "y": 67,
+          "score": 537,
+          "quad": 3,
+          "sector": 7,
+          "angle_deg": 222.19,
+          "desc": "922788077f1b6a812fdc5f844403e50b5bd3c6f3fd7c54e0766c44ffec42b790"
+        },
+        {
+          "x": 66,
+          "y": 67,
+          "score": 1403,
+          "quad": 2,
+          "sector": 4,
+          "angle_deg": 334.69,
+          "desc": "17a6d2b1dc07e816afb5aa858eebc1be9ee59aa46b7a94cb46c042fb244d95f1"
+        },
+        {
+          "x": 97,
+          "y": 67,
+          "score": 1084,
+          "quad": 3,
+          "sector": 14,
+          "angle_deg": 261.56,
+          "desc": "7b192c6477f95e0f602c99e8a38aa32462cce5fb2487c225687800d3b0915058"
+        },
+        {
+          "x": 106,
+          "y": 67,
+          "score": 1389,
+          "quad": 2,
+          "sector": 10,
+          "angle_deg": 300.94,
+          "desc": "13cfdd06d507e99aeb770ed485e2af3bef75b6bfaffa5df54e4c5599cc5217b0"
+        },
+        {
+          "x": 115,
+          "y": 67,
+          "score": 1818,
+          "quad": 2,
+          "sector": 14,
+          "angle_deg": 278.44,
+          "desc": "d7a6d4105c1368074fbd1b198143c13b9ad5aae4ebdc048046cc06d9b8068583"
+        },
+        {
+          "x": 27,
+          "y": 68,
+          "score": 1669,
+          "quad": 0,
+          "sector": 1,
+          "angle_deg": 171.56,
+          "desc": "57245c215c0d7f03cf3d8941948381bbe7f59a9cfb3c4ec240e84ef175d5d5c7"
+        },
+        {
+          "x": 51,
+          "y": 68,
+          "score": 804,
+          "quad": 3,
+          "sector": 9,
+          "angle_deg": 233.44,
+          "desc": "910f9d42538bf2838f7a6d914583ca0b6ed15e7fd23c75b0feed1c3d534216b0"
+        },
+        {
+          "x": 71,
+          "y": 68,
+          "score": 2125,
+          "quad": 2,
+          "sector": 4,
+          "angle_deg": 334.69,
+          "desc": "d58edc10560942140fad29b50363c1b31d841bcc7d6e94c8c180046d398f8537"
+        },
+        {
+          "x": 78,
+          "y": 68,
+          "score": 1871,
+          "quad": 2,
+          "sector": 9,
+          "angle_deg": 306.56,
+          "desc": "6b186c3485f79e61e06611706533d11cb4fd889c7c0c83be9984717290cf6461"
+        },
+        {
+          "x": 103,
+          "y": 68,
+          "score": 1164,
+          "quad": 2,
+          "sector": 10,
+          "angle_deg": 300.94,
+          "desc": "81cf9d062683c91af35706960a2caf696a7366a30ad949b45e4c579dcc121590"
+        },
+        {
+          "x": 44,
+          "y": 69,
+          "score": 665,
+          "quad": 3,
+          "sector": 8,
+          "angle_deg": 227.81,
+          "desc": "16a6883e2b374cb4ae9f4aae46ec61631743d2633d7a4c5b474944492a723fb0"
+        },
+        {
+          "x": 48,
+          "y": 69,
+          "score": 499,
+          "quad": 3,
+          "sector": 8,
+          "angle_deg": 227.81,
+          "desc": "92a78c066f0f6083af9f6e864485e10bef53de62bf7a5430665f147f6e42bfb0"
+        },
+        {
+          "x": 64,
+          "y": 69,
+          "score": 1285,
+          "quad": 2,
+          "sector": 8,
+          "angle_deg": 312.19,
+          "desc": "3366fc00ac86881d8e170ab40cf1af2b967390a77b58449246c444d91c7abdb0"
+        },
+        {
+          "x": 84,
+          "y": 69,
+          "score": 1207,
+          "quad": 3,
+          "sector": 12,
+          "angle_deg": 250.31,
+          "desc": "79820e90ee000714670db8e182434523b8b8da8ef30b049fd78fcc4124d88d61"
+        },
+        {
+          "x": 106,
+          "y": 69,
+          "score": 1285,
+          "quad": 2,
+          "sector": 10,
+          "angle_deg": 300.94,
+          "desc": "8bcedd46c587eb88f37326d60ce3af3dfe75f6bfeafa79f54e4c7518cc5a16b0"
+        },
+        {
+          "x": 119,
+          "y": 69,
+          "score": 1107,
+          "quad": 3,
+          "sector": 10,
+          "angle_deg": 239.06,
+          "desc": "1367dc008c9b4b0e6ebd0b9c8c60a13c8b778cb7afdc40a0464c46dde8569591"
+        },
+        {
+          "x": 54,
+          "y": 70,
+          "score": 1047,
+          "quad": 3,
+          "sector": 8,
+          "angle_deg": 227.81,
+          "desc": "880b9d86d3fcf8d1f372f479e383fabced857ffdc2bcfdbdbf85393d518a22e6"
+        },
+        {
+          "x": 75,
+          "y": 70,
+          "score": 1331,
+          "quad": 2,
+          "sector": 8,
+          "angle_deg": 312.19,
+          "desc": "57096c10c6db5f45242d08496323c43419d881c8fc4d968bd08404f1348f0493"
+        },
+        {
+          "x": 108,
+          "y": 70,
+          "score": 773,
+          "quad": 2,
+          "sector": 10,
+          "angle_deg": 300.94,
+          "desc": "0b8ddd86f585c88bf35367730c83eb3cfff596bfca6afdf52fac7438565896b4"
+        },
+        {
+          "x": 122,
+          "y": 70,
+          "score": 865,
+          "quad": 3,
+          "sector": 9,
+          "angle_deg": 233.44,
+          "desc": "93cfdc040403cb0e6f950b9c8866ad3bbb47eca7ebda44a446cc06d9ec169593"
+        },
+        {
+          "x": 26,
+          "y": 71,
+          "score": 1570,
+          "quad": 3,
+          "sector": 1,
+          "angle_deg": 188.44,
+          "desc": "97bf1c21541b6f02ce6cc900b243c13be7d4b8c4c7bed6ca62e28af1708d8541"
+        },
+        {
+          "x": 58,
+          "y": 71,
+          "score": 1841,
+          "quad": 3,
+          "sector": 14,
+          "angle_deg": 261.56,
+          "desc": "327862b880f8048770ac03cef25c5974b04eed682cc58325481221a6892df05b"
+        },
+        {
+          "x": 62,
+          "y": 71,
+          "score": 2139,
+          "quad": 2,
+          "sector": 12,
+          "angle_deg": 289.69,
+          "desc": "d264923eaeb34c14369d128e437c77661313e1432ed104a2464b64e8aa322992"
+        },
+        {
+          "x": 80,
+          "y": 71,
+          "score": 689,
+          "quad": 2,
+          "sector": 14,
+          "angle_deg": 278.44,
+          "desc": "ebd02cb06609461a682e98652262039414c5738fee0e8f6c2b94004532870543"
+        },
+        {
+          "x": 92,
+          "y": 71,
+          "score": 1242,
+          "quad": 3,
+          "sector": 12,
+          "angle_deg": 250.31,
+          "desc": "c0dfdc4543b948c85ff8b1199187a0ac79946b5bc2cd72a4310c9c5df1974844"
+        },
+        {
+          "x": 117,
+          "y": 71,
+          "score": 1820,
+          "quad": 3,
+          "sector": 13,
+          "angle_deg": 255.94,
+          "desc": "1346de048c037b29efbd1b910980a52beb738ce7eb1c4092566c46d9ac549d81"
+        },
+        {
+          "x": 47,
+          "y": 72,
+          "score": 744,
+          "quad": 3,
+          "sector": 7,
+          "angle_deg": 222.19,
+          "desc": "b2a79c2e6f2b62822ebf2e860e6ce12d571bde032d7c5038475904aa6e301bb2"
+        },
+        {
+          "x": 95,
+          "y": 72,
+          "score": 1250,
+          "quad": 3,
+          "sector": 15,
+          "angle_deg": 267.19,
+          "desc": "fb9c1d464299d74868689dd9ab07a3a47098e9ffe6857324390d0903f1974a41"
+        },
+        {
+          "x": 109,
+          "y": 72,
+          "score": 953,
+          "quad": 2,
+          "sector": 10,
+          "angle_deg": 300.94,
+          "desc": "498cdd82f18d98c3f352f5530c83eb9ccca514bf4a2afd7cafa4713a57ca94a6"
+        },
+        {
+          "x": 120,
+          "y": 72,
+          "score": 917,
+          "quad": 3,
+          "sector": 9,
+          "angle_deg": 233.44,
+          "desc": "1365d0040c13d90f6ebc1b9c992ca52b0b57e4e3afd844e4466c46d9e8141591"
+        },
+        {
+          "x": 50,
+          "y": 73,
+          "score": 1539,
+          "quad": 3,
+          "sector": 9,
+          "angle_deg": 233.44,
+          "desc": "808f9dcec69b8a1a1ff1a63dc8472a2c3b056e5b80fc50a1f64f3fdd811e36b7"
+        },
+        {
+          "x": 63,
+          "y": 73,
+          "score": 1192,
+          "quad": 2,
+          "sector": 12,
+          "angle_deg": 289.69,
+          "desc": "b2679c242e9b4d0e2f9c128e48753764135be2432ed444a0464d24c98a322510"
+        },
+        {
+          "x": 66,
+          "y": 73,
+          "score": 1519,
+          "quad": 2,
+          "sector": 10,
+          "angle_deg": 300.94,
+          "desc": "f3279c452f1348060f9d1a950567a12c1a4382e76a5c50a0460c44dbb8b611b0"
+        },
+        {
+          "x": 69,
+          "y": 73,
+          "score": 1266,
+          "quad": 2,
+          "sector": 8,
+          "angle_deg": 312.19,
+          "desc": "d306dc244c134c064dbd9b99dfe4c1a88b4f8ecfeb4cd4a8c6cc44e1a104b575"
+        },
+        {
+          "x": 72,
+          "y": 73,
+          "score": 1558,
+          "quad": 2,
+          "sector": 8,
+          "angle_deg": 312.19,
+          "desc": "73031c100e990e476c3c098d8f07c1aa8a478ce4c75494a0428404fbb886b511"
+        },
+        {
+          "x": 81,
+          "y": 73,
+          "score": 622,
+          "quad": 3,
+          "sector": 15,
+          "angle_deg": 267.19,
+          "desc": "71803c38668947146d2db8630f62419415a21bac760e8628c791006534c50569"
+        },
+        {
+          "x": 83,
+          "y": 73,
+          "score": 457,
+          "quad": 3,
+          "sector": 13,
+          "angle_deg": 255.94,
+          "desc": "f10b5c30e68b57156fadba658e02c28090829acc564d842bc79302613ccd856b"
+        },
+        {
+          "x": 97,
+          "y": 73,
+          "score": 949,
+          "quad": 2,
+          "sector": 15,
+          "angle_deg": 272.81,
+          "desc": "6b9e3dc644f9cf08f2609170a242af2c70edefbb6485c325a80c0313d1b54059"
+        },
+        {
+          "x": 104,
+          "y": 73,
+          "score": 704,
+          "quad": 2,
+          "sector": 10,
+          "angle_deg": 300.94,
+          "desc": "09cd9ddce6db895e91c3201b0b1dbe2c0a2465930ad4dd341685bddc0c9a14b0"
+        },
+        {
+          "x": 26,
+          "y": 74,
+          "score": 1584,
+          "quad": 3,
+          "sector": 4,
+          "angle_deg": 205.31,
+          "desc": "871f1d01561b6b026f6c4b88a243c13d6fc4e8d8c7bed6c067e61273f0070503"
+        },
+        {
+          "x": 33,
+          "y": 74,
+          "score": 414,
+          "quad": 3,
+          "sector": 4,
+          "angle_deg": 205.31,
+          "desc": "0dcc5fd1d084b9dac371e9718dc8889aec241cbc422bad4b98a4db9175dcd4cd"
+        },
+        {
+          "x": 38,
+          "y": 74,
+          "score": 651,
+          "quad": 3,
+          "sector": 4,
+          "angle_deg": 205.31,
+          "desc": "2de9e2fc99e484e290c143025facacd4243f15132c43a95f98b275c22d5e7034"
+        },
+        {
+          "x": 58,
+          "y": 74,
+          "score": 1176,
+          "quad": 3,
+          "sector": 14,
+          "angle_deg": 261.56,
+          "desc": "7b38683800f9046f6cac0388f379417480cca95c2c848324401223e2a925d159"
+        },
+        {
+          "x": 76,
+          "y": 74,
+          "score": 1407,
+          "quad": 2,
+          "sector": 11,
+          "angle_deg": 295.31,
+          "desc": "53143cb00e990e56652c18cdab6341a410c529cc7e9c86ac438502e73887051b"
+        },
+        {
+          "x": 88,
+          "y": 74,
+          "score": 953,
+          "quad": 3,
+          "sector": 13,
+          "angle_deg": 255.94,
+          "desc": "e33afdc104b91a050fbd3b097c27c01c70c5ca70585d92a0e1880c7bb9366197"
+        },
+        {
+          "x": 119,
+          "y": 74,
+          "score": 1055,
+          "quad": 3,
+          "sector": 9,
+          "angle_deg": 233.44,
+          "desc": "fb6498040e1b790f6e8c1bda090ca56a4257e4e3af9940a4466e06d9a8162991"
+        },
+        {
+          "x": 55,
+          "y": 75,
+          "score": 1123,
+          "quad": 3,
+          "sector": 9,
+          "angle_deg": 233.44,
+          "desc": "498a1dd7d0d98145d560b5198b7332947da4298d42acb5e4a380bd63918f0455"
+        },
+        {
+          "x": 73,
+          "y": 75,
+          "score": 1120,
+          "quad": 2,
+          "sector": 9,
+          "angle_deg": 306.56,
+          "desc": "73951c100e194e456c3c094cab63e1b212c7abe4ef9c06a0468002ebb9878113"
+        },
+        {
+          "x": 90,
+          "y": 75,
+          "score": 1010,
+          "quad": 3,
+          "sector": 13,
+          "angle_deg": 255.94,
+          "desc": "c23f9dd556b99a415ff89119a047c63c79c56950d28c94a065829c79b0876197"
+        },
+        {
+          "x": 101,
+          "y": 75,
+          "score": 663,
+          "quad": 2,
+          "sector": 10,
+          "angle_deg": 300.94,
+          "desc": "084cbcc984d9095e35ac229fc95d3fe40b4e2dd38294c0a46606aec881163c19"
+        },
+        {
+          "x": 109,
+          "y": 75,
+          "score": 1464,
+          "quad": 2,
+          "sector": 10,
+          "angle_deg": 300.94,
+          "desc": "6988dddfd18d90dc9372b07324e37a9c14a511bfe22ead7da985bb1257c840e4"
+        },
+        {
+          "x": 28,
+          "y": 76,
+          "score": 1326,
+          "quad": 3,
+          "sector": 5,
+          "angle_deg": 210.94,
+          "desc": "0f9e9d9054996b40ef7ce9d1a043c13ccfe57dbcc3bed6ca7fe49a71718f84c5"
+        },
+        {
+          "x": 52,
+          "y": 76,
+          "score": 1579,
+          "quad": 3,
+          "sector": 7,
+          "angle_deg": 222.19,
+          "desc": "014ebdc6d6db8940f3f1359580772f3479c568d842fed1e1670c3d09c12e0595"
+        },
+        {
+          "x": 57,
+          "y": 76,
+          "score": 1098,
+          "quad": 3,
+          "sector": 11,
+          "angle_deg": 244.69,
+          "desc": "79995c758099054cd4208909a353b1b430ac2d8e4486a72481908b6391b74455"
+        },
+        {
+          "x": 71,
+          "y": 76,
+          "score": 1266,
+          "quad": 2,
+          "sector": 9,
+          "angle_deg": 306.56,
+          "desc": "73169c340c1b4c076e3c09898ba2e1b233d7bfe1ef8c06a446c006f5a1076553"
+        },
+        {
+          "x": 95,
+          "y": 76,
+          "score": 1129,
+          "quad": 3,
+          "sector": 15,
+          "angle_deg": 267.19,
+          "desc": "fb5a1c7652d95f44756c9d498b479fa47084e9d8c68c87a421848201d1954451"
+        },
+        {
+          "x": 36,
+          "y": 77,
+          "score": 697,
+          "quad": 3,
+          "sector": 5,
+          "angle_deg": 210.94,
+          "desc": "2d6853f98184b4dad0c1e3721fec8c93463e15855a63ed4b98907b8b7dddf00d"
+        },
+        {
+          "x": 82,
+          "y": 77,
+          "score": 1276,
+          "quad": 3,
+          "sector": 14,
+          "angle_deg": 261.56,
+          "desc": "f12b5c385c9944166ebd8a6cd262c5b492c71ac47ccc94a9c78104eb2984a19b"
+        },
+        {
+          "x": 97,
+          "y": 77,
+          "score": 1192,
+          "quad": 2,
+          "sector": 15,
+          "angle_deg": 272.81,
+          "desc": "6bdd3db4d4d90f4470659948aa529f3470c4e99844ae932469968b03d9b7444f"
+        },
+        {
+          "x": 103,
+          "y": 77,
+          "score": 852,
+          "quad": 2,
+          "sector": 10,
+          "angle_deg": 300.94,
+          "desc": "69ccbcd096d9055e1525201d89743f941b0e3ddb82d485a48603ace9912e3493"
+        },
+        {
+          "x": 113,
+          "y": 77,
+          "score": 1216,
+          "quad": 2,
+          "sector": 10,
+          "angle_deg": 300.94,
+          "desc": "edc943d9f00c92d891c3f07357868a949ca7531c50292d3fb992bb0437d8e56f"
+        },
+        {
+          "x": 119,
+          "y": 77,
+          "score": 2463,
+          "quad": 3,
+          "sector": 9,
+          "angle_deg": 233.44,
+          "desc": "d27592444e387d2b2c0c5b9a8b0ca56f425bef72c79d52a57c6e02d8a906280b"
+        },
+        {
+          "x": 53,
+          "y": 78,
+          "score": 1105,
+          "quad": 3,
+          "sector": 7,
+          "angle_deg": 222.19,
+          "desc": "014e9dd516db8bc4dfb1a5158053bf3c59e5e9b042fc84e02702bb5bc1ac049d"
+        },
+        {
+          "x": 61,
+          "y": 78,
+          "score": 1449,
+          "quad": 3,
+          "sector": 15,
+          "angle_deg": 267.19,
+          "desc": "72fd6c01547b4d2e6c2c8bc89152313c93c7acf7ad94c2e1400486f1b824ddd9"
+        },
+        {
+          "x": 63,
+          "y": 78,
+          "score": 1305,
+          "quad": 2,
+          "sector": 14,
+          "angle_deg": 278.44,
+          "desc": "16e59c225c1b490e6f3c0f88d250352ca347aed08fbec4a0462306f9aa24879b"
+        },
+        {
+          "x": 76,
+          "y": 78,
+          "score": 988,
+          "quad": 2,
+          "sector": 12,
+          "angle_deg": 289.69,
+          "desc": "73241c381c190d166d2d99aca062c132b0c4aafc7fec06a0478002e1f085c1cb"
+        },
+        {
+          "x": 79,
+          "y": 78,
+          "score": 1088,
+          "quad": 2,
+          "sector": 15,
+          "angle_deg": 272.81,
+          "desc": "77267cb85c9b0d146f3d88ecaa62c1b6b0c6eadc4fcc94a9478100e3b084c5d9"
+        },
+        {
+          "x": 107,
+          "y": 78,
+          "score": 1141,
+          "quad": 2,
+          "sector": 10,
+          "angle_deg": 300.94,
+          "desc": "61097dfd83f986545023807564725e9414a410ac78ef873d8191a12218ef45f4"
+        },
+        {
+          "x": 110,
+          "y": 78,
+          "score": 1183,
+          "quad": 2,
+          "sector": 9,
+          "angle_deg": 306.56,
+          "desc": "69787ff983e984d41133b06ff4f25a949ca41815706f8f29a191b92410ede07f"
+        },
+        {
+          "x": 56,
+          "y": 79,
+          "score": 772,
+          "quad": 3,
+          "sector": 9,
+          "angle_deg": 233.44,
+          "desc": "5bec1df5d09b0546d56189098043bc9e2da4ad80c2be84e0a380aee190970455"
+        },
+        {
+          "x": 67,
+          "y": 79,
+          "score": 971,
+          "quad": 2,
+          "sector": 12,
+          "angle_deg": 289.69,
+          "desc": "574c9c10561b6b06ee3e499d8342872abac6aefcebda04f446ac8e59d8838791"
+        },
+        {
+          "x": 74,
+          "y": 79,
+          "score": 987,
+          "quad": 2,
+          "sector": 11,
+          "angle_deg": 295.31,
+          "desc": "772e1c30541b6d04ee2c19c8aa42c133b2c5eadc6fac06a046e80261f885c5c9"
+        },
+        {
+          "x": 91,
+          "y": 79,
+          "score": 1416,
+          "quad": 3,
+          "sector": 14,
+          "angle_deg": 261.56,
+          "desc": "4f9d9c11569b094647288979a043d1bc7dc4a9f8c2ae86ca26a68af1318f045f"
+        },
+        {
+          "x": 113,
+          "y": 79,
+          "score": 1078,
+          "quad": 2,
+          "sector": 9,
+          "angle_deg": 306.56,
+          "desc": "e1ca6db9e0ef04d030c7b06f5fe65c9494ae5b185443be2bb993bd2037cde06f"
+        },
+        {
+          "x": 53,
+          "y": 80,
+          "score": 1128,
+          "quad": 3,
+          "sector": 6,
+          "angle_deg": 216.56,
+          "desc": "63fc9d93149b8946dfa40795a043bf3c5be5e99042bc84e466828bd9c024079d"
+        },
+        {
+          "x": 70,
+          "y": 80,
+          "score": 1769,
+          "quad": 2,
+          "sector": 11,
+          "angle_deg": 295.31,
+          "desc": "f70f5c21541aef016e3e99c98a0281bbfbd7eaecef9c04e040e80275b88585d3"
+        },
+        {
+          "x": 76,
+          "y": 80,
+          "score": 1212,
+          "quad": 2,
+          "sector": 13,
+          "angle_deg": 284.06,
+          "desc": "77265c301c1b6d06cebd0bc88a628133b6c5aadc6fee0ce044c80265f9a4c58b"
+        },
+        {
+          "x": 100,
+          "y": 80,
+          "score": 1015,
+          "quad": 2,
+          "sector": 12,
+          "angle_deg": 289.69,
+          "desc": "73ecdc7194d98d5c54a59159b1733d3491a4a98862ce84e40102aa49a1b445cd"
+        },
+        {
+          "x": 73,
+          "y": 81,
+          "score": 1084,
+          "quad": 2,
+          "sector": 12,
+          "angle_deg": 289.69,
+          "desc": "77275c305c136e00ee3419c88a62c133b6f7aa946fbe04c041e80279b884c589"
+        },
+        {
+          "x": 87,
+          "y": 81,
+          "score": 923,
+          "quad": 3,
+          "sector": 14,
+          "angle_deg": 261.56,
+          "desc": "53969c1044996806cf3ccb11a9c3c13b3dd5accce2ac16c2608600f7300cc441"
+        },
+        {
+          "x": 97,
+          "y": 81,
+          "score": 1003,
+          "quad": 2,
+          "sector": 15,
+          "angle_deg": 272.81,
+          "desc": "7fdc6c9084c90f56f52401409b43cd349464b980d6ae86ce6086afe9592cc45f"
+        },
+        {
+          "x": 104,
+          "y": 81,
+          "score": 698,
+          "quad": 2,
+          "sector": 10,
+          "angle_deg": 300.94,
+          "desc": "73a83c3184db0f045cad188caa7373b410c4b9c26ee684604580286718af8513"
+        },
+        {
+          "x": 116,
+          "y": 81,
+          "score": 954,
+          "quad": 2,
+          "sector": 9,
+          "angle_deg": 306.56,
+          "desc": "e07b69ec227594511cc1702a75376604900a534c5c43b32d9919fd663b45e823"
+        },
+        {
+          "x": 25,
+          "y": 82,
+          "score": 1201,
+          "quad": 3,
+          "sector": 8,
+          "angle_deg": 227.81,
+          "desc": "879e9d815c9b6a03cf7ce9198083c13befd55cdcc33cd4c266e41cfb108e84d7"
+        },
+        {
+          "x": 33,
+          "y": 82,
+          "score": 470,
+          "quad": 3,
+          "sector": 6,
+          "angle_deg": 216.56,
+          "desc": "0dc05fd0d904b0dac371e9738d888c9bee251d8d432b6d4798e45a9975dcd4cd"
+        },
+        {
+          "x": 50,
+          "y": 82,
+          "score": 918,
+          "quad": 3,
+          "sector": 3,
+          "angle_deg": 199.69,
+          "desc": "73ff3c3110d90fc6deac8f88b3725db4f5c6a9d846bc86e446a2a263c8250659"
+        },
+        {
+          "x": 56,
+          "y": 82,
+          "score": 602,
+          "quad": 3,
+          "sector": 8,
+          "angle_deg": 227.81,
+          "desc": "53cc9631448b290ec5708b418941bc9a2964bca8c3bec4c446868ed99895849d"
+        },
+        {
+          "x": 62,
+          "y": 82,
+          "score": 421,
+          "quad": 3,
+          "sector": 14,
+          "angle_deg": 261.56,
+          "desc": "17e5c0105c076b06ee9d4b408a48853bce47bea4efaaccc446e442ffec640599"
+        },
+        {
+          "x": 64,
+          "y": 82,
+          "score": 367,
+          "quad": 3,
+          "sector": 15,
+          "angle_deg": 267.19,
+          "desc": "53e5c6005c0d6b03ef9c4bd09942c13acf57b8a4ef2ac4c046a6063ded648591"
+        },
+        {
+          "x": 82,
+          "y": 82,
+          "score": 1101,
+          "quad": 3,
+          "sector": 15,
+          "angle_deg": 267.19,
+          "desc": "33a7dc110c176806cfbd0b01b063c13b9ed5a8e44bfe54c260c0407ba866d585"
+        },
+        {
+          "x": 90,
+          "y": 82,
+          "score": 1716,
+          "quad": 3,
+          "sector": 15,
+          "angle_deg": 267.19,
+          "desc": "53941c1144994902ef2c8951a343c1b88df4b9acc2ae96c26e868af3318f844d"
+        },
+        {
+          "x": 47,
+          "y": 83,
+          "score": 626,
+          "quad": 0,
+          "sector": 1,
+          "angle_deg": 171.56,
+          "desc": "6d9d3c3bd1f90f40d02a814ab2d351b4b5e4399844aeaf592992bb6211adc45e"
+        },
+        {
+          "x": 70,
+          "y": 83,
+          "score": 992,
+          "quad": 2,
+          "sector": 12,
+          "angle_deg": 289.69,
+          "desc": "9f275c2154816f0166344bc08a028dbbd4f7f8a4ff1a54c24ba0467d2c4c8483"
+        },
+        {
+          "x": 78,
+          "y": 83,
+          "score": 1347,
+          "quad": 2,
+          "sector": 15,
+          "angle_deg": 272.81,
+          "desc": "77a6dc30040f6f01cfb50b008a63c13b96779a856f4a44c240e806792c7cd591"
+        },
+        {
+          "x": 118,
+          "y": 83,
+          "score": 837,
+          "quad": 0,
+          "sector": 15,
+          "angle_deg": 92.81,
+          "desc": "772efdff91cf87569d91840500f31f96b1c408d460fa84f8c1808ce9d8b34794"
+        },
+        {
+          "x": 27,
+          "y": 84,
+          "score": 1112,
+          "quad": 3,
+          "sector": 8,
+          "angle_deg": 227.81,
+          "desc": "0d87ddc1dc9d3a4bcf78e9518583c09deff51cbcc33e54c23ee41ef971ce94c5"
+        },
+        {
+          "x": 50,
+          "y": 84,
+          "score": 935,
+          "quad": 3,
+          "sector": 3,
+          "angle_deg": 199.69,
+          "desc": "733d3c1014990b46cc2c8d08b35251347dc6a9d846bc86a4662282f3f1a50559"
+        },
+        {
+          "x": 101,
+          "y": 84,
+          "score": 1111,
+          "quad": 2,
+          "sector": 11,
+          "angle_deg": 295.31,
+          "desc": "77ed5c339087c504ccbd0f80937295b2f1c6b8d4fefe8c8243a046e1ec65c783"
+        },
+        {
+          "x": 104,
+          "y": 84,
+          "score": 807,
+          "quad": 2,
+          "sector": 9,
+          "angle_deg": 306.56,
+          "desc": "733f7c3194fb4d04ccb51b048073e13230c698f4ecfe86a045a00479d82f8580"
+        },
+        {
+          "x": 33,
+          "y": 85,
+          "score": 440,
+          "quad": 3,
+          "sector": 7,
+          "angle_deg": 222.19,
+          "desc": "0dc05fe4d904b4dac151e9730fa88c93ac3f159f63696d5798e8520975ddd46d"
+        },
+        {
+          "x": 36,
+          "y": 85,
+          "score": 480,
+          "quad": 3,
+          "sector": 6,
+          "angle_deg": 216.56,
+          "desc": "a9e0426caa06b45a10c372622e2c8c93063a17076f436d5598faf1062cd8702d"
+        },
+        {
+          "x": 24,
+          "y": 86,
+          "score": 1132,
+          "quad": 3,
+          "sector": 11,
+          "angle_deg": 244.69,
+          "desc": "0586ddc1dc1f2942cf7ae9118183c19feff51cbcc33e54c226ec1ef951cf94c5"
+        }
+      ]
+    },
+    {
+      "level": 1,
+      "width": 120,
+      "height": 90,
+      "gauss_width": 114,
+      "gauss_height": 84,
+      "nms_keypoints": 214,
+      "valid_features": 139,
+      "features": [
+        {
+          "x": 59,
+          "y": 21,
+          "score": 841,
+          "quad": 1,
+          "sector": 2,
+          "angle_deg": 14.06,
+          "desc": "2eeff09ab44f4992b29706b654f6653cb76750312f7a8d584f67743c2e7a77b8"
+        },
+        {
+          "x": 66,
+          "y": 21,
+          "score": 572,
+          "quad": 2,
+          "sector": 3,
+          "angle_deg": 340.31,
+          "desc": "7fe862b9b4e68574b08782621f785fd4942e90047c6b8d4b81b2eb601e6ce4af"
+        },
+        {
+          "x": 24,
+          "y": 22,
+          "score": 537,
+          "quad": 0,
+          "sector": 5,
+          "angle_deg": 149.06,
+          "desc": "530fdc14849bc9046f3518598862c5bc38e7a886eacc94a0418404f9b80e0491"
+        },
+        {
+          "x": 69,
+          "y": 22,
+          "score": 604,
+          "quad": 2,
+          "sector": 4,
+          "angle_deg": 334.69,
+          "desc": "6de863bba14485d690c3a6661ff84e94f42e10047d6bad5b8993f3227ff9c3ee"
+        },
+        {
+          "x": 89,
+          "y": 23,
+          "score": 446,
+          "quad": 1,
+          "sector": 3,
+          "angle_deg": 19.69,
+          "desc": "8b67dd004593d98beb744fd88208af7d6a57ecb78ebd58a47eec1799e8101698"
+        },
+        {
+          "x": 24,
+          "y": 24,
+          "score": 675,
+          "quad": 0,
+          "sector": 5,
+          "angle_deg": 149.06,
+          "desc": "534fdc14869bc9046f35185908628dbc1867a8a7eacc84a0418404f9b81e0591"
+        },
+        {
+          "x": 76,
+          "y": 24,
+          "score": 561,
+          "quad": 1,
+          "sector": 11,
+          "angle_deg": 64.69,
+          "desc": "7264ae378ef38d3e74950688007c3f622353a0232ec100a0444164c8ec765f90"
+        },
+        {
+          "x": 81,
+          "y": 25,
+          "score": 535,
+          "quad": 1,
+          "sector": 9,
+          "angle_deg": 53.44,
+          "desc": "6b68f2f980d09dfe5081830a9a7caff4203ead0726c189240092efcac8bc585d"
+        },
+        {
+          "x": 95,
+          "y": 25,
+          "score": 838,
+          "quad": 1,
+          "sector": 3,
+          "angle_deg": 19.69,
+          "desc": "7365dc200c9b6d0e6ebd0b88b268813bb2d7aaf52fdc40a044c802d9a8245191"
+        },
+        {
+          "x": 75,
+          "y": 27,
+          "score": 737,
+          "quad": 1,
+          "sector": 15,
+          "angle_deg": 87.19,
+          "desc": "32269c108f93cc063fb5088cc4f27372136390c7af5c84c2464544e9882abdb0"
+        },
+        {
+          "x": 24,
+          "y": 28,
+          "score": 1189,
+          "quad": 0,
+          "sector": 5,
+          "angle_deg": 149.06,
+          "desc": "534ddc14868bc91e4f35081908628d3c1867a887eacc84a0448406d9b81e1591"
+        },
+        {
+          "x": 82,
+          "y": 28,
+          "score": 904,
+          "quad": 1,
+          "sector": 11,
+          "angle_deg": 64.69,
+          "desc": "2bed763880c085cef08503429a7c8df4a42ea9842ee1a90f0082678aedfcdcdd"
+        },
+        {
+          "x": 90,
+          "y": 28,
+          "score": 795,
+          "quad": 1,
+          "sector": 8,
+          "angle_deg": 47.81,
+          "desc": "8b0fdd00c499f90b677449d988038fbd6a756cbccabcd4a47eec9e99d19e0491"
+        },
+        {
+          "x": 92,
+          "y": 28,
+          "score": 969,
+          "quad": 1,
+          "sector": 7,
+          "angle_deg": 42.19,
+          "desc": "930f9d00449be9036f740b998003a73d6b55ecb0cbbc54a066ec06f9e8168491"
+        },
+        {
+          "x": 46,
+          "y": 29,
+          "score": 682,
+          "quad": 1,
+          "sector": 13,
+          "angle_deg": 75.94,
+          "desc": "f230a2082ef95ca530ac16aaf01e736b30dbca62148d1225640f21ba8a20e90a"
+        },
+        {
+          "x": 76,
+          "y": 29,
+          "score": 872,
+          "quad": 1,
+          "sector": 15,
+          "angle_deg": 87.19,
+          "desc": "722ed4188e93cc063f9d069c5671737c156798872a6c848a460424ea2a2ebdb3"
+        },
+        {
+          "x": 80,
+          "y": 30,
+          "score": 1098,
+          "quad": 1,
+          "sector": 13,
+          "angle_deg": 75.94,
+          "desc": "6bed769884d5cff6b0850382db787d74b46f38a40ce0800b40966fea2d7cf59d"
+        },
+        {
+          "x": 46,
+          "y": 31,
+          "score": 890,
+          "quad": 1,
+          "sector": 13,
+          "angle_deg": 75.94,
+          "desc": "fa75a20c2efa5cbd308c16aa721c6f6a3053ca623c8d0235640e219aaa20690a"
+        },
+        {
+          "x": 78,
+          "y": 31,
+          "score": 750,
+          "quad": 1,
+          "sector": 14,
+          "angle_deg": 81.56,
+          "desc": "51eff01884f5c9f6bc9502925d785f7c946718350a6e84ca4584657a286cf59b"
+        },
+        {
+          "x": 92,
+          "y": 32,
+          "score": 1372,
+          "quad": 1,
+          "sector": 8,
+          "angle_deg": 47.81,
+          "desc": "930fdd06459bc803cf7c89998803c1b9ebd5eefdeabc54a066ec0479f0860791"
+        },
+        {
+          "x": 80,
+          "y": 33,
+          "score": 990,
+          "quad": 1,
+          "sector": 13,
+          "angle_deg": 75.94,
+          "desc": "7bed7a1894e5cd92b0c5036299785d34b46618b44cea8d6d49942b2c2d4cd09b"
+        },
+        {
+          "x": 59,
+          "y": 34,
+          "score": 995,
+          "quad": 1,
+          "sector": 7,
+          "angle_deg": 42.19,
+          "desc": "9707dc004c0879096f7cd9719402c01bcbd7cbe8d30f44c2f6ec8ab9b5c484cf"
+        },
+        {
+          "x": 40,
+          "y": 35,
+          "score": 534,
+          "quad": 0,
+          "sector": 12,
+          "angle_deg": 109.69,
+          "desc": "13065c11cd97aa06cf3788150ce3c19b8e7196affb78549a56c844fd14cf95a1"
+        },
+        {
+          "x": 70,
+          "y": 35,
+          "score": 1645,
+          "quad": 0,
+          "sector": 13,
+          "angle_deg": 104.06,
+          "desc": "c40f5d91478f80544f3fb87d0ee3c19899855accda5e949aa780547934cf95e7"
+        },
+        {
+          "x": 78,
+          "y": 35,
+          "score": 1407,
+          "quad": 1,
+          "sector": 15,
+          "angle_deg": 87.19,
+          "desc": "5fedf03894cdc994b2d502a2dd705d3c9d671834befa8cc94f82677c2e6c849b"
+        },
+        {
+          "x": 90,
+          "y": 35,
+          "score": 963,
+          "quad": 1,
+          "sector": 8,
+          "angle_deg": 47.81,
+          "desc": "938f5d005599680acf7c895d88c3c1bceac5e8fcc2bedce06aac1271d18785d5"
+        },
+        {
+          "x": 74,
+          "y": 36,
+          "score": 1182,
+          "quad": 0,
+          "sector": 12,
+          "angle_deg": 109.69,
+          "desc": "4d8e5c91b4878a14cf3728750c73473c1de112b4fa7884da4785447d1cea04b3"
+        },
+        {
+          "x": 30,
+          "y": 37,
+          "score": 402,
+          "quad": 0,
+          "sector": 3,
+          "angle_deg": 160.31,
+          "desc": "936592046e0979193b9c52b04d0ca52b0a53ee632b9d55a576ce20d98a143589"
+        },
+        {
+          "x": 39,
+          "y": 37,
+          "score": 443,
+          "quad": 0,
+          "sector": 7,
+          "angle_deg": 137.81,
+          "desc": "559e5c3154182204cf3de941b043c1b69ca51b8c43ae96c8e1808263318dc555"
+        },
+        {
+          "x": 42,
+          "y": 37,
+          "score": 607,
+          "quad": 1,
+          "sector": 15,
+          "angle_deg": 87.19,
+          "desc": "1226dc03ad87c82c9f951e9004f13b699f7392b7aa4858e2464d44d9ae7a9f80"
+        },
+        {
+          "x": 62,
+          "y": 38,
+          "score": 762,
+          "quad": 1,
+          "sector": 5,
+          "angle_deg": 30.94,
+          "desc": "53079c300c1b79046fbc1b8c8a0241bbabd7a8e0df9c148266ca06fde8078583"
+        },
+        {
+          "x": 79,
+          "y": 38,
+          "score": 859,
+          "quad": 1,
+          "sector": 15,
+          "angle_deg": 87.19,
+          "desc": "7fecd03b90cfc598b0f503a29a72bd3cf4e6b894eefa8ce00903af1c6e6cc499"
+        },
+        {
+          "x": 31,
+          "y": 39,
+          "score": 556,
+          "quad": 0,
+          "sector": 3,
+          "angle_deg": 160.31,
+          "desc": "8367920c6e18581d2f9e52bc730ea56b1ad36a6a0a9d5525764f20da8a1429a9"
+        },
+        {
+          "x": 44,
+          "y": 39,
+          "score": 806,
+          "quad": 1,
+          "sector": 13,
+          "angle_deg": 75.94,
+          "desc": "73e4e0098cc7cf3e9c95078654fc3974956f98b52c500842405166d86e7efd81"
+        },
+        {
+          "x": 70,
+          "y": 39,
+          "score": 1065,
+          "quad": 0,
+          "sector": 13,
+          "angle_deg": 104.06,
+          "desc": "048fdc11e70f4004cf3ff01576a340999da1520cf33e149a27c0507426cf85e7"
+        },
+        {
+          "x": 76,
+          "y": 39,
+          "score": 957,
+          "quad": 0,
+          "sector": 13,
+          "angle_deg": 104.06,
+          "desc": "6faeac12b4cfcf00bc9702860063af3c9767b090ecfa8cc84795067c4e5a06b0"
+        },
+        {
+          "x": 39,
+          "y": 40,
+          "score": 579,
+          "quad": 0,
+          "sector": 7,
+          "angle_deg": 137.81,
+          "desc": "559e5cb1549902444f3da949b0c3c1b49f853fdce0ae96c8a1800063318dc577"
+        },
+        {
+          "x": 62,
+          "y": 40,
+          "score": 748,
+          "quad": 1,
+          "sector": 4,
+          "angle_deg": 25.31,
+          "desc": "13059c314c9b4b066cbc1b888a42c1ac29c6a8c0ee9416a2468206d9f8070581"
+        },
+        {
+          "x": 66,
+          "y": 40,
+          "score": 392,
+          "quad": 1,
+          "sector": 9,
+          "angle_deg": 53.44,
+          "desc": "f3371ca44e3348056d3d188c8a23852b91d1aac7fddc12a066c844d5b85705a1"
+        },
+        {
+          "x": 85,
+          "y": 40,
+          "score": 525,
+          "quad": 1,
+          "sector": 7,
+          "angle_deg": 42.19,
+          "desc": "4fcc5d91d0cd8bc0c161c9518943cd9cfce438acd2aaadca29a6ff3975cdc4cf"
+        },
+        {
+          "x": 45,
+          "y": 42,
+          "score": 1288,
+          "quad": 1,
+          "sector": 11,
+          "angle_deg": 64.69,
+          "desc": "77bc6239bcc685b6b08502025ef84974942f98052c628a4b409267e26c78fdb9"
+        },
+        {
+          "x": 57,
+          "y": 42,
+          "score": 2327,
+          "quad": 1,
+          "sector": 4,
+          "angle_deg": 25.31,
+          "desc": "1346dc005c1d4b82ef3d09d989c2853dee65eabcc3fc7de546ec0e99f1129590"
+        },
+        {
+          "x": 71,
+          "y": 42,
+          "score": 749,
+          "quad": 0,
+          "sector": 11,
+          "angle_deg": 115.31,
+          "desc": "448fd1b1d31fc000cfbe830bfee341bc9de55285c37e94c8a7a2346e230da557"
+        },
+        {
+          "x": 77,
+          "y": 42,
+          "score": 1131,
+          "quad": 0,
+          "sector": 12,
+          "angle_deg": 109.69,
+          "desc": "33ee3c12b48fcf02dc8702868867bf241667b4932ef2cc704695054b4e3a1790"
+        },
+        {
+          "x": 89,
+          "y": 42,
+          "score": 440,
+          "quad": 1,
+          "sector": 4,
+          "angle_deg": 25.31,
+          "desc": "570f5d1154996902cf68895d88c3c1bdbce4ba9cd2bcbcca6be49a71718d8547"
+        },
+        {
+          "x": 32,
+          "y": 44,
+          "score": 1051,
+          "quad": 0,
+          "sector": 3,
+          "angle_deg": 160.31,
+          "desc": "e063920c6e2858412b0e76be7606376b1893436a5b0d3535ff0f715e8b502828"
+        },
+        {
+          "x": 37,
+          "y": 44,
+          "score": 613,
+          "quad": 0,
+          "sector": 5,
+          "angle_deg": 149.06,
+          "desc": "601a3c9942f906450d2ca88df7d341b49f841bdc542c960ba197986723ade15f"
+        },
+        {
+          "x": 28,
+          "y": 45,
+          "score": 374,
+          "quad": 0,
+          "sector": 3,
+          "angle_deg": 160.31,
+          "desc": "db4596042f077a99335e5af20d0ca5ab0853c6e3ef095c975cec4499ac5234a8"
+        },
+        {
+          "x": 44,
+          "y": 45,
+          "score": 978,
+          "quad": 1,
+          "sector": 13,
+          "angle_deg": 75.94,
+          "desc": "65ace29994678d969087262670785d5494671010187a8c4b4193e76a2f6ce9bd"
+        },
+        {
+          "x": 69,
+          "y": 45,
+          "score": 641,
+          "quad": 0,
+          "sector": 15,
+          "angle_deg": 92.81,
+          "desc": "d4b7a01d7f3b6a640ebeba1f4ce2c03b18c75274715c96db678404792020a127"
+        },
+        {
+          "x": 73,
+          "y": 45,
+          "score": 1416,
+          "quad": 0,
+          "sector": 8,
+          "angle_deg": 132.19,
+          "desc": "13aeddf3909f80829bb1a70ddce051b4bfe59ab402fc94e186023c69802db5dd"
+        },
+        {
+          "x": 76,
+          "y": 45,
+          "score": 1719,
+          "quad": 0,
+          "sector": 9,
+          "angle_deg": 126.56,
+          "desc": "332e5c2d8597c902cbb30a1cb0e9853c3665a4b72afcd8b1464041cbd83215b1"
+        },
+        {
+          "x": 85,
+          "y": 46,
+          "score": 534,
+          "quad": 2,
+          "sector": 4,
+          "angle_deg": 334.69,
+          "desc": "1707d004af07f80def974a940caca32aea5384f7fb594cb256ec44d9ce5215a0"
+        },
+        {
+          "x": 88,
+          "y": 46,
+          "score": 375,
+          "quad": 2,
+          "sector": 4,
+          "angle_deg": 334.69,
+          "desc": "1707dc148d17e806ef154a190ce0c13baa7390e7eb5854d246e444f9384e95a0"
+        },
+        {
+          "x": 94,
+          "y": 46,
+          "score": 975,
+          "quad": 2,
+          "sector": 10,
+          "angle_deg": 300.94,
+          "desc": "772efcb5b71b0a044fbb280d0ce3409411e192c67a58849a078004fd18eb15b2"
+        },
+        {
+          "x": 28,
+          "y": 47,
+          "score": 373,
+          "quad": 0,
+          "sector": 3,
+          "angle_deg": 160.31,
+          "desc": "dbc596242f067a9933565af20d84a7ab5853c6e7ef4b5c935cae4419ac5234a8"
+        },
+        {
+          "x": 34,
+          "y": 47,
+          "score": 587,
+          "quad": 0,
+          "sector": 3,
+          "angle_deg": 160.31,
+          "desc": "e45a119e7669545139ce74b67637762410855348505ab73db517396607046363"
+        },
+        {
+          "x": 44,
+          "y": 47,
+          "score": 810,
+          "quad": 1,
+          "sector": 14,
+          "angle_deg": 81.56,
+          "desc": "65ecf2b994078196908327a250707d3494a63a3008ea8c490193af680f6ce5bf"
+        },
+        {
+          "x": 46,
+          "y": 47,
+          "score": 1233,
+          "quad": 1,
+          "sector": 11,
+          "angle_deg": 64.69,
+          "desc": "7dec729ab50c8d96b08102f2e8784f14942718ac38eaad5f8d97a12a6c68e1b9"
+        },
+        {
+          "x": 56,
+          "y": 47,
+          "score": 2081,
+          "quad": 1,
+          "sector": 4,
+          "angle_deg": 25.31,
+          "desc": "d78edc30541d6a03ef7c495889c2c1baffc7b8fc6feef4c042a006397105859b"
+        },
+        {
+          "x": 62,
+          "y": 47,
+          "score": 1116,
+          "quad": 1,
+          "sector": 4,
+          "angle_deg": 25.31,
+          "desc": "713e7c3d54bb04044cbc8945b053c13c9185add4a29c96a0438084f7a0858557"
+        },
+        {
+          "x": 95,
+          "y": 48,
+          "score": 1334,
+          "quad": 2,
+          "sector": 13,
+          "angle_deg": 284.06,
+          "desc": "572e9cf5269b0a140fbf2a0d0463408619c1dac47a5c848a4781046d182f85b3"
+        },
+        {
+          "x": 44,
+          "y": 49,
+          "score": 1069,
+          "quad": 1,
+          "sector": 15,
+          "angle_deg": 87.19,
+          "desc": "65ecd19bb40f81dc9381322248643d949d2632b04aea8c690113bf682e7ce5bd"
+        },
+        {
+          "x": 71,
+          "y": 49,
+          "score": 1685,
+          "quad": 0,
+          "sector": 11,
+          "angle_deg": 115.31,
+          "desc": "253fa999f36b009e8ebaaa3746f24b9494a71a25503e8ea8a7d33a7c04e891fe"
+        },
+        {
+          "x": 27,
+          "y": 50,
+          "score": 455,
+          "quad": 0,
+          "sector": 1,
+          "angle_deg": 171.56,
+          "desc": "9f45d6045d05fa9be3554b630f848dbb4e77d6a7fb6b5ccb58ec46997cd654a7"
+        },
+        {
+          "x": 29,
+          "y": 50,
+          "score": 504,
+          "quad": 0,
+          "sector": 2,
+          "angle_deg": 165.94,
+          "desc": "8fc7d2042704fa99b3575a720dacadbb4e7356a37b4b5ddf5dee74192c5074b8"
+        },
+        {
+          "x": 33,
+          "y": 50,
+          "score": 1167,
+          "quad": 0,
+          "sector": 2,
+          "angle_deg": 165.94,
+          "desc": "a8ea91cc362fd8d139c774b664b6372c1283575b124bfd3dfd1f390e0750297a"
+        },
+        {
+          "x": 41,
+          "y": 50,
+          "score": 1196,
+          "quad": 0,
+          "sector": 14,
+          "angle_deg": 98.44,
+          "desc": "65caed9bb54583508f932a274c63c5941d251295f87abc498791f46c1dea35b6"
+        },
+        {
+          "x": 55,
+          "y": 50,
+          "score": 2252,
+          "quad": 1,
+          "sector": 4,
+          "angle_deg": 25.31,
+          "desc": "578edf30549cab80cf70cb4188c3c1bafdd4e8fc5aee94c046a00e3df90cc49f"
+        },
+        {
+          "x": 62,
+          "y": 50,
+          "score": 1271,
+          "quad": 1,
+          "sector": 3,
+          "angle_deg": 19.69,
+          "desc": "713e5c98049b05450dacb115f013c13c9085b948529c86aa6182aa732125c147"
+        },
+        {
+          "x": 71,
+          "y": 51,
+          "score": 1579,
+          "quad": 0,
+          "sector": 10,
+          "angle_deg": 120.94,
+          "desc": "2dbfa999b26b02d6029aa2572ef24b1c94a750a4103e8e7827d33b7c46e891f7"
+        },
+        {
+          "x": 43,
+          "y": 52,
+          "score": 887,
+          "quad": 0,
+          "sector": 13,
+          "angle_deg": 104.06,
+          "desc": "21ee6ddbb0c7815ac793a80708693f949d2630974af2ec7c0751ff485ef01698"
+        },
+        {
+          "x": 30,
+          "y": 53,
+          "score": 532,
+          "quad": 0,
+          "sector": 1,
+          "angle_deg": 171.56,
+          "desc": "0dc5d38ca704d8d8b35762720dacafb84e73563b5a696d5f78ee71186c5a74ac"
+        },
+        {
+          "x": 55,
+          "y": 53,
+          "score": 1887,
+          "quad": 2,
+          "sector": 1,
+          "angle_deg": 351.56,
+          "desc": "17a6de319c176b06ef3f0b4b8ae0c1bfae67b8b6e3fc54da42e05469788a959c"
+        },
+        {
+          "x": 62,
+          "y": 53,
+          "score": 1245,
+          "quad": 2,
+          "sector": 1,
+          "angle_deg": 351.56,
+          "desc": "d51f7c18d48949044c3d8914b763411494e7181cd64e96284194026235c5c1d7"
+        },
+        {
+          "x": 78,
+          "y": 53,
+          "score": 845,
+          "quad": 3,
+          "sector": 15,
+          "angle_deg": 267.19,
+          "desc": "bb014c2088d15721600449698b08c490e25e8ffcd4857727d8d8caf3b98f600f"
+        },
+        {
+          "x": 94,
+          "y": 53,
+          "score": 1538,
+          "quad": 2,
+          "sector": 14,
+          "angle_deg": 278.44,
+          "desc": "5726dc111e1728054fbf0a0c8ce3c0babdd198f4fb5c149246a404fd380285b3"
+        },
+        {
+          "x": 22,
+          "y": 54,
+          "score": 1237,
+          "quad": 3,
+          "sector": 0,
+          "angle_deg": 182.81,
+          "desc": "77b65c21dc1b6f02ce2cc901b203c1bbe7f4b89c57bc4eca42ea8a7171ed85cf"
+        },
+        {
+          "x": 81,
+          "y": 54,
+          "score": 1075,
+          "quad": 2,
+          "sector": 12,
+          "angle_deg": 289.69,
+          "desc": "9a71fa124c31d8ad62fc17f8f41c417fe3d7cc6c9dbd0387584e63bca924f90b"
+        },
+        {
+          "x": 37,
+          "y": 55,
+          "score": 726,
+          "quad": 3,
+          "sector": 0,
+          "angle_deg": 182.81,
+          "desc": "70783cfd86fb047414ad92ace17776e43188094074d5828b9503e1e2982d6861"
+        },
+        {
+          "x": 66,
+          "y": 55,
+          "score": 1009,
+          "quad": 2,
+          "sector": 9,
+          "angle_deg": 306.56,
+          "desc": "6b325cf5c4b78c05c33a91402423c09ca4f0c8bc7a0c151a8980f17210cd60e5"
+        },
+        {
+          "x": 69,
+          "y": 55,
+          "score": 871,
+          "quad": 2,
+          "sector": 15,
+          "angle_deg": 272.81,
+          "desc": "8d869bd5361a291c4f18f8552467828b188142ef4b0f046467c9885f32871521"
+        },
+        {
+          "x": 98,
+          "y": 55,
+          "score": 1739,
+          "quad": 2,
+          "sector": 15,
+          "angle_deg": 272.81,
+          "desc": "1386ddd55c1328064fb99b1d88e3809bbbc5eae4cb5e14c266cc9ed9b0178585"
+        },
+        {
+          "x": 53,
+          "y": 56,
+          "score": 1298,
+          "quad": 2,
+          "sector": 9,
+          "angle_deg": 306.56,
+          "desc": "7366dc14ac07cd1c2e971aa60c642f2b927382a36f5808a4464d44dd8e721580"
+        },
+        {
+          "x": 59,
+          "y": 56,
+          "score": 2022,
+          "quad": 2,
+          "sector": 6,
+          "angle_deg": 323.44,
+          "desc": "55055c100c1b42540cbc28a50fe2c1b29fa79ac4fd7e86cae38446e939ceb533"
+        },
+        {
+          "x": 88,
+          "y": 56,
+          "score": 1177,
+          "quad": 2,
+          "sector": 11,
+          "angle_deg": 295.31,
+          "desc": "1bcfdd06258fe99afb5706b600acaf2c6f73e6b3aaf95df15e4d5519ce5216b0"
+        },
+        {
+          "x": 96,
+          "y": 56,
+          "score": 1493,
+          "quad": 2,
+          "sector": 15,
+          "angle_deg": 272.81,
+          "desc": "d7a6d6150e1328044fb85b1c80e3c19b9bd5eae4eb5a04c246cc46d9f8069581"
+        },
+        {
+          "x": 65,
+          "y": 57,
+          "score": 1925,
+          "quad": 2,
+          "sector": 10,
+          "angle_deg": 300.94,
+          "desc": "6b1b5cb08efb1c05462f186d2023c00414e1c88efc5d860a9990007618cf6493"
+        },
+        {
+          "x": 70,
+          "y": 57,
+          "score": 1109,
+          "quad": 3,
+          "sector": 15,
+          "angle_deg": 267.19,
+          "desc": "61b61dd5660b09144f38b8752463809b1891f3ed521e144b678d8847b4940565"
+        },
+        {
+          "x": 85,
+          "y": 57,
+          "score": 1119,
+          "quad": 2,
+          "sector": 11,
+          "angle_deg": 295.31,
+          "desc": "8a4f9d020689d91b33d417be8b4cbf6d4b4f6e320edd49a0664f3798c91e0289"
+        },
+        {
+          "x": 21,
+          "y": 58,
+          "score": 1412,
+          "quad": 3,
+          "sector": 4,
+          "angle_deg": 205.31,
+          "desc": "96bf1d27569b6a034f6ccf88a203c13c69d4e9d0c6be96e067269273c0070643"
+        },
+        {
+          "x": 45,
+          "y": 58,
+          "score": 1026,
+          "quad": 3,
+          "sector": 15,
+          "angle_deg": 267.19,
+          "desc": "7b187e30cad8167d602c896caf5ad1b4809ccdec74858727d88021a3918dc04b"
+        },
+        {
+          "x": 88,
+          "y": 58,
+          "score": 1013,
+          "quad": 2,
+          "sector": 11,
+          "angle_deg": 295.31,
+          "desc": "8bcfddc6f58fc90af3536697080caf2c6f73e4b38af8ddf45e4c751cce1a16b0"
+        },
+        {
+          "x": 49,
+          "y": 59,
+          "score": 1585,
+          "quad": 2,
+          "sector": 14,
+          "angle_deg": 278.44,
+          "desc": "7275e2190cf95ee730ac93daf97c4574104ea860008d82214042abeaa924e90f"
+        },
+        {
+          "x": 57,
+          "y": 59,
+          "score": 876,
+          "quad": 2,
+          "sector": 9,
+          "angle_deg": 306.56,
+          "desc": "5305dc108f1348464fbf1a9d47e2c1ba99c3804f6a5d1483468044f92055bda2"
+        },
+        {
+          "x": 98,
+          "y": 59,
+          "score": 1243,
+          "quad": 2,
+          "sector": 15,
+          "angle_deg": 272.81,
+          "desc": "0b06df444c023809cf3879518c83809b6bf1eaa7fb18548276ec56ddfc569585"
+        },
+        {
+          "x": 39,
+          "y": 60,
+          "score": 675,
+          "quad": 3,
+          "sector": 9,
+          "angle_deg": 233.44,
+          "desc": "80a79d8e6713c8322ff5668844adab6d7b215653aee4543a664d15f84a123fa2"
+        },
+        {
+          "x": 47,
+          "y": 60,
+          "score": 1691,
+          "quad": 3,
+          "sector": 15,
+          "angle_deg": 267.19,
+          "desc": "73387cb80cf904e7602c0348f878c07480dea97c2c858327709221e3a925f949"
+        },
+        {
+          "x": 60,
+          "y": 60,
+          "score": 1720,
+          "quad": 2,
+          "sector": 9,
+          "angle_deg": 306.56,
+          "desc": "53039c340e1b0e470d3d09898fe7c1a2995788c76e4494a0468404fdb806b5f1"
+        },
+        {
+          "x": 79,
+          "y": 60,
+          "score": 1030,
+          "quad": 2,
+          "sector": 15,
+          "angle_deg": 272.81,
+          "desc": "ea1e3d4206d9de08706415d9a307aa2c70c4eb7bcc85d3a43c0c0b13d19fc05d"
+        },
+        {
+          "x": 90,
+          "y": 60,
+          "score": 923,
+          "quad": 2,
+          "sector": 12,
+          "angle_deg": 289.69,
+          "desc": "09cfdd96f70fd9c1a3526ed30c23a73c5f6774b7cafabd7c2fa594384e5a06b0"
+        },
+        {
+          "x": 22,
+          "y": 61,
+          "score": 1463,
+          "quad": 3,
+          "sector": 8,
+          "angle_deg": 227.81,
+          "desc": "c89e9dc456991a434f78d959a107c02c69c569f8c29eb6a42fae9871f1870045"
+        },
+        {
+          "x": 42,
+          "y": 61,
+          "score": 1185,
+          "quad": 3,
+          "sector": 13,
+          "angle_deg": 255.94,
+          "desc": "01009dd44e9100474d39a81d8561d080391809ded2ccb5a7b684dced91879565"
+        },
+        {
+          "x": 55,
+          "y": 61,
+          "score": 1546,
+          "quad": 2,
+          "sector": 12,
+          "angle_deg": 289.69,
+          "desc": "73649c452fdb0b460c9c0a9d0865b5283143a0e36adc90a0668504dbb81227b0"
+        },
+        {
+          "x": 70,
+          "y": 61,
+          "score": 613,
+          "quad": 3,
+          "sector": 15,
+          "angle_deg": 267.19,
+          "desc": "713a1c91468b03154f2db86d8c03c0901084dafc501c9629e5818c7f30c4c1ff"
+        },
+        {
+          "x": 81,
+          "y": 61,
+          "score": 932,
+          "quad": 2,
+          "sector": 14,
+          "angle_deg": 278.44,
+          "desc": "ebbe3dcc46f9dd18736491f8a207bb2c70cde9bb468dd325290c231380bd4859"
+        },
+        {
+          "x": 86,
+          "y": 61,
+          "score": 594,
+          "quad": 2,
+          "sector": 12,
+          "angle_deg": 289.69,
+          "desc": "49cf9d8ac4c9495ab3c4269a88563f2c3c273db302a6d9a46f073f18cb1e3699"
+        },
+        {
+          "x": 52,
+          "y": 62,
+          "score": 1422,
+          "quad": 2,
+          "sector": 14,
+          "angle_deg": 278.44,
+          "desc": "32ac90281ebb4d0e3fbc0788f27c31640346a9502e84c0a0660326caaa24fb19"
+        },
+        {
+          "x": 57,
+          "y": 62,
+          "score": 927,
+          "quad": 2,
+          "sector": 11,
+          "angle_deg": 295.31,
+          "desc": "53079c140f1b08444fbc189c25f2a1a839c3a5d7abdc84b0460404f9a89205b0"
+        },
+        {
+          "x": 63,
+          "y": 62,
+          "score": 1296,
+          "quad": 2,
+          "sector": 11,
+          "angle_deg": 295.31,
+          "desc": "73163cb40c1b0e146f3c198da8e3412230c5a8f06fcc06a0678502eb3887851b"
+        },
+        {
+          "x": 73,
+          "y": 62,
+          "score": 987,
+          "quad": 3,
+          "sector": 15,
+          "angle_deg": 267.19,
+          "desc": "c52bddd154bb5b454fbcb95ddc07c0bcb8c4cb54d0dc94a0e38a8efb918fa1df"
+        },
+        {
+          "x": 76,
+          "y": 62,
+          "score": 1047,
+          "quad": 2,
+          "sector": 15,
+          "angle_deg": 272.81,
+          "desc": "da1bdc4054b9da4d5f7c91199307d0b439c44958c68c96a0a1048e41a1876057"
+        },
+        {
+          "x": 44,
+          "y": 63,
+          "score": 1615,
+          "quad": 3,
+          "sector": 12,
+          "angle_deg": 250.31,
+          "desc": "71081cc4029900464d29a91d8308b0a4081c2ddf42c5b4a4b28088c391979555"
+        },
+        {
+          "x": 48,
+          "y": 63,
+          "score": 1097,
+          "quad": 3,
+          "sector": 15,
+          "angle_deg": 267.19,
+          "desc": "733c786c0cfb5c2e4cac8b48f158c174825fac572c844220407a23c3a025d91d"
+        },
+        {
+          "x": 91,
+          "y": 63,
+          "score": 1590,
+          "quad": 2,
+          "sector": 12,
+          "angle_deg": 289.69,
+          "desc": "4d8edd9cb78f9350a37330f76c634fbc1ca552bcdabead7dbf85993c074a04b6"
+        },
+        {
+          "x": 30,
+          "y": 64,
+          "score": 514,
+          "quad": 3,
+          "sector": 4,
+          "angle_deg": 205.31,
+          "desc": "29c05ec0c984b4dac151e9730fa88c9eac3f1d9d4a69ed4798a4db893ddcd4cd"
+        },
+        {
+          "x": 69,
+          "y": 64,
+          "score": 1207,
+          "quad": 3,
+          "sector": 15,
+          "angle_deg": 267.19,
+          "desc": "d72e5c115c9b2e164fbd8a6cc843c1b6b0c5aafc5dfc948945860cebb884e5db"
+        },
+        {
+          "x": 86,
+          "y": 64,
+          "score": 824,
+          "quad": 2,
+          "sector": 12,
+          "angle_deg": 289.69,
+          "desc": "49ccbdda84d9095cb12537bf99533f24bda42980c2ee81e52f07af48c91ea61d"
+        },
+        {
+          "x": 44,
+          "y": 65,
+          "score": 959,
+          "quad": 3,
+          "sector": 10,
+          "angle_deg": 239.06,
+          "desc": "c04c9dc5069b094e5db8b11d8115b0ac09042ddb02dce4a0a6008ec991961455"
+        },
+        {
+          "x": 51,
+          "y": 65,
+          "score": 1395,
+          "quad": 3,
+          "sector": 15,
+          "angle_deg": 267.19,
+          "desc": "32fce8215c7b6d2e6cac8988f252317e03c7ac43ac96c2e0400a02d0e83459d1"
+        },
+        {
+          "x": 62,
+          "y": 65,
+          "score": 1070,
+          "quad": 2,
+          "sector": 12,
+          "angle_deg": 289.69,
+          "desc": "77065c341c1b6f14ef3d198ca063c1b3b2c5aafc6f9c04c040880261b8078541"
+        },
+        {
+          "x": 66,
+          "y": 65,
+          "score": 1124,
+          "quad": 2,
+          "sector": 15,
+          "angle_deg": 272.81,
+          "desc": "37275c105c1b4b16ef3d89acaa62c1b3bac5aadc4ffc14c144c000e3b08585db"
+        },
+        {
+          "x": 76,
+          "y": 65,
+          "score": 1477,
+          "quad": 2,
+          "sector": 15,
+          "angle_deg": 272.81,
+          "desc": "da9d9c1156994a476d3c8949a342d1b639c4a9c8c68e86e0e08488e1b1876447"
+        },
+        {
+          "x": 80,
+          "y": 65,
+          "score": 1244,
+          "quad": 2,
+          "sector": 14,
+          "angle_deg": 278.44,
+          "desc": "6bdd3cd456d90b46602c8948a853993410c469e8468e82a46184034390b5405b"
+        },
+        {
+          "x": 47,
+          "y": 66,
+          "score": 687,
+          "quad": 3,
+          "sector": 12,
+          "angle_deg": 250.31,
+          "desc": "73d80c65181b470e6c2c89c9ab46a5a6020eadc7e686c2e000b886c3b0975451"
+        },
+        {
+          "x": 55,
+          "y": 66,
+          "score": 1039,
+          "quad": 2,
+          "sector": 15,
+          "angle_deg": 272.81,
+          "desc": "52641c131c1b2d46ec8d4f899150757affd7ace48fba84c0462706fde8068791"
+        },
+        {
+          "x": 59,
+          "y": 66,
+          "score": 1424,
+          "quad": 2,
+          "sector": 12,
+          "angle_deg": 289.69,
+          "desc": "730e5c34161b6d056e2e08dd836281b39fd6aaecefbe04d446e80465802785d3"
+        },
+        {
+          "x": 90,
+          "y": 66,
+          "score": 915,
+          "quad": 2,
+          "sector": 11,
+          "angle_deg": 295.31,
+          "desc": "612a7dd993bb81d4c323b86d60735e9434a439ac60ee953da181b926108e65e6"
+        },
+        {
+          "x": 92,
+          "y": 66,
+          "score": 1163,
+          "quad": 2,
+          "sector": 11,
+          "angle_deg": 295.31,
+          "desc": "61ea5dddd3bf80d4033bb07f446248949ca5139c50eeb43da181b924308c6166"
+        },
+        {
+          "x": 94,
+          "y": 66,
+          "score": 1108,
+          "quad": 2,
+          "sector": 11,
+          "angle_deg": 295.31,
+          "desc": "e1cb599c73b984d003e3b07f45e2c8949ca55b5c706fb53da195b124318ce16f"
+        },
+        {
+          "x": 44,
+          "y": 67,
+          "score": 1150,
+          "quad": 3,
+          "sector": 9,
+          "angle_deg": 233.44,
+          "desc": "c36c9dc5469b0b4e55b8991d8047beae09c4adc3429cc0a026008ad990960455"
+        },
+        {
+          "x": 61,
+          "y": 67,
+          "score": 990,
+          "quad": 2,
+          "sector": 12,
+          "angle_deg": 289.69,
+          "desc": "f7865c204c1b6d006f3f09cc8063c1b396f5ea8c6e9e04c041e80275b807858b"
+        },
+        {
+          "x": 83,
+          "y": 67,
+          "score": 822,
+          "quad": 2,
+          "sector": 12,
+          "angle_deg": 289.69,
+          "desc": "72ecfc7494d90d5e55a58551b17235f411c6a9c842ee84e44102aaede1b445cd"
+        },
+        {
+          "x": 21,
+          "y": 68,
+          "score": 1236,
+          "quad": 3,
+          "sector": 10,
+          "angle_deg": 239.06,
+          "desc": "8d8e9d835e9b2a43cf78c91981c3c09fefc53ddcc3bef4d2b6e49cfb718b8657"
+        },
+        {
+          "x": 47,
+          "y": 68,
+          "score": 619,
+          "quad": 3,
+          "sector": 11,
+          "angle_deg": 244.69,
+          "desc": "53c41c65081b670e4c3cd9498340a5b20b4eadebe696c6e400228ec1b0970555"
+        },
+        {
+          "x": 68,
+          "y": 68,
+          "score": 1067,
+          "quad": 3,
+          "sector": 15,
+          "angle_deg": 267.19,
+          "desc": "53a7dc00441b6800cfbd0b509163c1329ef5b8846f5e54c244c0047b29c6c591"
+        },
+        {
+          "x": 75,
+          "y": 68,
+          "score": 1742,
+          "quad": 2,
+          "sector": 15,
+          "angle_deg": 272.81,
+          "desc": "579c9c3144994944ef3c89c1a343c1b85df4b9acd2ac96ca60a08a73718fc445"
+        },
+        {
+          "x": 80,
+          "y": 68,
+          "score": 647,
+          "quad": 2,
+          "sector": 14,
+          "angle_deg": 278.44,
+          "desc": "7fdc3c1014c90f46e42c8b418943cd3474d4b9f856ac86ce60a68ae171a4444d"
+        },
+        {
+          "x": 97,
+          "y": 68,
+          "score": 846,
+          "quad": 2,
+          "sector": 9,
+          "angle_deg": 306.56,
+          "desc": "e03a69f932fd94d11c41b22a7507c484908e5a785442912d999afd2639c5e02f"
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "width": 100,
+      "height": 75,
+      "gauss_width": 94,
+      "gauss_height": 69,
+      "nms_keypoints": 141,
+      "valid_features": 68,
+      "features": [
+        {
+          "x": 68,
+          "y": 21,
+          "score": 478,
+          "quad": 1,
+          "sector": 8,
+          "angle_deg": 47.81,
+          "desc": "296956588080ddde50a0835a896caeb4a02a2d8f4285ad240084eb89d19cd05d"
+        },
+        {
+          "x": 77,
+          "y": 23,
+          "score": 994,
+          "quad": 1,
+          "sector": 7,
+          "angle_deg": 42.19,
+          "desc": "934f9d02449beb0b5ff44f998801af3deb57ece0cabc54a0666c06d9e81e9691"
+        },
+        {
+          "x": 39,
+          "y": 24,
+          "score": 688,
+          "quad": 1,
+          "sector": 10,
+          "angle_deg": 59.06,
+          "desc": "7639603800b8548530ac17e8f21a5134f0d689783c85832dc9122126ab05e95b"
+        },
+        {
+          "x": 63,
+          "y": 24,
+          "score": 693,
+          "quad": 1,
+          "sector": 10,
+          "angle_deg": 59.06,
+          "desc": "73aff01885c5cc36bcb5078271fc2d743667b0332ce48a68404465da6e3e7990"
+        },
+        {
+          "x": 75,
+          "y": 24,
+          "score": 868,
+          "quad": 1,
+          "sector": 9,
+          "angle_deg": 53.44,
+          "desc": "8b0ddd82c491f90b6774495988038fbe69d56caecabcd5a47ee41e99d19e1695"
+        },
+        {
+          "x": 67,
+          "y": 25,
+          "score": 1039,
+          "quad": 1,
+          "sector": 9,
+          "angle_deg": 53.44,
+          "desc": "7bedda3880c4c59af08503629bec8db4b42ebcb52ee3ed6d098267086ddcd49d"
+        },
+        {
+          "x": 33,
+          "y": 26,
+          "score": 372,
+          "quad": 0,
+          "sector": 8,
+          "angle_deg": 132.19,
+          "desc": "17034c11cc0672256e3de9c1bf0ac1bb8e7f9e8cd740568ad0c442f125cdd5c7"
+        },
+        {
+          "x": 39,
+          "y": 26,
+          "score": 836,
+          "quad": 1,
+          "sector": 10,
+          "angle_deg": 59.06,
+          "desc": "7a79a23800b8549d30ac13eafa0c79b4b0de88707c85822549122326aa05e14b"
+        },
+        {
+          "x": 67,
+          "y": 27,
+          "score": 838,
+          "quad": 1,
+          "sector": 10,
+          "angle_deg": 59.06,
+          "desc": "7bec5e389085c59af00503629bc88db4b46e98b46ee38d6d099267286d5cf49d"
+        },
+        {
+          "x": 77,
+          "y": 27,
+          "score": 1347,
+          "quad": 1,
+          "sector": 9,
+          "angle_deg": 53.44,
+          "desc": "9b0f9d07469be803cf7689998803c3adebd1ecddeabc54b066ec04f9d0830691"
+        },
+        {
+          "x": 49,
+          "y": 29,
+          "score": 947,
+          "quad": 1,
+          "sector": 10,
+          "angle_deg": 59.06,
+          "desc": "cd899d40740b7349676c79718b03c89b4ad4ffccd39f54ca73ac1a359187844f"
+        },
+        {
+          "x": 58,
+          "y": 29,
+          "score": 1247,
+          "quad": 1,
+          "sector": 13,
+          "angle_deg": 75.94,
+          "desc": "961e9d07371fca110e592eb90de3c20d3fe752f1f87e56b947cd04793a0e27b2"
+        },
+        {
+          "x": 65,
+          "y": 29,
+          "score": 1348,
+          "quad": 1,
+          "sector": 11,
+          "angle_deg": 64.69,
+          "desc": "7fec683994458796808103625c78cd34d46698b45c628c4b0190ef7c2d6cf19f"
+        },
+        {
+          "x": 75,
+          "y": 29,
+          "score": 1079,
+          "quad": 1,
+          "sector": 10,
+          "angle_deg": 59.06,
+          "desc": "cb8d5d43469b7a4bc77a89598983c0bceed5adfcc2bcd7b02aac1a31d18b8453"
+        },
+        {
+          "x": 32,
+          "y": 30,
+          "score": 376,
+          "quad": 0,
+          "sector": 5,
+          "angle_deg": 149.06,
+          "desc": "359e681054386a06ee2ce9d1b2c2c1369f85bfcc45a6f648e0b40a6321acc55f"
+        },
+        {
+          "x": 35,
+          "y": 31,
+          "score": 606,
+          "quad": 1,
+          "sector": 15,
+          "angle_deg": 87.19,
+          "desc": "1266dc418c87892c9f95178554b534699b738a178a5858a0444946d8ee76bf81"
+        },
+        {
+          "x": 75,
+          "y": 31,
+          "score": 988,
+          "quad": 1,
+          "sector": 10,
+          "angle_deg": 59.06,
+          "desc": "cb9c5d45529b1a434f6a895da083c0bcf8d4addcc2bcd6b06aa49a31d18b8457"
+        },
+        {
+          "x": 58,
+          "y": 32,
+          "score": 750,
+          "quad": 1,
+          "sector": 15,
+          "angle_deg": 87.19,
+          "desc": "d526dd0b6727e8004f71f89527e3c3099ea1524cfb7e149a07cd447d34cb97a2"
+        },
+        {
+          "x": 66,
+          "y": 32,
+          "score": 906,
+          "quad": 1,
+          "sector": 11,
+          "angle_deg": 64.69,
+          "desc": "6dec6a98944d07d4a0852362b9720d34946698945cea8c4b41b2eb656d6cc59f"
+        },
+        {
+          "x": 37,
+          "y": 33,
+          "score": 783,
+          "quad": 1,
+          "sector": 8,
+          "angle_deg": 47.81,
+          "desc": "73e8623db184c59eb08512e20a6c2da4102ea1176cc3a8658111e542acf45130"
+        },
+        {
+          "x": 70,
+          "y": 33,
+          "score": 487,
+          "quad": 1,
+          "sector": 9,
+          "angle_deg": 53.44,
+          "desc": "4fcd7cb1d0c80544c26089519b528d94fca6399cc2aaadcc09a68b3575cdc4dd"
+        },
+        {
+          "x": 56,
+          "y": 34,
+          "score": 415,
+          "quad": 1,
+          "sector": 14,
+          "angle_deg": 81.56,
+          "desc": "933698056f1f6804cfbfd81464a3c00bfa91c24ff11c3692f6cc4077a0c195e0"
+        },
+        {
+          "x": 35,
+          "y": 35,
+          "score": 630,
+          "quad": 1,
+          "sector": 13,
+          "angle_deg": 75.94,
+          "desc": "33a6f0b98c2789269e95261254f9617497669a15086a50ca42436eea2e7efdad"
+        },
+        {
+          "x": 47,
+          "y": 35,
+          "score": 2223,
+          "quad": 1,
+          "sector": 7,
+          "angle_deg": 42.19,
+          "desc": "8b4fdd05d59b4b00eb75d9598a02893deff5edbc42bd5db66aec1219d09e04c5"
+        },
+        {
+          "x": 38,
+          "y": 36,
+          "score": 960,
+          "quad": 1,
+          "sector": 6,
+          "angle_deg": 36.56,
+          "desc": "69c87698a50487dca10538720f782d949c2b138f6e6bad6d9914650e37fc54a4"
+        },
+        {
+          "x": 27,
+          "y": 37,
+          "score": 810,
+          "quad": 0,
+          "sector": 2,
+          "angle_deg": 165.94,
+          "desc": "c1479c0c260b58c13b1e32ba6406e5a818834a685a4f953dfd8e307e2a4461ba"
+        },
+        {
+          "x": 64,
+          "y": 37,
+          "score": 1384,
+          "quad": 1,
+          "sector": 11,
+          "angle_deg": 64.69,
+          "desc": "55b4e2b894650974a09522b2dd52593c94a618a45d688c4b59876f7c2d6ccc8f"
+        },
+        {
+          "x": 78,
+          "y": 38,
+          "score": 950,
+          "quad": 2,
+          "sector": 15,
+          "angle_deg": 272.81,
+          "desc": "2026bdbbae1302140fbb268744737285176152032a5c949a4741646c2a6e35b3"
+        },
+        {
+          "x": 38,
+          "y": 39,
+          "score": 1004,
+          "quad": 1,
+          "sector": 3,
+          "angle_deg": 19.69,
+          "desc": "5d40e298a7249cd423177a734dbc4e0c8c23162ff94b0d1f9d85443c3e583ca6"
+        },
+        {
+          "x": 47,
+          "y": 39,
+          "score": 1806,
+          "quad": 1,
+          "sector": 3,
+          "angle_deg": 19.69,
+          "desc": "578edc21d09feb02ef75cb4d81c3c9baffe4b8fceffaccd042a48639f8a39591"
+        },
+        {
+          "x": 51,
+          "y": 39,
+          "score": 932,
+          "quad": 1,
+          "sector": 4,
+          "angle_deg": 25.31,
+          "desc": "533e5c35559b0d064dbc89cca243c1b8a3c5afdda2be86a0c68402f3c0850555"
+        },
+        {
+          "x": 28,
+          "y": 40,
+          "score": 544,
+          "quad": 0,
+          "sector": 2,
+          "angle_deg": 165.94,
+          "desc": "a0af998c662b48553bcf22be646667ac1a875f6b0a4ed535e587317a030421bb"
+        },
+        {
+          "x": 60,
+          "y": 40,
+          "score": 1653,
+          "quad": 1,
+          "sector": 6,
+          "angle_deg": 36.56,
+          "desc": "1031e8bd26f7d07e3cdc222856f47352210b1257bc46923ae11175ecb867f923"
+        },
+        {
+          "x": 24,
+          "y": 41,
+          "score": 462,
+          "quad": 0,
+          "sector": 1,
+          "angle_deg": 171.56,
+          "desc": "9fc7de04450dda9963554b730da48db80e7756a7fe4b5ce958cc44192c5674b7"
+        },
+        {
+          "x": 37,
+          "y": 41,
+          "score": 948,
+          "quad": 1,
+          "sector": 2,
+          "angle_deg": 14.06,
+          "desc": "5800e2dca7269a9d33123a7b4cbc4a0a080356677949011fdf8d60191e4c34a6"
+        },
+        {
+          "x": 27,
+          "y": 42,
+          "score": 838,
+          "quad": 0,
+          "sector": 1,
+          "angle_deg": 171.56,
+          "desc": "894fd98ca689585b33d732b24c6cafbc0823523b4a4fd52df9ce315a2e5c70bb"
+        },
+        {
+          "x": 35,
+          "y": 42,
+          "score": 940,
+          "quad": 0,
+          "sector": 11,
+          "angle_deg": 115.31,
+          "desc": "21ce7dfff0878356cfa3b887807107a4972c3e9e00f2b87c0759dc4896f197f4"
+        },
+        {
+          "x": 46,
+          "y": 42,
+          "score": 2077,
+          "quad": 2,
+          "sector": 2,
+          "angle_deg": 345.94,
+          "desc": "1787fe318d174a06ef3f0bcb8ae081b3af6380b7ef540cda4ae054d970da9584"
+        },
+        {
+          "x": 52,
+          "y": 42,
+          "score": 1098,
+          "quad": 2,
+          "sector": 3,
+          "angle_deg": 340.31,
+          "desc": "578e7cb0540d0a064d3d091dade341bc9cc518bc7e6e966a45800263358f8593"
+        },
+        {
+          "x": 25,
+          "y": 44,
+          "score": 521,
+          "quad": 0,
+          "sector": 0,
+          "angle_deg": 177.19,
+          "desc": "09cddd848485da5ae3553b730dac8dbc0c6752bf7a6b0dbf79cc541d2dde64a5"
+        },
+        {
+          "x": 65,
+          "y": 44,
+          "score": 811,
+          "quad": 2,
+          "sector": 8,
+          "angle_deg": 312.19,
+          "desc": "94f4924c6c28793e3fadf2f0f21e316a83d9e76a819b12e5f70f20d3a61468e9"
+        },
+        {
+          "x": 78,
+          "y": 44,
+          "score": 1192,
+          "quad": 2,
+          "sector": 15,
+          "angle_deg": 272.81,
+          "desc": "566694b33e1729044fb91a0d8063628b99d190e7ebf814c0462144fd98221782"
+        },
+        {
+          "x": 29,
+          "y": 45,
+          "score": 385,
+          "quad": 0,
+          "sector": 0,
+          "angle_deg": 177.19,
+          "desc": "696a9cdc86b30c5431afb0ba626fefa410a14b1052cd042fb186e962008c606d"
+        },
+        {
+          "x": 46,
+          "y": 45,
+          "score": 1920,
+          "quad": 2,
+          "sector": 7,
+          "angle_deg": 317.81,
+          "desc": "5165d62d2d03691eef971a85066a25a21b6322a7eb5a54f1464944c9cc7215a0"
+        },
+        {
+          "x": 55,
+          "y": 45,
+          "score": 855,
+          "quad": 2,
+          "sector": 7,
+          "angle_deg": 317.81,
+          "desc": "6f266cf5cc4306040f3db9412c33c09498e4d8ac701e968b8380c06734cd24ff"
+        },
+        {
+          "x": 73,
+          "y": 45,
+          "score": 529,
+          "quad": 2,
+          "sector": 13,
+          "angle_deg": 284.06,
+          "desc": "92ef9802340f498aae970792908c27686357e6b02ef848f04e6f1699ee329798"
+        },
+        {
+          "x": 31,
+          "y": 46,
+          "score": 650,
+          "quad": 3,
+          "sector": 0,
+          "angle_deg": 182.81,
+          "desc": "7670369d0eba1c540cad90a8e27764263080294071cd868f9183e866a0246943"
+        },
+        {
+          "x": 49,
+          "y": 46,
+          "score": 1952,
+          "quad": 2,
+          "sector": 9,
+          "angle_deg": 306.56,
+          "desc": "5101dc118e9748540dbf0ab54f70d1b69d3394876e5c8482c68564e91c4a34a1"
+        },
+        {
+          "x": 68,
+          "y": 46,
+          "score": 1021,
+          "quad": 2,
+          "sector": 11,
+          "angle_deg": 295.31,
+          "desc": "8a75df02ccf1d93932f417f8de0c3f6b8bf3ee609c9d4287764e63fc8b24b81b"
+        },
+        {
+          "x": 44,
+          "y": 47,
+          "score": 1265,
+          "quad": 2,
+          "sector": 9,
+          "angle_deg": 306.56,
+          "desc": "73659c472c03491d0e971aa44c64a52b9b53aaa37bd840a4460bc6dd8c722780"
+        },
+        {
+          "x": 70,
+          "y": 47,
+          "score": 941,
+          "quad": 2,
+          "sector": 12,
+          "angle_deg": 289.69,
+          "desc": "8a6f9d0244f9d83b33f417beda4c3b6deb77ec308e9d49ae6e4f2798cb2cba09"
+        },
+        {
+          "x": 33,
+          "y": 48,
+          "score": 627,
+          "quad": 3,
+          "sector": 3,
+          "angle_deg": 199.69,
+          "desc": "f6728034332f6c018c990f8064f2270270d782507deaa2f0c422042fac236182"
+        },
+        {
+          "x": 38,
+          "y": 48,
+          "score": 1004,
+          "quad": 2,
+          "sector": 9,
+          "angle_deg": 306.56,
+          "desc": "f67192284c3964952a9c5feafa1c417b92d7eb60359f4247464b23f8a924e9cb"
+        },
+        {
+          "x": 54,
+          "y": 48,
+          "score": 1515,
+          "quad": 2,
+          "sector": 11,
+          "angle_deg": 295.31,
+          "desc": "f1021cfd0cbb1c054f3d380da4e340a412855ae5e25c542847c904e7388fa1b7"
+        },
+        {
+          "x": 58,
+          "y": 48,
+          "score": 711,
+          "quad": 2,
+          "sector": 11,
+          "angle_deg": 295.31,
+          "desc": "f1925c4d4e0b125c4fbcb8652a6380909a847b4d461f1628e1998ac131858167"
+        },
+        {
+          "x": 73,
+          "y": 48,
+          "score": 743,
+          "quad": 2,
+          "sector": 13,
+          "angle_deg": 284.06,
+          "desc": "8aef9d063589498ba3551f9290c6ad2c7f67fcb3aafedc606e4f16186e121698"
+        },
+        {
+          "x": 66,
+          "y": 49,
+          "score": 972,
+          "quad": 2,
+          "sector": 12,
+          "angle_deg": 289.69,
+          "desc": "ea7b5c88c4f95905732c11d8b21ad53c30d0e87cde8d12a77004ebf3a16c480f"
+        },
+        {
+          "x": 39,
+          "y": 50,
+          "score": 1646,
+          "quad": 2,
+          "sector": 12,
+          "angle_deg": 289.69,
+          "desc": "f274f2284c787ca56eac1bc8fb1cc17bb2d68a64358d0287c04a21bfa924e9cb"
+        },
+        {
+          "x": 46,
+          "y": 50,
+          "score": 1283,
+          "quad": 2,
+          "sector": 13,
+          "angle_deg": 284.06,
+          "desc": "726c9c110e9b0b461c9d0e9d4174752c3147a0f36adc90a1460504fba8266790"
+        },
+        {
+          "x": 50,
+          "y": 50,
+          "score": 1788,
+          "quad": 2,
+          "sector": 14,
+          "angle_deg": 278.44,
+          "desc": "532f9c9d9f9b08444fbd0a9c037275ac39e320d3eadc94a84785247988a606b2"
+        },
+        {
+          "x": 68,
+          "y": 50,
+          "score": 755,
+          "quad": 2,
+          "sector": 12,
+          "angle_deg": 289.69,
+          "desc": "ca3ddc88c6d9d95c73ec13f8f21e593c39df687b1a8dd2a7700629d0a02c580f"
+        },
+        {
+          "x": 75,
+          "y": 50,
+          "score": 928,
+          "quad": 2,
+          "sector": 14,
+          "angle_deg": 278.44,
+          "desc": "c1ef9c02740d4900af547b920842a53c5de772b0cafadc7c4f2f163c2e4227aa"
+        },
+        {
+          "x": 35,
+          "y": 51,
+          "score": 1025,
+          "quad": 3,
+          "sector": 11,
+          "angle_deg": 244.69,
+          "desc": "000c9dc6c6d98a475771a43d81557acc29112d7f92ccd5a1b6c5bcd9919e34e7"
+        },
+        {
+          "x": 43,
+          "y": 51,
+          "score": 1242,
+          "quad": 2,
+          "sector": 14,
+          "angle_deg": 278.44,
+          "desc": "f225d0280cb94c2e3cbc038ada7c3564314fa8502ec480a0600226c8a824f909"
+        },
+        {
+          "x": 61,
+          "y": 52,
+          "score": 1036,
+          "quad": 2,
+          "sector": 13,
+          "angle_deg": 284.06,
+          "desc": "d20b5c0044bb7c454dac8979d303c4b698c5ab48d48c96a1e0868461a185a157"
+        },
+        {
+          "x": 37,
+          "y": 53,
+          "score": 1209,
+          "quad": 2,
+          "sector": 15,
+          "angle_deg": 272.81,
+          "desc": "f3326c240e327c254c2c1908a38ac03322d98dcc7d85621250c840e3b987d14b"
+        },
+        {
+          "x": 57,
+          "y": 53,
+          "score": 987,
+          "quad": 2,
+          "sector": 13,
+          "angle_deg": 284.06,
+          "desc": "d73e1c314c3b69064f3d896da843c1bb18c4aaec419e96e166c888f1b08505cf"
+        },
+        {
+          "x": 77,
+          "y": 53,
+          "score": 1625,
+          "quad": 2,
+          "sector": 14,
+          "angle_deg": 278.44,
+          "desc": "cd8d9d98f60dd950a3572a774963cf1c1ca512fcda3e9d6bff85183c1e4a25b2"
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "width": 83,
+      "height": 62,
+      "gauss_width": 77,
+      "gauss_height": 56,
+      "nms_keypoints": 110,
+      "valid_features": 35,
+      "features": [
+        {
+          "x": 32,
+          "y": 22,
+          "score": 775,
+          "quad": 1,
+          "sector": 12,
+          "angle_deg": 70.31,
+          "desc": "f2796a3804f95f9d708c176ab84ccd3070d6c8705c8582a941922b2de824e11f"
+        },
+        {
+          "x": 56,
+          "y": 23,
+          "score": 739,
+          "quad": 1,
+          "sector": 8,
+          "angle_deg": 47.81,
+          "desc": "7bcc5cb8988d07dee13589768ae88db48426b8bceaabad6d098006093ddcd4fd"
+        },
+        {
+          "x": 41,
+          "y": 24,
+          "score": 1014,
+          "quad": 1,
+          "sector": 12,
+          "angle_deg": 70.31,
+          "desc": "dc8c5c45569b3841456ae8798903c0984b941fecd29e8449bb848a7511870477"
+        },
+        {
+          "x": 54,
+          "y": 24,
+          "score": 1274,
+          "quad": 1,
+          "sector": 8,
+          "angle_deg": 47.81,
+          "desc": "79e87eb8948585d6a09d2b621ee8cdb4942e98944c428469419046692d4cf59d"
+        },
+        {
+          "x": 49,
+          "y": 25,
+          "score": 1114,
+          "quad": 1,
+          "sector": 8,
+          "angle_deg": 47.81,
+          "desc": "7737e0393f3b4c140e9d0ab844f6c13210c79257b94e86c2c48004ed286671b2"
+        },
+        {
+          "x": 51,
+          "y": 25,
+          "score": 1155,
+          "quad": 1,
+          "sector": 8,
+          "angle_deg": 47.81,
+          "desc": "752ee038942d04160c9d0b325dec4132120792d57c4a8448c19024ef2d6ef197"
+        },
+        {
+          "x": 28,
+          "y": 26,
+          "score": 568,
+          "quad": 0,
+          "sector": 10,
+          "angle_deg": 120.94,
+          "desc": "15074c10ac06e326ee1548810762a5330f3a368fafe254d640c444e1a4d755b0"
+        },
+        {
+          "x": 41,
+          "y": 26,
+          "score": 931,
+          "quad": 1,
+          "sector": 13,
+          "angle_deg": 75.94,
+          "desc": "d88c5c4554193a49456af959a903c09ac995eddc529fa72cb9bc9a51b1850467"
+        },
+        {
+          "x": 55,
+          "y": 26,
+          "score": 874,
+          "quad": 1,
+          "sector": 8,
+          "angle_deg": 47.81,
+          "desc": "6fc96eb0d40c855e61858b629e608d949c66188c5e4a8c4981b0466d3dedd5df"
+        },
+        {
+          "x": 31,
+          "y": 27,
+          "score": 775,
+          "quad": 1,
+          "sector": 14,
+          "angle_deg": 81.56,
+          "desc": "7366f069cc8519bc5eb59302947d8c63d076ea1418c908a0414aefd8ed74d98d"
+        },
+        {
+          "x": 39,
+          "y": 29,
+          "score": 1814,
+          "quad": 1,
+          "sector": 10,
+          "angle_deg": 59.06,
+          "desc": "cb4d5fc4c4d97b41c37ad9519102989ee9f52d8cd29cbd843ea49a55d19d044d"
+        },
+        {
+          "x": 29,
+          "y": 30,
+          "score": 497,
+          "quad": 0,
+          "sector": 10,
+          "angle_deg": 120.94,
+          "desc": "01cf6c019c12e306ee05488d8a64a5b70b2e66830fd2d0e042484ccba9971595"
+        },
+        {
+          "x": 32,
+          "y": 30,
+          "score": 842,
+          "quad": 1,
+          "sector": 8,
+          "angle_deg": 47.81,
+          "desc": "79cc5eb88404859ea1253b721e688d94d02e2aad4ecb8d6d41884a01fd55559d"
+        },
+        {
+          "x": 22,
+          "y": 31,
+          "score": 549,
+          "quad": 0,
+          "sector": 2,
+          "angle_deg": 165.94,
+          "desc": "934fdc04379b5a852f1c0a7a0d04e53c0ac74ef36e4fd4b559c6043da80465ba"
+        },
+        {
+          "x": 52,
+          "y": 31,
+          "score": 1511,
+          "quad": 1,
+          "sector": 3,
+          "angle_deg": 19.69,
+          "desc": "69885dfda7858404919130234cadcc94300913977849343b8198656a2cde6425"
+        },
+        {
+          "x": 45,
+          "y": 32,
+          "score": 606,
+          "quad": 1,
+          "sector": 8,
+          "angle_deg": 47.81,
+          "desc": "d2361d474f9b0e854fb99c19e8a3600bf3d1ead36bcc56b0464d00f3b0842764"
+        },
+        {
+          "x": 43,
+          "y": 33,
+          "score": 751,
+          "quad": 1,
+          "sector": 3,
+          "angle_deg": 19.69,
+          "desc": "360f1d32161b4b06cfbc0c9ca27353be39c4ebde4ebe86e0666100f3d0a10750"
+        },
+        {
+          "x": 60,
+          "y": 33,
+          "score": 505,
+          "quad": 2,
+          "sector": 13,
+          "angle_deg": 284.06,
+          "desc": "7264b03f1f3b1dbc0f9d170ed07d344a3153b0732fdd08b2472324d8ea302b8a"
+        },
+        {
+          "x": 31,
+          "y": 34,
+          "score": 838,
+          "quad": 2,
+          "sector": 6,
+          "angle_deg": 323.44,
+          "desc": "9cb1b21c3f7b5cb5309e46ba779c616c6243d670bd1d223ddb7f20be2a202a3a"
+        },
+        {
+          "x": 50,
+          "y": 34,
+          "score": 1702,
+          "quad": 2,
+          "sector": 3,
+          "angle_deg": 340.31,
+          "desc": "ec9b909ab668104113ae32bc7473520419855368589eb74ea797b962032c296b"
+        },
+        {
+          "x": 23,
+          "y": 35,
+          "score": 727,
+          "quad": 3,
+          "sector": 0,
+          "angle_deg": 182.81,
+          "desc": "c146dc9c0c910a542fbd3b7a0964c5bc18875af54acd142df18c20fb291465a7"
+        },
+        {
+          "x": 29,
+          "y": 35,
+          "score": 933,
+          "quad": 3,
+          "sector": 3,
+          "angle_deg": 199.69,
+          "desc": "f6b782257b3678814ed8dd0ba087c00352d0e24077ea369220bad466fa234b06"
+        },
+        {
+          "x": 39,
+          "y": 35,
+          "score": 1686,
+          "quad": 2,
+          "sector": 8,
+          "angle_deg": 312.19,
+          "desc": "51e5f40dad834b7e169512140166350a19232083eadb90e0470164d9be7615a0"
+        },
+        {
+          "x": 43,
+          "y": 35,
+          "score": 815,
+          "quad": 2,
+          "sector": 12,
+          "angle_deg": 289.69,
+          "desc": "436edcb1ae8780529fb322874c71779415619693e8768cd20e81f4683e4b35b2"
+        },
+        {
+          "x": 21,
+          "y": 37,
+          "score": 481,
+          "quad": 3,
+          "sector": 1,
+          "angle_deg": 188.44,
+          "desc": "49445e80cc815a5c633d3b711d628d3d99e758adca4d058f5b84565d3ddc948d"
+        },
+        {
+          "x": 38,
+          "y": 37,
+          "score": 1639,
+          "quad": 2,
+          "sector": 10,
+          "angle_deg": 300.94,
+          "desc": "7165bc0dac83495c369d16944274356a1943a8222ad984a0460364ddae720da0"
+        },
+        {
+          "x": 43,
+          "y": 37,
+          "score": 1049,
+          "quad": 2,
+          "sector": 15,
+          "angle_deg": 272.81,
+          "desc": "42aa9cbba6a780051f9f1a8e4477728c95e0d2172c5e9ca8071144781a6ab9b3"
+        },
+        {
+          "x": 45,
+          "y": 37,
+          "score": 1167,
+          "quad": 2,
+          "sector": 11,
+          "angle_deg": 295.31,
+          "desc": "0103bcb12f1b02070f3fa885466342bc9f211aa7f054148aa7c104ee32efb5f2"
+        },
+        {
+          "x": 53,
+          "y": 37,
+          "score": 902,
+          "quad": 2,
+          "sector": 7,
+          "angle_deg": 317.81,
+          "desc": "d0b4920c6e2939052d2cfafcf00f306b1991f36ad39d560f771f0857260429eb"
+        },
+        {
+          "x": 41,
+          "y": 38,
+          "score": 1775,
+          "quad": 2,
+          "sector": 15,
+          "angle_deg": 272.81,
+          "desc": "626dfc3b84f7c950109702ae5176352495660a212cd880290703646a2e3e3399"
+        },
+        {
+          "x": 31,
+          "y": 39,
+          "score": 995,
+          "quad": 3,
+          "sector": 14,
+          "angle_deg": 261.56,
+          "desc": "6b197cb482d1967d60208869af325a9401880ddffc8587af9a9020a5118f1463"
+        },
+        {
+          "x": 36,
+          "y": 39,
+          "score": 1046,
+          "quad": 2,
+          "sector": 9,
+          "angle_deg": 306.56,
+          "desc": "f26594072e0b691d2e9d1aacc9642fab3b52aa625bd80cb0460bc6d98e322f82"
+        },
+        {
+          "x": 58,
+          "y": 39,
+          "score": 1131,
+          "quad": 2,
+          "sector": 12,
+          "angle_deg": 289.69,
+          "desc": "8a6f9c02c4fbd91933f417bad8167f2cb1f3e830ce9d44a67f0f67988a2c288b"
+        },
+        {
+          "x": 28,
+          "y": 40,
+          "score": 686,
+          "quad": 3,
+          "sector": 5,
+          "angle_deg": 210.94,
+          "desc": "a7ffc92511fde6819ed0570a70c7a53c56f7e2932ceefaf00178353eea1763b4"
+        },
+        {
+          "x": 45,
+          "y": 40,
+          "score": 1318,
+          "quad": 2,
+          "sector": 13,
+          "angle_deg": 284.06,
+          "desc": "d0869cf53e9b02040f3cb89d04e361bcbb855af7e21c94b8678104fb90a7b5b3"
+        }
+      ]
+    }
+  ]
+}

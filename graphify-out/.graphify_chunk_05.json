@@ -1,0 +1,572 @@
+{
+  "nodes": [
+    {
+      "id": "hw_orientation_sim_patch_visual_figure",
+      "label": "ORB Orientation Verification Visual (patch_visual.svg)",
+      "file_type": "image",
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\patch_visual.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "hw_orientation_sim_patch_visual_orb_orientation_module",
+      "label": "ORB Orientation Module",
+      "file_type": "concept",
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\patch_visual.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "hw_orientation_sim_patch_visual_window_37x37",
+      "label": "37x37 Input Patch Window (Red Box Center Pixel)",
+      "file_type": "concept",
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\patch_visual.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "hw_orientation_sim_patch_visual_intensity_centroid_moments",
+      "label": "Intensity-Centroid Moments (m00, m10, m01)",
+      "file_type": "concept",
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\patch_visual.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "hw_orientation_sim_patch_visual_sector_quantization",
+      "label": "Sector Quantization (N_SECT=64, rounding=paper, quadrant, sector)",
+      "file_type": "concept",
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\patch_visual.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "hw_orientation_sim_patch_visual_image_frame_angle_convention",
+      "label": "Image-Frame Angle Convention (0 deg right, 90 deg down, exact atan2)",
+      "file_type": "concept",
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\patch_visual.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "hw_orientation_sim_patch_visual_expected_python_model",
+      "label": "Expected Python Reference Model",
+      "file_type": "concept",
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\patch_visual.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "hw_orientation_sim_patch_visual_actual_verilog_rtl",
+      "label": "Actual Verilog Orientation Implementation",
+      "file_type": "concept",
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\patch_visual.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "hw_orientation_sim_patch_visual_verification_result_8_of_8",
+      "label": "Verification Result: 8/8 Patches Identical (m00, m10, m01, quadrant, sector)",
+      "file_type": "image",
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\patch_visual.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "hw_orientation_sim_patch_visual_patch_1_blob_0deg",
+      "label": "Patch 1: Bright Blob Toward 0 deg (right) - MATCH (sector 0, 2.81 deg, exact 0.00 deg)",
+      "file_type": "image",
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\patch_visual.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "hw_orientation_sim_patch_visual_patch_2_blob_45deg",
+      "label": "Patch 2: Bright Blob Toward 45 deg (down-right) - MATCH (sector 8, 47.81 deg, exact 45.00 deg)",
+      "file_type": "image",
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\patch_visual.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "hw_orientation_sim_patch_visual_patch_3_blob_120deg",
+      "label": "Patch 3: Bright Blob Toward 120 deg - MATCH (sector 11, 115.31 deg, exact 120.43 deg)",
+      "file_type": "image",
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\patch_visual.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "hw_orientation_sim_patch_visual_patch_4_blob_200deg",
+      "label": "Patch 4: Bright Blob Toward 200 deg - MATCH (sector 4, 205.31 deg, exact 200.49 deg)",
+      "file_type": "image",
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\patch_visual.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "hw_orientation_sim_patch_visual_patch_5_blob_290deg",
+      "label": "Patch 5: Bright Blob Toward 290 deg (up) - MATCH (sector 12, 289.69 deg, exact 290.49 deg)",
+      "file_type": "image",
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\patch_visual.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "hw_orientation_sim_patch_visual_patch_6_wedge_330deg",
+      "label": "Patch 6: Bright Wedge (Corner) Toward 330 deg - MATCH (sector 5, 329.06 deg, exact 331.35 deg)",
+      "file_type": "image",
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\patch_visual.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "hw_orientation_sim_patch_visual_patch_7_flat_patch",
+      "label": "Patch 7: Flat Patch (m10 = m01 = 0) - MATCH (quadrant 0, sector 15, 92.81 deg, exact n/a)",
+      "file_type": "image",
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\patch_visual.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "hw_orientation_sim_patch_visual_patch_8_random_noise",
+      "label": "Patch 8: Random Noise - MATCH (quadrant 0, sector 15, 92.81 deg, exact 93.41 deg)",
+      "file_type": "image",
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\patch_visual.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "hw_orientation_sim_patch_visual_figure",
+      "target": "hw_orientation_sim_patch_visual_orb_orientation_module",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\patch_visual.svg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "hw_orientation_sim_patch_visual_figure",
+      "target": "hw_orientation_sim_patch_visual_verification_result_8_of_8",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\patch_visual.svg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "hw_orientation_sim_patch_visual_figure",
+      "target": "hw_orientation_sim_patch_visual_expected_python_model",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\patch_visual.svg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "hw_orientation_sim_patch_visual_figure",
+      "target": "hw_orientation_sim_patch_visual_actual_verilog_rtl",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\patch_visual.svg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "hw_orientation_sim_patch_visual_figure",
+      "target": "hw_orientation_sim_patch_visual_image_frame_angle_convention",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\patch_visual.svg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "hw_orientation_sim_patch_visual_figure",
+      "target": "hw_orientation_sim_patch_visual_patch_1_blob_0deg",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\patch_visual.svg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "hw_orientation_sim_patch_visual_figure",
+      "target": "hw_orientation_sim_patch_visual_patch_2_blob_45deg",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\patch_visual.svg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "hw_orientation_sim_patch_visual_figure",
+      "target": "hw_orientation_sim_patch_visual_patch_3_blob_120deg",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\patch_visual.svg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "hw_orientation_sim_patch_visual_figure",
+      "target": "hw_orientation_sim_patch_visual_patch_4_blob_200deg",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\patch_visual.svg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "hw_orientation_sim_patch_visual_figure",
+      "target": "hw_orientation_sim_patch_visual_patch_5_blob_290deg",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\patch_visual.svg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "hw_orientation_sim_patch_visual_figure",
+      "target": "hw_orientation_sim_patch_visual_patch_6_wedge_330deg",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\patch_visual.svg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "hw_orientation_sim_patch_visual_figure",
+      "target": "hw_orientation_sim_patch_visual_patch_7_flat_patch",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\patch_visual.svg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "hw_orientation_sim_patch_visual_figure",
+      "target": "hw_orientation_sim_patch_visual_patch_8_random_noise",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\patch_visual.svg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "hw_orientation_sim_patch_visual_window_37x37",
+      "target": "hw_orientation_sim_patch_visual_orb_orientation_module",
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\patch_visual.svg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "hw_orientation_sim_patch_visual_orb_orientation_module",
+      "target": "hw_orientation_sim_patch_visual_intensity_centroid_moments",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\patch_visual.svg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "hw_orientation_sim_patch_visual_intensity_centroid_moments",
+      "target": "hw_orientation_sim_patch_visual_sector_quantization",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\patch_visual.svg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "hw_orientation_sim_patch_visual_sector_quantization",
+      "target": "hw_orientation_sim_patch_visual_image_frame_angle_convention",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\patch_visual.svg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "hw_orientation_sim_patch_visual_expected_python_model",
+      "target": "hw_orientation_sim_patch_visual_orb_orientation_module",
+      "relation": "implements",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\patch_visual.svg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "hw_orientation_sim_patch_visual_actual_verilog_rtl",
+      "target": "hw_orientation_sim_patch_visual_orb_orientation_module",
+      "relation": "implements",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\patch_visual.svg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "hw_orientation_sim_patch_visual_actual_verilog_rtl",
+      "target": "hw_orientation_sim_patch_visual_expected_python_model",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\patch_visual.svg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "hw_orientation_sim_patch_visual_expected_python_model",
+      "target": "hw_orientation_sim_patch_visual_verification_result_8_of_8",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\patch_visual.svg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "hw_orientation_sim_patch_visual_actual_verilog_rtl",
+      "target": "hw_orientation_sim_patch_visual_verification_result_8_of_8",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\patch_visual.svg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "hw_orientation_sim_patch_visual_patch_1_blob_0deg",
+      "target": "hw_orientation_sim_patch_visual_verification_result_8_of_8",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\patch_visual.svg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "hw_orientation_sim_patch_visual_patch_2_blob_45deg",
+      "target": "hw_orientation_sim_patch_visual_verification_result_8_of_8",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\patch_visual.svg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "hw_orientation_sim_patch_visual_patch_3_blob_120deg",
+      "target": "hw_orientation_sim_patch_visual_verification_result_8_of_8",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\patch_visual.svg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "hw_orientation_sim_patch_visual_patch_4_blob_200deg",
+      "target": "hw_orientation_sim_patch_visual_verification_result_8_of_8",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\patch_visual.svg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "hw_orientation_sim_patch_visual_patch_5_blob_290deg",
+      "target": "hw_orientation_sim_patch_visual_verification_result_8_of_8",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\patch_visual.svg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "hw_orientation_sim_patch_visual_patch_6_wedge_330deg",
+      "target": "hw_orientation_sim_patch_visual_verification_result_8_of_8",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\patch_visual.svg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "hw_orientation_sim_patch_visual_patch_7_flat_patch",
+      "target": "hw_orientation_sim_patch_visual_verification_result_8_of_8",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\patch_visual.svg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "hw_orientation_sim_patch_visual_patch_8_random_noise",
+      "target": "hw_orientation_sim_patch_visual_verification_result_8_of_8",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\patch_visual.svg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "hw_orientation_sim_patch_visual_patch_7_flat_patch",
+      "target": "hw_orientation_sim_patch_visual_intensity_centroid_moments",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\patch_visual.svg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "hw_orientation_sim_patch_visual_patch_7_flat_patch",
+      "target": "hw_orientation_sim_patch_visual_sector_quantization",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\patch_visual.svg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "hw_orientation_sim_patch_visual_patch_8_random_noise",
+      "target": "hw_orientation_sim_patch_visual_sector_quantization",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\patch_visual.svg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "hw_orientation_sim_patch_visual_patch_6_wedge_330deg",
+      "target": "hw_orientation_sim_patch_visual_orb_orientation_module",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\patch_visual.svg",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "orb_orientation_8_patch_verification_suite",
+      "label": "8-Patch ORB Orientation Verification Suite",
+      "nodes": [
+        "hw_orientation_sim_patch_visual_patch_1_blob_0deg",
+        "hw_orientation_sim_patch_visual_patch_2_blob_45deg",
+        "hw_orientation_sim_patch_visual_patch_3_blob_120deg",
+        "hw_orientation_sim_patch_visual_patch_4_blob_200deg",
+        "hw_orientation_sim_patch_visual_patch_5_blob_290deg",
+        "hw_orientation_sim_patch_visual_patch_6_wedge_330deg",
+        "hw_orientation_sim_patch_visual_patch_7_flat_patch",
+        "hw_orientation_sim_patch_visual_patch_8_random_noise"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\patch_visual.svg"
+    },
+    {
+      "id": "orb_orientation_intensity_centroid_pipeline",
+      "label": "37x37 Intensity-Centroid Orientation Pipeline",
+      "nodes": [
+        "hw_orientation_sim_patch_visual_window_37x37",
+        "hw_orientation_sim_patch_visual_orb_orientation_module",
+        "hw_orientation_sim_patch_visual_intensity_centroid_moments",
+        "hw_orientation_sim_patch_visual_sector_quantization"
+      ],
+      "relation": "implement",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\patch_visual.svg"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "coverage": {
+    "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\patch_visual.svg": 6309
+  }
+}

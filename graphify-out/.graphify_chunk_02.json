@@ -1,0 +1,844 @@
+{
+  "nodes": [
+    {
+      "id": "hw_orientation_sim_expected_core_dataset",
+      "label": "HW Orientation Sim Expected Core Dataset",
+      "file_type": "document",
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\expected_core.txt",
+      "source_location": "lines 1-1680",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "hw_orientation_sim_expected_core_grid_sweep",
+      "label": "60x28 Coordinate Grid (x 18..77, y 18..45)",
+      "file_type": "concept",
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\expected_core.txt",
+      "source_location": "lines 1-1680",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "hw_orientation_sim_expected_core_output_tuple",
+      "label": "7-Column Orientation Core Output Tuple (x, y, scalar, m10, m01, sector, bin)",
+      "file_type": "concept",
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\expected_core.txt",
+      "source_location": "lines 1-1680",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "hw_orientation_sim_expected_core_flat_zero_moment_region",
+      "label": "Zero-Moment Flat Region (0, 0 -> sector 0, bin 15)",
+      "file_type": "concept",
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\expected_core.txt",
+      "source_location": "lines 485-493, 530-538",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "hw_orientation_sim_expected_top_dataset",
+      "label": "HW Orientation Sim Expected Top Dataset",
+      "file_type": "document",
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\expected_top.txt",
+      "source_location": "lines 1-60",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "hw_orientation_sim_expected_top_output_tuple",
+      "label": "4-Column Keypoint Orientation Tuple (x, y, sector, bin)",
+      "file_type": "concept",
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\expected_top.txt",
+      "source_location": "lines 1-60",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "hw_orientation_sim_kps_list",
+      "label": "HW Orientation Sim Keypoint Coordinates List",
+      "file_type": "document",
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\kps.txt",
+      "source_location": "lines 1-70",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "hw_orientation_sim_kps_out_of_roi_coords",
+      "label": "Out-of-ROI Border Keypoints (6 coordinates)",
+      "file_type": "concept",
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\kps.txt",
+      "source_location": "lines 1-3, 61, 69-70",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "hw_orientation_sim_kps_duplicate_coords",
+      "label": "Duplicate Keypoint Entries (4 repeated coordinates)",
+      "file_type": "concept",
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\kps.txt",
+      "source_location": "lines 8-9, 43-44, 47-48, 63-64",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "hw_orientation_sim_patch_names_catalog",
+      "label": "HW Orientation Sim Synthetic Patch Names",
+      "file_type": "document",
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\patch_names.txt",
+      "source_location": "lines 1-8",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "hw_orientation_sim_patch_names_directional_blobs",
+      "label": "Directional Bright Blob Patches (0, 45, 120, 200, 290 deg)",
+      "file_type": "concept",
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\patch_names.txt",
+      "source_location": "lines 1-5",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "hw_orientation_sim_patch_names_bright_wedge_330",
+      "label": "Bright Wedge Corner Patch (330 deg)",
+      "file_type": "concept",
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\patch_names.txt",
+      "source_location": "line 6",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "hw_orientation_sim_patch_names_flat_patch_moments",
+      "label": "Flat Patch (m10 = m01 = 0)",
+      "file_type": "concept",
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\patch_names.txt",
+      "source_location": "line 7",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "hw_orientation_sim_patch_names_random_noise",
+      "label": "Random Noise Patch",
+      "file_type": "concept",
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\patch_names.txt",
+      "source_location": "line 8",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "hw_orientation_sim_rtl_results_log",
+      "label": "HW Orientation Sim RTL Results",
+      "file_type": "document",
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\rtl_results.txt",
+      "source_location": "lines 1-8",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "hw_orientation_sim_rtl_results_flat_output",
+      "label": "RTL Flat Patch Output (18 18 175232 0 0 0 15)",
+      "file_type": "concept",
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\rtl_results.txt",
+      "source_location": "line 7",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "test_orient_expected_core_dataset",
+      "label": "Test Orient Expected Core Dataset",
+      "file_type": "document",
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\test\\orient\\expected_core.txt",
+      "source_location": "lines 1-1680",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "test_orient_expected_core_grid_sweep",
+      "label": "60x28 Coordinate Grid (x 18..77, y 18..45)",
+      "file_type": "concept",
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\test\\orient\\expected_core.txt",
+      "source_location": "lines 1-1680",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "test_orient_expected_core_output_tuple",
+      "label": "7-Column Orientation Core Output Tuple (x, y, scalar, m10, m01, sector, bin)",
+      "file_type": "concept",
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\test\\orient\\expected_core.txt",
+      "source_location": "lines 1-1680",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "test_orient_expected_core_flat_zero_moment_region",
+      "label": "Zero-Moment Flat Region (0, 0 -> sector 0, bin 15)",
+      "file_type": "concept",
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\test\\orient\\expected_core.txt",
+      "source_location": "lines 485-493, 530-538",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "test_orient_expected_top_dataset",
+      "label": "Test Orient Expected Top Dataset",
+      "file_type": "document",
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\test\\orient\\expected_top.txt",
+      "source_location": "lines 1-60",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "test_orient_expected_top_output_tuple",
+      "label": "4-Column Keypoint Orientation Tuple (x, y, sector, bin)",
+      "file_type": "concept",
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\test\\orient\\expected_top.txt",
+      "source_location": "lines 1-60",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "test_orient_kps_list",
+      "label": "Test Orient Keypoint Coordinates List",
+      "file_type": "document",
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\test\\orient\\kps.txt",
+      "source_location": "lines 1-70",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "test_orient_kps_out_of_roi_coords",
+      "label": "Out-of-ROI Border Keypoints (6 coordinates)",
+      "file_type": "concept",
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\test\\orient\\kps.txt",
+      "source_location": "lines 1-3, 61, 69-70",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "test_orient_kps_duplicate_coords",
+      "label": "Duplicate Keypoint Entries (4 repeated coordinates)",
+      "file_type": "concept",
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\test\\orient\\kps.txt",
+      "source_location": "lines 8-9, 43-44, 47-48, 63-64",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "test_orient_patch_names_catalog",
+      "label": "Test Orient Synthetic Patch Names",
+      "file_type": "document",
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\test\\orient\\patch_names.txt",
+      "source_location": "lines 1-8",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "test_orient_patch_names_directional_blobs",
+      "label": "Directional Bright Blob Patches (0, 45, 120, 200, 290 deg)",
+      "file_type": "concept",
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\test\\orient\\patch_names.txt",
+      "source_location": "lines 1-5",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "test_orient_patch_names_bright_wedge_330",
+      "label": "Bright Wedge Corner Patch (330 deg)",
+      "file_type": "concept",
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\test\\orient\\patch_names.txt",
+      "source_location": "line 6",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "test_orient_patch_names_flat_patch_moments",
+      "label": "Flat Patch (m10 = m01 = 0)",
+      "file_type": "concept",
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\test\\orient\\patch_names.txt",
+      "source_location": "line 7",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "test_orient_patch_names_random_noise",
+      "label": "Random Noise Patch",
+      "file_type": "concept",
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\test\\orient\\patch_names.txt",
+      "source_location": "line 8",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "test_orient_rtl_results_log",
+      "label": "Test Orient RTL Results",
+      "file_type": "document",
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\test\\orient\\rtl_results.txt",
+      "source_location": "lines 1-8",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "test_orient_rtl_results_flat_output",
+      "label": "RTL Flat Patch Output (18 18 175232 0 0 0 15)",
+      "file_type": "concept",
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\test\\orient\\rtl_results.txt",
+      "source_location": "line 7",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "hw_orientation_sim_expected_core_dataset",
+      "target": "hw_orientation_sim_expected_core_grid_sweep",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\expected_core.txt",
+      "source_location": "lines 1-1680",
+      "weight": 1.0
+    },
+    {
+      "source": "hw_orientation_sim_expected_core_dataset",
+      "target": "hw_orientation_sim_expected_core_output_tuple",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\expected_core.txt",
+      "source_location": "lines 1-1680",
+      "weight": 1.0
+    },
+    {
+      "source": "hw_orientation_sim_expected_core_dataset",
+      "target": "hw_orientation_sim_expected_core_flat_zero_moment_region",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\expected_core.txt",
+      "source_location": "lines 485-493, 530-538",
+      "weight": 1.0
+    },
+    {
+      "source": "hw_orientation_sim_expected_top_dataset",
+      "target": "hw_orientation_sim_expected_top_output_tuple",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\expected_top.txt",
+      "source_location": "lines 1-60",
+      "weight": 1.0
+    },
+    {
+      "source": "hw_orientation_sim_kps_list",
+      "target": "hw_orientation_sim_kps_out_of_roi_coords",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\kps.txt",
+      "source_location": "lines 1-3, 61, 69-70",
+      "weight": 1.0
+    },
+    {
+      "source": "hw_orientation_sim_kps_list",
+      "target": "hw_orientation_sim_kps_duplicate_coords",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\kps.txt",
+      "source_location": "lines 8-9, 43-44, 47-48, 63-64",
+      "weight": 1.0
+    },
+    {
+      "source": "hw_orientation_sim_patch_names_catalog",
+      "target": "hw_orientation_sim_patch_names_directional_blobs",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\patch_names.txt",
+      "source_location": "lines 1-5",
+      "weight": 1.0
+    },
+    {
+      "source": "hw_orientation_sim_patch_names_catalog",
+      "target": "hw_orientation_sim_patch_names_bright_wedge_330",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\patch_names.txt",
+      "source_location": "line 6",
+      "weight": 1.0
+    },
+    {
+      "source": "hw_orientation_sim_patch_names_catalog",
+      "target": "hw_orientation_sim_patch_names_flat_patch_moments",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\patch_names.txt",
+      "source_location": "line 7",
+      "weight": 1.0
+    },
+    {
+      "source": "hw_orientation_sim_patch_names_catalog",
+      "target": "hw_orientation_sim_patch_names_random_noise",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\patch_names.txt",
+      "source_location": "line 8",
+      "weight": 1.0
+    },
+    {
+      "source": "hw_orientation_sim_rtl_results_log",
+      "target": "hw_orientation_sim_rtl_results_flat_output",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\rtl_results.txt",
+      "source_location": "line 7",
+      "weight": 1.0
+    },
+    {
+      "source": "hw_orientation_sim_kps_list",
+      "target": "hw_orientation_sim_expected_top_dataset",
+      "relation": "shares_data_with",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\expected_top.txt",
+      "source_location": "lines 1-60",
+      "weight": 1.0
+    },
+    {
+      "source": "hw_orientation_sim_expected_core_dataset",
+      "target": "hw_orientation_sim_expected_top_dataset",
+      "relation": "shares_data_with",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\expected_top.txt",
+      "source_location": "lines 1-60",
+      "weight": 1.0
+    },
+    {
+      "source": "hw_orientation_sim_expected_core_output_tuple",
+      "target": "hw_orientation_sim_expected_top_output_tuple",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\expected_top.txt",
+      "source_location": "lines 1-60",
+      "weight": 1.0
+    },
+    {
+      "source": "hw_orientation_sim_kps_out_of_roi_coords",
+      "target": "hw_orientation_sim_expected_core_grid_sweep",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\kps.txt",
+      "source_location": "lines 1-3, 61, 69-70",
+      "weight": 1.0
+    },
+    {
+      "source": "hw_orientation_sim_patch_names_catalog",
+      "target": "hw_orientation_sim_rtl_results_log",
+      "relation": "shares_data_with",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\rtl_results.txt",
+      "source_location": "lines 1-8",
+      "weight": 1.0
+    },
+    {
+      "source": "hw_orientation_sim_patch_names_flat_patch_moments",
+      "target": "hw_orientation_sim_rtl_results_flat_output",
+      "relation": "shares_data_with",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\rtl_results.txt",
+      "source_location": "line 7",
+      "weight": 1.0
+    },
+    {
+      "source": "hw_orientation_sim_rtl_results_flat_output",
+      "target": "hw_orientation_sim_expected_core_flat_zero_moment_region",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\rtl_results.txt",
+      "source_location": "line 7",
+      "weight": 1.0
+    },
+    {
+      "source": "hw_orientation_sim_rtl_results_log",
+      "target": "hw_orientation_sim_expected_core_output_tuple",
+      "relation": "shares_data_with",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\rtl_results.txt",
+      "source_location": "lines 1-8",
+      "weight": 1.0
+    },
+    {
+      "source": "test_orient_expected_core_dataset",
+      "target": "test_orient_expected_core_grid_sweep",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\test\\orient\\expected_core.txt",
+      "source_location": "lines 1-1680",
+      "weight": 1.0
+    },
+    {
+      "source": "test_orient_expected_core_dataset",
+      "target": "test_orient_expected_core_output_tuple",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\test\\orient\\expected_core.txt",
+      "source_location": "lines 1-1680",
+      "weight": 1.0
+    },
+    {
+      "source": "test_orient_expected_core_dataset",
+      "target": "test_orient_expected_core_flat_zero_moment_region",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\test\\orient\\expected_core.txt",
+      "source_location": "lines 485-493, 530-538",
+      "weight": 1.0
+    },
+    {
+      "source": "test_orient_expected_top_dataset",
+      "target": "test_orient_expected_top_output_tuple",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\test\\orient\\expected_top.txt",
+      "source_location": "lines 1-60",
+      "weight": 1.0
+    },
+    {
+      "source": "test_orient_kps_list",
+      "target": "test_orient_kps_out_of_roi_coords",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\test\\orient\\kps.txt",
+      "source_location": "lines 1-3, 61, 69-70",
+      "weight": 1.0
+    },
+    {
+      "source": "test_orient_kps_list",
+      "target": "test_orient_kps_duplicate_coords",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\test\\orient\\kps.txt",
+      "source_location": "lines 8-9, 43-44, 47-48, 63-64",
+      "weight": 1.0
+    },
+    {
+      "source": "test_orient_patch_names_catalog",
+      "target": "test_orient_patch_names_directional_blobs",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\test\\orient\\patch_names.txt",
+      "source_location": "lines 1-5",
+      "weight": 1.0
+    },
+    {
+      "source": "test_orient_patch_names_catalog",
+      "target": "test_orient_patch_names_bright_wedge_330",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\test\\orient\\patch_names.txt",
+      "source_location": "line 6",
+      "weight": 1.0
+    },
+    {
+      "source": "test_orient_patch_names_catalog",
+      "target": "test_orient_patch_names_flat_patch_moments",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\test\\orient\\patch_names.txt",
+      "source_location": "line 7",
+      "weight": 1.0
+    },
+    {
+      "source": "test_orient_patch_names_catalog",
+      "target": "test_orient_patch_names_random_noise",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\test\\orient\\patch_names.txt",
+      "source_location": "line 8",
+      "weight": 1.0
+    },
+    {
+      "source": "test_orient_rtl_results_log",
+      "target": "test_orient_rtl_results_flat_output",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\test\\orient\\rtl_results.txt",
+      "source_location": "line 7",
+      "weight": 1.0
+    },
+    {
+      "source": "test_orient_kps_list",
+      "target": "test_orient_expected_top_dataset",
+      "relation": "shares_data_with",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\test\\orient\\expected_top.txt",
+      "source_location": "lines 1-60",
+      "weight": 1.0
+    },
+    {
+      "source": "test_orient_expected_core_dataset",
+      "target": "test_orient_expected_top_dataset",
+      "relation": "shares_data_with",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\test\\orient\\expected_top.txt",
+      "source_location": "lines 1-60",
+      "weight": 1.0
+    },
+    {
+      "source": "test_orient_expected_core_output_tuple",
+      "target": "test_orient_expected_top_output_tuple",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\test\\orient\\expected_top.txt",
+      "source_location": "lines 1-60",
+      "weight": 1.0
+    },
+    {
+      "source": "test_orient_kps_out_of_roi_coords",
+      "target": "test_orient_expected_core_grid_sweep",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\test\\orient\\kps.txt",
+      "source_location": "lines 1-3, 61, 69-70",
+      "weight": 1.0
+    },
+    {
+      "source": "test_orient_patch_names_catalog",
+      "target": "test_orient_rtl_results_log",
+      "relation": "shares_data_with",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\test\\orient\\rtl_results.txt",
+      "source_location": "lines 1-8",
+      "weight": 1.0
+    },
+    {
+      "source": "test_orient_patch_names_flat_patch_moments",
+      "target": "test_orient_rtl_results_flat_output",
+      "relation": "shares_data_with",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\test\\orient\\rtl_results.txt",
+      "source_location": "line 7",
+      "weight": 1.0
+    },
+    {
+      "source": "test_orient_rtl_results_flat_output",
+      "target": "test_orient_expected_core_flat_zero_moment_region",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\test\\orient\\rtl_results.txt",
+      "source_location": "line 7",
+      "weight": 1.0
+    },
+    {
+      "source": "test_orient_rtl_results_log",
+      "target": "test_orient_expected_core_output_tuple",
+      "relation": "shares_data_with",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\test\\orient\\rtl_results.txt",
+      "source_location": "lines 1-8",
+      "weight": 1.0
+    },
+    {
+      "source": "hw_orientation_sim_expected_core_dataset",
+      "target": "test_orient_expected_core_dataset",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\expected_core.txt",
+      "source_location": "lines 1-1680",
+      "weight": 1.0
+    },
+    {
+      "source": "hw_orientation_sim_expected_top_dataset",
+      "target": "test_orient_expected_top_dataset",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\expected_top.txt",
+      "source_location": "lines 1-60",
+      "weight": 1.0
+    },
+    {
+      "source": "hw_orientation_sim_kps_list",
+      "target": "test_orient_kps_list",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\kps.txt",
+      "source_location": "lines 1-70",
+      "weight": 1.0
+    },
+    {
+      "source": "hw_orientation_sim_patch_names_catalog",
+      "target": "test_orient_patch_names_catalog",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\patch_names.txt",
+      "source_location": "lines 1-8",
+      "weight": 1.0
+    },
+    {
+      "source": "hw_orientation_sim_rtl_results_log",
+      "target": "test_orient_rtl_results_log",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\rtl_results.txt",
+      "source_location": "lines 1-8",
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "hw_orientation_sim_keypoint_verification_flow",
+      "label": "HW Orientation Sim Keypoint Core-to-Top Reference Set",
+      "nodes": [
+        "hw_orientation_sim_kps_list",
+        "hw_orientation_sim_expected_core_dataset",
+        "hw_orientation_sim_expected_top_dataset"
+      ],
+      "relation": "participate_in",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\expected_top.txt"
+    },
+    {
+      "id": "test_orient_keypoint_verification_flow",
+      "label": "Test Orient Keypoint Core-to-Top Reference Set",
+      "nodes": [
+        "test_orient_kps_list",
+        "test_orient_expected_core_dataset",
+        "test_orient_expected_top_dataset"
+      ],
+      "relation": "participate_in",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\test\\orient\\expected_top.txt"
+    },
+    {
+      "id": "orientation_synthetic_patch_verification",
+      "label": "Synthetic Patch Moment and Angle Reference Suite",
+      "nodes": [
+        "hw_orientation_sim_patch_names_catalog",
+        "hw_orientation_sim_rtl_results_log",
+        "test_orient_patch_names_catalog",
+        "test_orient_rtl_results_log"
+      ],
+      "relation": "form",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\patch_names.txt"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "coverage": {
+    "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\expected_core.txt": 1680,
+    "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\expected_top.txt": 60,
+    "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\kps.txt": 70,
+    "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\patch_names.txt": 8,
+    "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\hw\\orientation\\sim\\rtl_results.txt": 8,
+    "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\test\\orient\\expected_core.txt": 1680,
+    "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\test\\orient\\expected_top.txt": 60,
+    "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\test\\orient\\kps.txt": 70,
+    "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\test\\orient\\patch_names.txt": 8,
+    "D:\\ACADS\\Semester5\\FPGA Drone VSLAM\\VslamCihuyy\\test\\orient\\rtl_results.txt": 8
+  }
+}

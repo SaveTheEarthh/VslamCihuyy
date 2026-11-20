@@ -162,16 +162,20 @@ module tb_orient;
         $display("image %0dx%0d, N_SECT=%0d, bubbles=%0d%%", IMG_W, IMG_H, N_SECT, gap);
         $display("core: %0d/%0d windows checked, %0d errors", n_core, N_WIN, err_core);
         $display("top : %0d/%0d keypoints out,   %0d errors", n_top, N_TOP, err_top);
-        if (n_core == N_WIN && n_top == N_TOP && err_core == 0 && err_top == 0)
+        if (n_core == N_WIN && n_top == N_TOP && err_core == 0 && err_top == 0) begin
             $display("RESULT: PASS");
-        else
+            $display("TB_RESULT: PASS");
+        end else begin
             $display("RESULT: FAIL");
+            $display("TB_RESULT: FAIL");
+        end
         $finish;
     end
 
     initial begin                                   // watchdog
         #(10 * (NPIX * 4 + 5000));
         $display("RESULT: FAIL (timeout)");
+        $display("TB_RESULT: FAIL");
         $finish;
     end
 endmodule

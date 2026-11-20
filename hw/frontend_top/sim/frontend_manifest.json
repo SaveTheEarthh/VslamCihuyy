@@ -1,0 +1,37 @@
+{
+  "fast_thr": 20,
+  "levels": [
+    {
+      "level": 0,
+      "width": 480,
+      "height": 640,
+      "map_w": 474,
+      "map_h": 634,
+      "keypoints": 4510
+    },
+    {
+      "level": 1,
+      "width": 400,
+      "height": 533,
+      "map_w": 394,
+      "map_h": 527,
+      "keypoints": 2849
+    },
+    {
+      "level": 2,
+      "width": 333,
+      "height": 444,
+      "map_w": 327,
+      "map_h": 438,
+      "keypoints": 1890
+    },
+    {
+      "level": 3,
+      "width": 277,
+      "height": 370,
+      "map_w": 271,
+      "map_h": 364,
+      "keypoints": 1329
+    }
+  ]
+}

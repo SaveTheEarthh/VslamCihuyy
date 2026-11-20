@@ -1,0 +1,8 @@
+Bright blob toward 0 deg (right)
+Bright blob toward 45 deg (down-right)
+Bright blob toward 120 deg
+Bright blob toward 200 deg
+Bright blob toward 290 deg (up)
+Bright wedge (corner) toward 330 deg
+Flat patch (m10 = m01 = 0)
+Random noise

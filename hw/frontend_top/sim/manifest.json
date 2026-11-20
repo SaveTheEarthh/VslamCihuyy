@@ -1,0 +1,41 @@
+{
+  "rounding": "round",
+  "levels": [
+    {
+      "level": 0,
+      "width": 480,
+      "height": 640,
+      "pixels_hex": "level0_pixels.hex"
+    },
+    {
+      "level": 1,
+      "width": 400,
+      "height": 533,
+      "pixels_hex": "level1_pixels.hex",
+      "acc_hex": "level1_acc.hex",
+      "valid_hex": "level1_valid_by_anchor.hex",
+      "input_width": 480,
+      "input_height": 640
+    },
+    {
+      "level": 2,
+      "width": 333,
+      "height": 444,
+      "pixels_hex": "level2_pixels.hex",
+      "acc_hex": "level2_acc.hex",
+      "valid_hex": "level2_valid_by_anchor.hex",
+      "input_width": 400,
+      "input_height": 533
+    },
+    {
+      "level": 3,
+      "width": 277,
+      "height": 370,
+      "pixels_hex": "level3_pixels.hex",
+      "acc_hex": "level3_acc.hex",
+      "valid_hex": "level3_valid_by_anchor.hex",
+      "input_width": 333,
+      "input_height": 444
+    }
+  ]
+}
