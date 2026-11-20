@@ -7,9 +7,11 @@ work/
 transcript
 modelsim.ini.bak
 
-# Icarus Verilog executables
+# Compiled simulators and test programs
 sim_orient
 sim_patch
+tb_orb_match
+sw/orbslam3/dump_orbslam3
 
 # Vivado / xsim / Vitis HLS
 xsim.dir/
